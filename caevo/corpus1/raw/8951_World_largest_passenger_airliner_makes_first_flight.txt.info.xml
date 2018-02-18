@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+    <entry sid="0" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>2005-04-27 .</sentence>
+      <tokens>
+        <t>"
+" "2005-04-27" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2005-04-27)) (. .)))</parse>
+      <deps>root(ROOT-0, 2005-04-27-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2005-04-27" offset="1" length="1" type="DATE" value="2005-04-27" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>World 's largest passenger airliner makes first flight .</sentence>
+      <tokens>
+        <t>"
+" "World" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "largest" " "</t>
+        <t>" " "passenger" " "</t>
+        <t>" " "airliner" " "</t>
+        <t>" " "makes" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP World) (POS 's)) (JJS largest) (NN passenger) (NN airliner)) (VP (VBZ makes) (NP (JJ first) (NN flight))) (. .)))</parse>
+      <deps>poss(airliner-5, World-1)
+amod(airliner-5, largest-3)
+nn(airliner-5, passenger-4)
+nsubj(makes-6, airliner-5)
+root(ROOT-0, makes-6)
+amod(flight-8, first-7)
+dobj(makes-6, flight-8)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>April 27 , 2005 .</sentence>
+      <tokens>
+        <t>"
+" "April" " "</t>
+        <t>" " "27" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2005" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP April) (CD 27)) (, ,) (NP (CD 2005)) (. .)))</parse>
+      <deps>root(ROOT-0, April-1)
+num(April-1, 27-2)
+dep(April-1, 2005-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="April 27 , 2005" offset="1" length="4" type="DATE" value="2005-04-27" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The A380 was revealed in January 2005 The world 's largest passenger aircraft , the Airbus A380 , has made its maiden flight after lifting off from Toulouse in France .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "revealed" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "January" " "</t>
+        <t>" " "2005" "
+"</t>
+        <t>"
+" "The" " "</t>
+        <t>" " "world" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "largest" " "</t>
+        <t>" " "passenger" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "maiden" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "after" " "</t>
+        <t>" " "lifting" " "</t>
+        <t>" " "off" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Toulouse" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "France" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT The) (NN A380)) (VP (VBD was) (VP (VBN revealed) (PP (IN in) (NP (NNP January) (CD 2005)))))) (NP (NP (NP (DT The) (NN world) (POS 's)) (JJS largest) (NN passenger) (NN aircraft)) (, ,) (NP (DT the) (NNP Airbus) (NNP A380)) (, ,)) (VP (VBZ has) (VP (VBN made) (NP (PRP$ its) (JJ maiden) (NN flight)) (PP (IN after) (S (VP (VBG lifting) (PRT (RP off)) (PP (IN from) (NP (NP (NNP Toulouse)) (PP (IN in) (NP (NNP France)))))))))) (. .)))</parse>
+      <deps>det(A380-2, The-1)
+nsubjpass(revealed-4, A380-2)
+auxpass(revealed-4, was-3)
+dep(made-20, revealed-4)
+prep_in(revealed-4, January-6)
+num(January-6, 2005-7)
+det(world-9, The-8)
+poss(aircraft-13, world-9)
+amod(aircraft-13, largest-11)
+nn(aircraft-13, passenger-12)
+nsubj(made-20, aircraft-13)
+det(A380-17, the-15)
+nn(A380-17, Airbus-16)
+appos(aircraft-13, A380-17)
+aux(made-20, has-19)
+root(ROOT-0, made-20)
+poss(flight-23, its-21)
+amod(flight-23, maiden-22)
+dobj(made-20, flight-23)
+prepc_after(made-20, lifting-25)
+prt(lifting-25, off-26)
+prep_from(lifting-25, Toulouse-28)
+prep_in(Toulouse-28, France-30)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="4" string="revealed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="20" string="made" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="25" string="lifting" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="January 2005" offset="6" length="2" type="DATE" value="2005-01" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The take-off , at 08:30 UTC , was apparently normal and took place exactly on time .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "take-off" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "08:30" " "</t>
+        <t>" " "UTC" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "apparently" " "</t>
+        <t>" " "normal" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "took" " "</t>
+        <t>" " "place" " "</t>
+        <t>" " "exactly" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "time" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (NN take-off)) (, ,) (PP (IN at) (NP (CD 08:30) (NN UTC))) (, ,)) (VP (VP (VBD was) (ADVP (RB apparently)) (ADJP (JJ normal))) (CC and) (VP (VBD took) (NP (NN place)) (PP (ADVP (RB exactly)) (IN on) (NP (NN time))))) (. .)))</parse>
+      <deps>det(take-off-2, The-1)
+nsubj(normal-10, take-off-2)
+nsubj(took-12, take-off-2)
+num(UTC-6, 08:30-5)
+prep_at(take-off-2, UTC-6)
+cop(normal-10, was-8)
+advmod(normal-10, apparently-9)
+root(ROOT-0, normal-10)
+conj_and(normal-10, took-12)
+dobj(took-12, place-13)
+advmod(took-12, exactly-14)
+prep_on(took-12, time-16)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="12" string="took" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="08:30" offset="5" length="1" type="TIME" value="T08:30" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="5" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The aircraft flew into clear blue skies with a flight crew of six -LRB- all wearing parachutes as a safety precaution -RRB- and twenty tonnes of test equipment on board .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "flew" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "clear" " "</t>
+        <t>" " "blue" " "</t>
+        <t>" " "skies" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "crew" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "six" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "wearing" " "</t>
+        <t>" " "parachutes" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "safety" " "</t>
+        <t>" " "precaution" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "twenty" " "</t>
+        <t>" " "tonnes" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "test" " "</t>
+        <t>" " "equipment" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "board" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN aircraft)) (VP (VBD flew) (PP (IN into) (NP (JJ clear) (JJ blue) (NNS skies))) (PP (IN with) (NP (NP (NP (DT a) (NN flight) (NN crew)) (PP (IN of) (NP (CD six)))) (PRN (-LRB- -LRB-) (NP (NP (DT all) (VBG wearing) (NNS parachutes)) (PP (IN as) (NP (DT a) (NN safety) (NN precaution)))) (-RRB- -RRB-)) (CC and) (NP (NP (CD twenty) (NNS tonnes)) (PP (IN of) (NP (NP (NN test) (NN equipment)) (PP (IN on) (NP (NN board))))))))) (. .)))</parse>
+      <deps>det(aircraft-2, The-1)
+nsubj(flew-3, aircraft-2)
+root(ROOT-0, flew-3)
+amod(skies-7, clear-5)
+amod(skies-7, blue-6)
+prep_into(flew-3, skies-7)
+det(crew-11, a-9)
+nn(crew-11, flight-10)
+prep_with(flew-3, crew-11)
+prep_of(crew-11, six-13)
+det(parachutes-17, all-15)
+amod(parachutes-17, wearing-16)
+dep(crew-11, parachutes-17)
+det(precaution-21, a-19)
+nn(precaution-21, safety-20)
+prep_as(parachutes-17, precaution-21)
+num(tonnes-25, twenty-24)
+prep_with(flew-3, tonnes-25)
+conj_and(crew-11, tonnes-25)
+nn(equipment-28, test-27)
+prep_of(tonnes-25, equipment-28)
+prep_on(equipment-28, board-30)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="3" string="flew" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>Around 50,000 people watched the maiden flight , many sitting on grass banks lining the runway .</sentence>
+      <tokens>
+        <t>"
+" "Around" " "</t>
+        <t>" " "50,000" " "</t>
+        <t>" " "people" " "</t>
+        <t>" " "watched" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "maiden" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "many" " "</t>
+        <t>" " "sitting" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "grass" " "</t>
+        <t>" " "banks" " "</t>
+        <t>" " "lining" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "runway" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (SINV (PP (IN Around) (NP (CD 50,000) (NNS people))) (VP (VBD watched)) (NP (NP (DT the) (JJ maiden) (NN flight)) (, ,) (NP (NP (JJ many) (VBG sitting)) (PP (IN on) (NP (NP (NN grass) (NNS banks)) (VP (VBG lining) (NP (DT the) (NN runway))))))) (. .)))</parse>
+      <deps>num(people-3, 50,000-2)
+prep_around(watched-4, people-3)
+root(ROOT-0, watched-4)
+det(flight-7, the-5)
+amod(flight-7, maiden-6)
+nsubj(watched-4, flight-7)
+appos(flight-7, many-9)
+amod(many-9, sitting-10)
+nn(banks-13, grass-12)
+prep_on(many-9, banks-13)
+partmod(banks-13, lining-14)
+det(runway-16, the-15)
+dobj(lining-14, runway-16)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="4" string="watched" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>More people watched the flight on a giant screen erected in the center of Toulouse .</sentence>
+      <tokens>
+        <t>"
+" "More" " "</t>
+        <t>" " "people" " "</t>
+        <t>" " "watched" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "giant" " "</t>
+        <t>" " "screen" " "</t>
+        <t>" " "erected" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "centre" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Toulouse" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJR More) (NNS people)) (VP (VBD watched) (SBAR (S (NP (NP (DT the) (NN flight)) (PP (IN on) (NP (DT a) (JJ giant) (NN screen)))) (VP (VBD erected) (PP (IN in) (NP (NP (DT the) (NN center)) (PP (IN of) (NP (NNP Toulouse))))))))) (. .)))</parse>
+      <deps>amod(people-2, More-1)
+nsubj(watched-3, people-2)
+root(ROOT-0, watched-3)
+det(flight-5, the-4)
+nsubj(erected-10, flight-5)
+det(screen-9, a-7)
+amod(screen-9, giant-8)
+prep_on(flight-5, screen-9)
+ccomp(watched-3, erected-10)
+det(center-13, the-12)
+prep_in(erected-10, center-13)
+prep_of(center-13, Toulouse-15)</deps>
+      <events>
+        <event id="e7" eiid="ei7" offset="3" string="watched" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="10" string="erected" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The test flight lasted four hours , with the aircraft flying no higher than 10,000 nor further than 100 miles from Toulouse as it circled the Bay of Biscay .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "test" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "lasted" " "</t>
+        <t>" " "four" " "</t>
+        <t>" " "hours" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "flying" " "</t>
+        <t>" " "no" " "</t>
+        <t>" " "higher" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "10,000" " "</t>
+        <t>" " "nor" " "</t>
+        <t>" " "further" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "100" " "</t>
+        <t>" " "miles" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Toulouse" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "circled" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Bay" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Biscay" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN test) (NN flight)) (VP (VBD lasted) (NP (CD four) (NNS hours)) (, ,) (PP (IN with) (NP (NP (DT the) (NN aircraft)) (VP (VP (VBG flying) (ADVP (DT no) (JJR higher)) (PP (IN than) (NP (CD 10,000)))) (CC nor) (ADVP (RBR further)) (VP (PP (IN than) (NP (CD 100) (NNS miles))) (PP (IN from) (NP (NNP Toulouse))))))) (SBAR (IN as) (S (NP (PRP it)) (VP (VBD circled) (NP (NP (DT the) (NNP Bay)) (PP (IN of) (NP (NNP Biscay)))))))) (. .)))</parse>
+      <deps>det(flight-3, The-1)
+nn(flight-3, test-2)
+nsubj(lasted-4, flight-3)
+root(ROOT-0, lasted-4)
+num(hours-6, four-5)
+dobj(lasted-4, hours-6)
+det(aircraft-10, the-9)
+prep_with(lasted-4, aircraft-10)
+dep(aircraft-10, flying-11)
+dep(higher-13, no-12)
+advmod(flying-11, higher-13)
+prep_than(flying-11, 10,000-15)
+dep(aircraft-10, further-17)
+advmod(flying-11, further-17)
+conj_nor(flying-11, further-17)
+dep(aircraft-10, than-18)
+conj_nor(flying-11, than-18)
+num(miles-20, 100-19)
+pobj(than-18, miles-20)
+prep_from(than-18, Toulouse-22)
+mark(circled-25, as-23)
+nsubj(circled-25, it-24)
+advcl(lasted-4, circled-25)
+det(Bay-27, the-26)
+dobj(circled-25, Bay-27)
+prep_of(Bay-27, Biscay-29)</deps>
+      <events>
+        <event id="e9" eiid="ei9" offset="4" string="lasted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="25" string="circled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="four hours" offset="5" length="2" type="DURATION" value="PT4H" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="9" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The A380 , known for many years during its development phase as the Airbus A3XX , will be the largest airliner in the world by a substantial margin when it enters service .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "known" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "many" " "</t>
+        <t>" " "years" " "</t>
+        <t>" " "during" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "development" " "</t>
+        <t>" " "phase" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "A3XX" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "largest" " "</t>
+        <t>" " "airliner" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "world" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "substantial" " "</t>
+        <t>" " "margin" " "</t>
+        <t>" " "when" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "enters" " "</t>
+        <t>" " "service" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (NN A380)) (, ,) (VP (VBN known) (PP (IN for) (NP (JJ many) (NNS years))) (PP (IN during) (NP (PRP$ its) (NN development) (NN phase))) (PP (IN as) (NP (DT the) (NNP Airbus) (NNP A3XX)))) (, ,)) (VP (MD will) (VP (VB be) (NP (NP (DT the) (JJS largest) (NN airliner)) (PP (IN in) (NP (NP (DT the) (NN world)) (PP (IN by) (NP (DT a) (JJ substantial) (NN margin)))))) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBZ enters) (NP (NN service))))))) (. .)))</parse>
+      <deps>det(A380-2, The-1)
+nsubj(airliner-21, A380-2)
+partmod(A380-2, known-4)
+amod(years-7, many-6)
+prep_for(known-4, years-7)
+poss(phase-11, its-9)
+nn(phase-11, development-10)
+prep_during(known-4, phase-11)
+det(A3XX-15, the-13)
+nn(A3XX-15, Airbus-14)
+prep_as(known-4, A3XX-15)
+aux(airliner-21, will-17)
+cop(airliner-21, be-18)
+det(airliner-21, the-19)
+amod(airliner-21, largest-20)
+root(ROOT-0, airliner-21)
+det(world-24, the-23)
+prep_in(airliner-21, world-24)
+det(margin-28, a-26)
+amod(margin-28, substantial-27)
+prep_by(world-24, margin-28)
+advmod(enters-31, when-29)
+nsubj(enters-31, it-30)
+advcl(airliner-21, enters-31)
+dobj(enters-31, service-32)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="31" string="enters" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t6" text="years" offset="7" length="1" type="DURATION" value="PXY" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="10" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The first A380 prototype was unveiled during a lavish ceremony in Toulouse , France , on January 18 , 2005 .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "prototype" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "unveiled" " "</t>
+        <t>" " "during" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "lavish" " "</t>
+        <t>" " "ceremony" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Toulouse" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "France" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "January" " "</t>
+        <t>" " "18" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2005" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ first) (NNP A380) (NN prototype)) (VP (VBD was) (VP (VBN unveiled) (PP (IN during) (NP (NP (DT a) (JJ lavish) (NN ceremony)) (PP (IN in) (NP (NNP Toulouse) (, ,) (NNP France) (, ,))))) (PP (IN on) (NP (NNP January) (CD 18) (, ,) (CD 2005))))) (. .)))</parse>
+      <deps>det(prototype-4, The-1)
+amod(prototype-4, first-2)
+nn(prototype-4, A380-3)
+nsubjpass(unveiled-6, prototype-4)
+auxpass(unveiled-6, was-5)
+root(ROOT-0, unveiled-6)
+det(ceremony-10, a-8)
+amod(ceremony-10, lavish-9)
+prep_during(unveiled-6, ceremony-10)
+nn(France-14, Toulouse-12)
+prep_in(ceremony-10, France-14)
+prep_on(unveiled-6, January-17)
+num(January-17, 18-18)
+num(January-17, 2005-20)</deps>
+      <events>
+        <event id="e12" eiid="ei12" offset="6" string="unveiled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t7" text="January 18 , 2005" offset="17" length="4" type="DATE" value="2005-01-18" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="11" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>Its manufacturer 's serial number is 001 , and it is registered F-WWOW .</sentence>
+      <tokens>
+        <t>"
+" "Its" " "</t>
+        <t>" " "manufacturer" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "serial" " "</t>
+        <t>" " "number" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "001" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "registered" " "</t>
+        <t>" " "F-WWOW" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NP (PRP$ Its) (NN manufacturer) (POS 's)) (JJ serial) (NN number)) (VP (VBZ is) (NP (CD 001)))) (, ,) (CC and) (S (NP (PRP it)) (VP (VBZ is) (VP (VBN registered) (ADVP (RB F-WWOW))))) (. .)))</parse>
+      <deps>poss(manufacturer-2, Its-1)
+poss(number-5, manufacturer-2)
+amod(number-5, serial-4)
+nsubj(001-7, number-5)
+cop(001-7, is-6)
+root(ROOT-0, 001-7)
+nsubjpass(registered-12, it-10)
+auxpass(registered-12, is-11)
+conj_and(001-7, registered-12)
+advmod(registered-12, F-WWOW-13)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="12" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The new Airbus will initially be sold in two versions : the A380-800 , a full double-decker configuration , able to carry 555 passengers in a three-class configuration or up to 800 passengers in a single-class economy configuration .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "initially" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "sold" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "versions" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "A380-800" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "full" " "</t>
+        <t>" " "double-decker" " "</t>
+        <t>" " "configuration" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "able" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "carry" " "</t>
+        <t>" " "555" " "</t>
+        <t>" " "passengers" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "three-class" " "</t>
+        <t>" " "configuration" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "800" " "</t>
+        <t>" " "passengers" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "single-class" " "</t>
+        <t>" " "economy" " "</t>
+        <t>" " "configuration" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ new) (NNP Airbus)) (VP (MD will) (ADVP (RB initially)) (VP (VB be) (VP (VBN sold) (PP (IN in) (NP (CD two) (NNS versions))) (: :) (S (NP (NP (DT the) (NN A380-800)) (, ,) (NP (DT a) (JJ full) (JJ double-decker) (NN configuration)) (, ,)) (ADJP (JJ able) (S (VP (TO to) (VP (VB carry) (NP (NP (NP (CD 555) (NNS passengers)) (PP (IN in) (NP (DT a) (JJ three-class) (NN configuration)))) (CC or) (NP (NP (QP (IN up) (TO to) (CD 800)) (NNS passengers)) (PP (IN in) (NP (DT a) (JJ single-class) (NN economy) (NN configuration))))))))))))) (. .)))</parse>
+      <deps>det(Airbus-3, The-1)
+amod(Airbus-3, new-2)
+nsubjpass(sold-7, Airbus-3)
+aux(sold-7, will-4)
+advmod(sold-7, initially-5)
+auxpass(sold-7, be-6)
+root(ROOT-0, sold-7)
+num(versions-10, two-9)
+prep_in(sold-7, versions-10)
+det(A380-800-13, the-12)
+nsubj(able-20, A380-800-13)
+xsubj(carry-22, A380-800-13)
+det(configuration-18, a-15)
+amod(configuration-18, full-16)
+amod(configuration-18, double-decker-17)
+appos(A380-800-13, configuration-18)
+parataxis(sold-7, able-20)
+xcomp(sold-7, able-20)
+aux(carry-22, to-21)
+xcomp(able-20, carry-22)
+num(passengers-24, 555-23)
+dobj(carry-22, passengers-24)
+det(configuration-28, a-26)
+amod(configuration-28, three-class-27)
+prep_in(passengers-24, configuration-28)
+quantmod(800-32, up-30)
+dep(800-32, to-31)
+num(passengers-33, 800-32)
+dobj(carry-22, passengers-33)
+conj_or(passengers-24, passengers-33)
+det(configuration-38, a-35)
+amod(configuration-38, single-class-36)
+nn(configuration-38, economy-37)
+prep_in(passengers-33, configuration-38)</deps>
+      <events>
+        <event id="e13" eiid="ei13" offset="7" string="sold" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="22" string="carry" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="13" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>Range for the A380-800 model is expected to be 8,000 nautical miles -LRB- 14,800 km -RRB- .</sentence>
+      <tokens>
+        <t>"
+" "Range" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "A380-800" " "</t>
+        <t>" " "model" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "expected" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "8,000" " "</t>
+        <t>" " "nautical" " "</t>
+        <t>" " "miles" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "14,800" " "</t>
+        <t>" " "km" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Range)) (PP (IN for) (NP (DT the) (NN A380-800) (NN model)))) (VP (VBZ is) (VP (VBN expected) (S (VP (TO to) (VP (VB be) (NP (NP (CD 8,000) (JJ nautical) (NNS miles)) (PRN (-LRB- -LRB-) (NP (QP (CD 14,800) (CD km))) (-RRB- -RRB-)))))))) (. .)))</parse>
+      <deps>nsubjpass(expected-7, Range-1)
+xsubj(miles-12, Range-1)
+det(model-5, the-3)
+nn(model-5, A380-800-4)
+prep_for(Range-1, model-5)
+auxpass(expected-7, is-6)
+root(ROOT-0, expected-7)
+aux(miles-12, to-8)
+cop(miles-12, be-9)
+num(miles-12, 8,000-10)
+amod(miles-12, nautical-11)
+xcomp(expected-7, miles-12)
+number(km-15, 14,800-14)
+dep(miles-12, km-15)</deps>
+      <events>
+        <event id="e15" eiid="ei15" offset="7" string="expected" tense="PRESENT" aspect="PERFECTIVE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="14" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The second model , the A380-800F dedicated freighter , will carry 150 tons of cargo 5,600 miles -LRB- 10,400 km -RRB- .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "second" " "</t>
+        <t>" " "model" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "A380-800F" " "</t>
+        <t>" " "dedicated" " "</t>
+        <t>" " "freighter" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "carry" " "</t>
+        <t>" " "150" " "</t>
+        <t>" " "tons" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "cargo" " "</t>
+        <t>" " "5,600" " "</t>
+        <t>" " "miles" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "10,400" " "</t>
+        <t>" " "km" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (JJ second) (NN model)) (, ,) (NP (DT the) (ADJP (JJ A380-800F) (JJ dedicated)) (NN freighter)) (, ,)) (VP (MD will) (VP (VB carry) (NP (NP (CD 150) (NNS tons)) (PP (IN of) (NP (NP (NP (NN cargo)) (NP (CD 5,600) (NNS miles))) (PRN (-LRB- -LRB-) (NP (QP (CD 10,400) (CD km))) (-RRB- -RRB-))))))) (. .)))</parse>
+      <deps>det(model-3, The-1)
+amod(model-3, second-2)
+nsubj(carry-11, model-3)
+det(freighter-8, the-5)
+amod(dedicated-7, A380-800F-6)
+amod(freighter-8, dedicated-7)
+appos(model-3, freighter-8)
+aux(carry-11, will-10)
+root(ROOT-0, carry-11)
+num(tons-13, 150-12)
+dobj(carry-11, tons-13)
+prep_of(tons-13, cargo-15)
+num(miles-17, 5,600-16)
+dep(cargo-15, miles-17)
+number(km-20, 10,400-19)
+dep(cargo-15, km-20)</deps>
+      <events>
+        <event id="e16" eiid="ei16" offset="11" string="carry" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="15" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>The cost of the project so far is # 8.4 bn , # 1bn over budget .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "project" " "</t>
+        <t>" " "so" " "</t>
+        <t>" " "far" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "#" " "</t>
+        <t>" " "8.4" " "</t>
+        <t>" " "bn" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "#" " "</t>
+        <t>" " "1bn" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "budget" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (NN cost)) (PP (IN of) (NP (DT the) (NN project)))) (ADVP (RB so) (RB far)) (VP (VBZ is) (NP (NP (QP (# #) (CD 8.4) (CD bn))) (, ,) (NP (NP (# #) (CD 1bn)) (PP (IN over) (NP (NN budget)))))) (. .)))</parse>
+      <deps>det(cost-2, The-1)
+nsubj(bn-11, cost-2)
+det(project-5, the-4)
+prep_of(cost-2, project-5)
+advmod(far-7, so-6)
+advmod(bn-11, far-7)
+cop(bn-11, is-8)
+number(bn-11, #-9)
+number(bn-11, 8.4-10)
+root(ROOT-0, bn-11)
+dep(1bn-14, #-13)
+appos(bn-11, 1bn-14)
+prep_over(1bn-14, budget-16)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="16" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>144 planes have already been ordered .</sentence>
+      <tokens>
+        <t>"
+" "144" " "</t>
+        <t>" " "planes" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "already" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "ordered" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (CD 144) (NNS planes)) (VP (VBP have) (ADVP (RB already)) (VP (VBN been) (VP (VBN ordered)))) (. .)))</parse>
+      <deps>num(planes-2, 144-1)
+nsubjpass(ordered-6, planes-2)
+aux(ordered-6, have-3)
+advmod(ordered-6, already-4)
+auxpass(ordered-6, been-5)
+root(ROOT-0, ordered-6)</deps>
+      <events>
+        <event id="e17" eiid="ei17" offset="6" string="ordered" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="17" file="8951_World_largest_passenger_airliner_makes_first_flight.txt">
+      <sentence>Singapore Airlines , which will be the first company to operate the new air giant , in July 2006 , have opened a reservation site for this first regular flight .</sentence>
+      <tokens>
+        <t>"
+" "Singapore" " "</t>
+        <t>" " "Airlines" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "operate" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "air" " "</t>
+        <t>" " "giant" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "July" " "</t>
+        <t>" " "2006" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "opened" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "reservation" " "</t>
+        <t>" " "site" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "regular" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Singapore) (NNPS Airlines)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (MD will) (VP (VB be) (NP (DT the) (JJ first) (NN company) (S (VP (TO to) (VP (VB operate) (NP (DT the) (JJ new) (NN air) (NN giant)) (, ,) (PP (IN in) (NP (NNP July) (CD 2006))))))))))) (, ,)) (VP (VBP have) (VP (VBN opened) (NP (NP (DT a) (NN reservation) (NN site)) (PP (IN for) (NP (DT this) (JJ first) (JJ regular) (NN flight)))))) (. .)))</parse>
+      <deps>nn(Airlines-2, Singapore-1)
+nsubj(company-9, Airlines-2)
+nsubj(opened-22, Airlines-2)
+aux(company-9, will-5)
+cop(company-9, be-6)
+det(company-9, the-7)
+amod(company-9, first-8)
+rcmod(Airlines-2, company-9)
+aux(operate-11, to-10)
+infmod(company-9, operate-11)
+det(giant-15, the-12)
+amod(giant-15, new-13)
+nn(giant-15, air-14)
+dobj(operate-11, giant-15)
+prep_in(operate-11, July-18)
+num(July-18, 2006-19)
+aux(opened-22, have-21)
+root(ROOT-0, opened-22)
+det(site-25, a-23)
+nn(site-25, reservation-24)
+dobj(opened-22, site-25)
+det(flight-30, this-27)
+amod(flight-30, first-28)
+amod(flight-30, regular-29)
+prep_for(site-25, flight-30)</deps>
+      <events>
+        <event id="e18" eiid="ei18" offset="11" string="operate" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e19" eiid="ei19" offset="22" string="opened" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t8" text="July 2006" offset="18" length="2" type="DATE" value="2006-07" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei1" event2="t3" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei9" event2="t5" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei12" event2="t7" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei18" event2="t8" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="t2" event2="t3" relation="AFTER" closed="false" origin="TimeTimeSieve" type="tt" />
+    <tlink event1="ei1" event2="t2" relation="BEFORE" closed="true" origin="TimeTimeSieve" type="et" />
+    <tlink event1="ei13" event2="ei15" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="SIMULTANEOUS" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="t5" event2="ei10" relation="INCLUDES" closed="true" origin="XCompDepSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei2" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei3" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei4" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei11" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei19" event2="t8" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei19" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t2" event2="ei3" relation="AFTER" closed="true" origin="MLEventEventSameSent" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei8" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei9" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t5" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t6" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei17" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

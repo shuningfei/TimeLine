@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+    <entry sid="0" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>2007-06-10 .</sentence>
+      <tokens>
+        <t>"
+" "2007-06-10" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2007-06-10)) (. .)))</parse>
+      <deps>root(ROOT-0, 2007-06-10-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2007-06-10" offset="1" length="1" type="DATE" value="2007-06-10" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft .</sentence>
+      <tokens>
+        <t>"
+" "Aeroflot" " "</t>
+        <t>" " "negotiates" " "</t>
+        <t>" " "purchase" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "22" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "787" " "</t>
+        <t>" " "Dreamliner" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Aeroflot)) (VP (VBZ negotiates) (NP (NP (NN purchase)) (PP (IN of) (NP (CD 22) (JJ new) (NNP Boeing) (NNP 787) (NNP Dreamliner) (NN aircraft))))) (. .)))</parse>
+      <deps>nsubj(negotiates-2, Aeroflot-1)
+root(ROOT-0, negotiates-2)
+dobj(negotiates-2, purchase-3)
+num(aircraft-10, 22-5)
+amod(aircraft-10, new-6)
+nn(aircraft-10, Boeing-7)
+nn(aircraft-10, 787-8)
+nn(aircraft-10, Dreamliner-9)
+prep_of(purchase-3, aircraft-10)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>June 10 , 2007 .</sentence>
+      <tokens>
+        <t>"
+" "June" " "</t>
+        <t>" " "10" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2007" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP June) (CD 10)) (, ,) (NP (CD 2007)) (. .)))</parse>
+      <deps>root(ROOT-0, June-1)
+num(June-1, 10-2)
+dep(June-1, 2007-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="June 10 , 2007" offset="1" length="4" type="DATE" value="2007-06-10" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .</sentence>
+      <tokens>
+        <t>"
+" "Russian" " "</t>
+        <t>" " "flag" " "</t>
+        <t>" " "carrier" " "</t>
+        <t>" " "Aeroflot" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "negotiated" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "purchase" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "22" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "787" " "</t>
+        <t>" " "Dreamliners" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "currently" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "under" " "</t>
+        <t>" " "development" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Russian) (NN flag) (NN carrier) (NNP Aeroflot)) (VP (VBZ has) (VP (VBN negotiated) (NP (NP (DT the) (NN purchase)) (PP (IN of) (NP (NP (CD 22) (JJ new) (NNP Boeing) (NNP 787) (NNS Dreamliners)) (, ,) (NP (NP (DT an) (NN aircraft)) (SBAR (S (NP (NNP Boeing)) (ADVP (RB currently)) (VP (VBZ has) (VP (PP (IN under) (NP (NN development))))))))))))) (. .)))</parse>
+      <deps>amod(Aeroflot-4, Russian-1)
+nn(Aeroflot-4, flag-2)
+nn(Aeroflot-4, carrier-3)
+nsubj(negotiated-6, Aeroflot-4)
+aux(negotiated-6, has-5)
+root(ROOT-0, negotiated-6)
+det(purchase-8, the-7)
+dobj(negotiated-6, purchase-8)
+num(Dreamliners-14, 22-10)
+amod(Dreamliners-14, new-11)
+nn(Dreamliners-14, Boeing-12)
+nn(Dreamliners-14, 787-13)
+prep_of(purchase-8, Dreamliners-14)
+det(aircraft-17, an-16)
+appos(Dreamliners-14, aircraft-17)
+dobj(under-21, aircraft-17)
+nsubj(under-21, Boeing-18)
+advmod(under-21, currently-19)
+aux(under-21, has-20)
+rcmod(aircraft-17, under-21)
+pobj(under-21, development-22)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="6" string="negotiated" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="8" string="purchase" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="20" string="has" tense="PRESENT" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="22" string="development" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="currently" offset="19" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>The first jets will be delivered in 2014 .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "jets" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "delivered" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "2014" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ first) (NNS jets)) (VP (MD will) (VP (VB be) (VP (VBN delivered) (PP (IN in) (NP (CD 2014)))))) (. .)))</parse>
+      <deps>det(jets-3, The-1)
+amod(jets-3, first-2)
+nsubjpass(delivered-6, jets-3)
+aux(delivered-6, will-4)
+auxpass(delivered-6, be-5)
+root(ROOT-0, delivered-6)
+prep_in(delivered-6, 2014-8)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="6" string="delivered" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="2014" offset="8" length="1" type="DATE" value="2014" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="5" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>The Dreamliner will be the first commercial jet to be manufactured mainly with carbon-fiber composites instead of the aluminium previously used .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "Dreamliner" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "commercial" " "</t>
+        <t>" " "jet" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "manufactured" " "</t>
+        <t>" " "mainly" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "carbon-fiber" " "</t>
+        <t>" " "composites" " "</t>
+        <t>" " "instead" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "aluminium" " "</t>
+        <t>" " "previously" " "</t>
+        <t>" " "used" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NNP Dreamliner)) (VP (MD will) (VP (VB be) (NP (DT the) (JJ first) (JJ commercial) (NN jet) (S (VP (TO to) (VP (VB be) (VP (VBN manufactured) (ADVP (RB mainly)) (PP (IN with) (NP (JJ carbon-fiber) (NNS composites))) (PP (RB instead) (IN of) (NP (NP (DT the) (NN aluminium)) (ADJP (RB previously) (VBN used))))))))))) (. .)))</parse>
+      <deps>det(Dreamliner-2, The-1)
+nsubj(jet-8, Dreamliner-2)
+aux(jet-8, will-3)
+cop(jet-8, be-4)
+det(jet-8, the-5)
+amod(jet-8, first-6)
+amod(jet-8, commercial-7)
+root(ROOT-0, jet-8)
+aux(manufactured-11, to-9)
+auxpass(manufactured-11, be-10)
+infmod(jet-8, manufactured-11)
+advmod(manufactured-11, mainly-12)
+amod(composites-15, carbon-fiber-14)
+prep_with(manufactured-11, composites-15)
+det(aluminium-19, the-18)
+prep_instead_of(manufactured-11, aluminium-19)
+advmod(used-21, previously-20)
+amod(aluminium-19, used-21)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="11" string="manufactured" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="previously" offset="20" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="6" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "announced" " "</t>
+        <t>" " "during" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "large" " "</t>
+        <t>" " "business" " "</t>
+        <t>" " "forum" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "President" " "</t>
+        <t>" " "Vladimir" " "</t>
+        <t>" " "Putin" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "set" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "showcase" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "country" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "role" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "international" " "</t>
+        <t>" " "market" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN deal)) (VP (VBD was) (VP (VBN announced) (PP (IN during) (NP (DT a) (JJ large) (NN business) (NN forum))) (SBAR (IN that) (S (NP (NNP President) (NNP Vladimir) (NNP Putin)) (VP (VBD had) (VP (VBN set) (PRT (RP up)) (S (VP (TO to) (VP (VB showcase) (NP (NP (NP (PRP$ his) (NN country) (POS 's)) (NN role)) (PP (IN in) (NP (DT the) (JJ international) (NN market))))))))))))) (. .)))</parse>
+      <deps>det(deal-2, The-1)
+nsubjpass(announced-4, deal-2)
+auxpass(announced-4, was-3)
+root(ROOT-0, announced-4)
+det(forum-9, a-6)
+amod(forum-9, large-7)
+nn(forum-9, business-8)
+prep_during(announced-4, forum-9)
+mark(set-15, that-10)
+nn(Putin-13, President-11)
+nn(Putin-13, Vladimir-12)
+nsubj(set-15, Putin-13)
+xsubj(showcase-18, Putin-13)
+aux(set-15, had-14)
+ccomp(announced-4, set-15)
+prt(set-15, up-16)
+aux(showcase-18, to-17)
+xcomp(set-15, showcase-18)
+poss(country-20, his-19)
+poss(role-22, country-20)
+dobj(showcase-18, role-22)
+det(market-26, the-24)
+amod(market-26, international-25)
+prep_in(role-22, market-26)</deps>
+      <events>
+        <event id="e7" eiid="ei7" offset="2" string="deal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="4" string="announced" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="15" string="set" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="18" string="showcase" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>The deal was the centrepiece of the event .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "centrepiece" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "event" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN deal)) (VP (VBD was) (NP (NP (DT the) (NN centrepiece)) (PP (IN of) (NP (DT the) (NN event))))) (. .)))</parse>
+      <deps>det(deal-2, The-1)
+nsubj(centrepiece-5, deal-2)
+cop(centrepiece-5, was-3)
+det(centrepiece-5, the-4)
+root(ROOT-0, centrepiece-5)
+det(event-8, the-7)
+prep_of(centrepiece-5, event-8)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="2" string="deal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e12" eiid="ei12" offset="5" string="centrepiece" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "sale" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "result" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "begun" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "Aeroflot" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Chicago-based" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "year" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "but" " "</t>
+        <t>" " "negotiations" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "stalled" " "</t>
+        <t>" " "due" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "worsening" " "</t>
+        <t>" " "relations" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "US" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Russia" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT The) (NN sale)) (VP (VBZ is) (NP (NP (DT the) (NN result)) (PP (IN of) (NP (NP (DT a) (NN deal)) (VP (VBN begun) (PP (IN between) (NP (NP (NNP Aeroflot)) (CC and) (NP (JJ Chicago-based) (NNP Boeing)))) (NP (JJ last) (NN year)))))))) (, ,) (CC but) (S (NP (NNS negotiations)) (VP (VBD had) (VP (VBN stalled) (PP (JJ due) (TO to) (NP (NP (VBG worsening) (NNS relations)) (PP (IN between) (NP (DT the) (NNP US) (CC and) (NNP Russia)))))))) (. .)))</parse>
+      <deps>det(sale-2, The-1)
+nsubj(result-5, sale-2)
+cop(result-5, is-3)
+det(result-5, the-4)
+root(ROOT-0, result-5)
+det(deal-8, a-7)
+prep_of(result-5, deal-8)
+partmod(deal-8, begun-9)
+prep_between(begun-9, Aeroflot-11)
+amod(Boeing-14, Chicago-based-13)
+prep_between(begun-9, Boeing-14)
+conj_and(Aeroflot-11, Boeing-14)
+amod(year-16, last-15)
+tmod(begun-9, year-16)
+nsubj(stalled-21, negotiations-19)
+aux(stalled-21, had-20)
+conj_but(result-5, stalled-21)
+amod(relations-25, worsening-24)
+prep_due_to(stalled-21, relations-25)
+det(US-28, the-27)
+prep_between(relations-25, US-28)
+prep_between(relations-25, Russia-30)
+conj_and(US-28, Russia-30)</deps>
+      <events>
+        <event id="e13" eiid="ei13" offset="2" string="sale" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="5" string="result" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e15" eiid="ei15" offset="9" string="begun" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="21" string="stalled" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t6" text="year" offset="16" length="1" type="DURATION" value="P1Y" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="9" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>Aeroflot has suffered as a result of the delay .</sentence>
+      <tokens>
+        <t>"
+" "Aeroflot" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "suffered" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "result" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "delay" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Aeroflot)) (VP (VBZ has) (VP (VBN suffered) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (DT the) (NN delay))))))) (. .)))</parse>
+      <deps>nsubj(suffered-3, Aeroflot-1)
+aux(suffered-3, has-2)
+root(ROOT-0, suffered-3)
+det(result-6, a-5)
+prep_as(suffered-3, result-6)
+det(delay-9, the-8)
+prep_of(result-6, delay-9)</deps>
+      <events>
+        <event id="e17" eiid="ei17" offset="3" string="suffered" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="10" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>If had the sale gone through last year , the aircraft would have been delivered by 2011 .</sentence>
+      <tokens>
+        <t>"
+" "If" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "sale" " "</t>
+        <t>" " "gone" " "</t>
+        <t>" " "through" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "year" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "delivered" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "2011" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN If) (FRAG (S (VBD had) (NP (DT the) (NN sale)) (VP (VBN gone) (PP (IN through) (NP (JJ last) (NN year))))))) (, ,) (NP (DT the) (NN aircraft)) (VP (MD would) (VP (VB have) (VP (VBN been) (VP (VBN delivered) (PP (IN by) (NP (CD 2011))))))) (. .)))</parse>
+      <deps>mark(gone-5, If-1)
+dep(gone-5, had-2)
+det(sale-4, the-3)
+nsubj(gone-5, sale-4)
+advcl(delivered-15, gone-5)
+amod(year-8, last-7)
+prep_through(gone-5, year-8)
+det(aircraft-11, the-10)
+nsubjpass(delivered-15, aircraft-11)
+aux(delivered-15, would-12)
+aux(delivered-15, have-13)
+auxpass(delivered-15, been-14)
+root(ROOT-0, delivered-15)
+agent(delivered-15, 2011-17)</deps>
+      <events>
+        <event id="e18" eiid="ei18" offset="4" string="sale" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e19" eiid="ei19" offset="5" string="gone" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e20" eiid="ei20" offset="15" string="delivered" tense="PASTPART" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t7" text="year" offset="8" length="1" type="DURATION" value="P1Y" temporalFunction="false" />
+        <timex tid="t8" text="2011" offset="17" length="1" type="DATE" value="2011" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="11" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "pre-modification" " "</t>
+        <t>" " "catalogue" " "</t>
+        <t>" " "value" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "US$" " "</t>
+        <t>" " "3.5" " "</t>
+        <t>" " "billion" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "although" " "</t>
+        <t>" " "neither" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "companies" " "</t>
+        <t>" " "involved" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "reveal" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "actual" " "</t>
+        <t>" " "agreement" " "</t>
+        <t>" " "reached" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "firms" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN aircraft)) (VP (VBP have) (NP (NP (DT a) (JJ pre-modification) (NN catalogue) (NN value)) (PP (IN of) (NP (QP ($ US$) (CD 3.5) (CD billion))))) (, ,) (SBAR (IN although) (S (NP (NP (DT neither)) (PP (IN of) (NP (NP (DT the) (NNS companies)) (VP (VBN involved))))) (VP (MD would) (VP (VB reveal) (NP (NP (DT the) (JJ actual) (NN agreement)) (VP (VBN reached) (PP (IN between) (NP (DT the) (CD two) (NNS firms)))))))))) (. .)))</parse>
+      <deps>det(aircraft-2, The-1)
+nsubj(have-3, aircraft-2)
+root(ROOT-0, have-3)
+det(value-7, a-4)
+amod(value-7, pre-modification-5)
+nn(value-7, catalogue-6)
+dobj(have-3, value-7)
+prep_of(value-7, US$-9)
+number(US$-9, 3.5-10)
+number(US$-9, billion-11)
+mark(reveal-20, although-13)
+nsubj(reveal-20, neither-14)
+det(companies-17, the-16)
+prep_of(neither-14, companies-17)
+partmod(companies-17, involved-18)
+aux(reveal-20, would-19)
+advcl(have-3, reveal-20)
+det(agreement-23, the-21)
+amod(agreement-23, actual-22)
+dobj(reveal-20, agreement-23)
+partmod(agreement-23, reached-24)
+det(firms-28, the-26)
+num(firms-28, two-27)
+prep_between(reached-24, firms-28)</deps>
+      <events>
+        <event id="e21" eiid="ei21" offset="20" string="reveal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e22" eiid="ei22" offset="24" string="reached" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="12" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I ' m really proud of it , '' .</sentence>
+      <tokens>
+        <t>"
+" "When" " "</t>
+        <t>" " "asked" " "</t>
+        <t>" " "whether" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "seen" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "step" " "</t>
+        <t>" " "towards" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "resolution" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "rift" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "Russia" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "US" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "Executive" " "</t>
+        <t>" " "Vice" " "</t>
+        <t>" " "President" " "</t>
+        <t>" " "Scott" " "</t>
+        <t>" " "Carson" " "</t>
+        <t>" " "replied" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "It" " "</t>
+        <t>" " "represents" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "business" " "</t>
+        <t>" " "relationship" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "our" " "</t>
+        <t>" " "Company" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Aeroflot" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "I" ""</t>
+        <t>"" "'" " "</t>
+        <t>" " "m" " "</t>
+        <t>" " "really" " "</t>
+        <t>" " "proud" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (WHADVP (WRB When)) (S (VP (VBD asked) (SBAR (IN whether) (S (NP (DT the) (NN deal)) (VP (MD should) (VP (VB be) (VP (VBN seen) (PP (IN as) (NP (NP (DT a) (NN step)) (PP (IN towards) (NP (NP (DT a) (NN resolution)) (PP (IN of) (NP (NP (DT the) (NN rift)) (PP (IN between) (NP (NP (NNP Russia)) (CC and) (NP (DT the) (NNP US)))))))))))))))))) (, ,) (NP (NNP Boeing) (NNP Executive) (NNP Vice) (NNP President) (NNP Scott) (NNP Carson)) (VP (VBD replied) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ represents) (NP (NP (NP (DT a) (NN business) (NN relationship)) (PP (IN between) (NP (NP (PRP$ our) (NN Company)) (CC and) (NP (NNP Aeroflot))))) (, ,) (CC and) (NP (NP (NP (PRP I) (POS ')) (NN m)) (ADJP (RB really) (JJ proud)) (PP (IN of) (NP (PRP it)))))) (, ,) ('' ''))) (. .)))</parse>
+      <deps>advmod(asked-2, When-1)
+advcl(replied-30, asked-2)
+mark(seen-8, whether-3)
+det(deal-5, the-4)
+nsubjpass(seen-8, deal-5)
+aux(seen-8, should-6)
+auxpass(seen-8, be-7)
+ccomp(asked-2, seen-8)
+det(step-11, a-10)
+prep_as(seen-8, step-11)
+det(resolution-14, a-13)
+prep_towards(step-11, resolution-14)
+det(rift-17, the-16)
+prep_of(resolution-14, rift-17)
+prep_between(rift-17, Russia-19)
+det(US-22, the-21)
+prep_between(rift-17, US-22)
+conj_and(Russia-19, US-22)
+nn(Carson-29, Boeing-24)
+nn(Carson-29, Executive-25)
+nn(Carson-29, Vice-26)
+nn(Carson-29, President-27)
+nn(Carson-29, Scott-28)
+nsubj(replied-30, Carson-29)
+root(ROOT-0, replied-30)
+nsubj(represents-34, It-33)
+ccomp(replied-30, represents-34)
+det(relationship-37, a-35)
+nn(relationship-37, business-36)
+dobj(represents-34, relationship-37)
+poss(Company-40, our-39)
+prep_between(relationship-37, Company-40)
+prep_between(relationship-37, Aeroflot-42)
+conj_and(Company-40, Aeroflot-42)
+poss(m-47, I-45)
+dobj(represents-34, m-47)
+conj_and(relationship-37, m-47)
+advmod(proud-49, really-48)
+amod(m-47, proud-49)
+prep_of(m-47, it-51)</deps>
+      <events>
+        <event id="e23" eiid="ei23" offset="2" string="asked" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e24" eiid="ei24" offset="8" string="seen" tense="NONE" aspect="NONE" class="PERCEPTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e25" eiid="ei25" offset="14" string="resolution" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e26" eiid="ei26" offset="30" string="replied" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e27" eiid="ei27" offset="34" string="represents" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="13" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>Boeing has had a policy of Russian involvement dating back to the early 1990s .</sentence>
+      <tokens>
+        <t>"
+" "Boeing" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "policy" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Russian" " "</t>
+        <t>" " "involvement" " "</t>
+        <t>" " "dating" " "</t>
+        <t>" " "back" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "early" " "</t>
+        <t>" " "1990s" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Boeing)) (VP (VBZ has) (VP (VBN had) (NP (NP (DT a) (NN policy)) (PP (IN of) (NP (NP (JJ Russian) (NN involvement)) (VP (VBG dating) (ADVP (RB back)) (PP (TO to) (NP (DT the) (JJ early) (NNS 1990s))))))))) (. .)))</parse>
+      <deps>nsubj(had-3, Boeing-1)
+aux(had-3, has-2)
+root(ROOT-0, had-3)
+det(policy-5, a-4)
+dobj(had-3, policy-5)
+amod(involvement-8, Russian-7)
+prep_of(policy-5, involvement-8)
+partmod(involvement-8, dating-9)
+advmod(dating-9, back-10)
+det(1990s-14, the-12)
+amod(1990s-14, early-13)
+prep_to(dating-9, 1990s-14)</deps>
+      <events />
+      <timexes>
+        <timex tid="t9" text="the early 1990s" offset="12" length="3" type="DATE" value="199X" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="14" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .</sentence>
+      <tokens>
+        <t>"
+" "More" " "</t>
+        <t>" " "recently" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "entered" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "agreement" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Russian" " "</t>
+        <t>" " "manufacturer" " "</t>
+        <t>" " "Sukhoi" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "worldwide" " "</t>
+        <t>" " "marketing" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "after-sales" " "</t>
+        <t>" " "support" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "regional" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Superjet" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "reached" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Kremlin-owned" " "</t>
+        <t>" " "Unified" " "</t>
+        <t>" " "Aircraft" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "general" " "</t>
+        <t>" " "co-operation" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RBR More) (RB recently)) (, ,) (NP (NNP Boeing)) (VP (VP (VBZ has) (VP (VBN entered) (PP (IN into) (NP (NP (DT an) (NN agreement)) (PP (IN with) (NP (JJ Russian) (NN manufacturer) (NNS Sukhoi))))) (PP (IN for) (NP (NP (JJ worldwide) (NN marketing) (CC and) (NNS after-sales) (NN support)) (PP (IN for) (NP (NP (PRP$ their) (JJ regional) (NN aircraft)) (, ,) (NP (DT the) (NN Superjet)) (, ,))))))) (CC and) (VP (VBP have) (VP (VBN reached) (NP (DT a) (NN deal)) (PP (IN with) (NP (NP (NNP Kremlin-owned) (NNP Unified) (NNP Aircraft)) (PP (IN for) (NP (JJ general) (NN co-operation)))))))) (. .)))</parse>
+      <deps>advmod(recently-2, More-1)
+advmod(entered-6, recently-2)
+nsubj(entered-6, Boeing-4)
+nsubj(reached-30, Boeing-4)
+aux(entered-6, has-5)
+root(ROOT-0, entered-6)
+det(agreement-9, an-8)
+prep_into(entered-6, agreement-9)
+amod(Sukhoi-13, Russian-11)
+nn(Sukhoi-13, manufacturer-12)
+prep_with(agreement-9, Sukhoi-13)
+amod(marketing-16, worldwide-15)
+prep_for(entered-6, marketing-16)
+nn(support-19, after-sales-18)
+prep_for(entered-6, support-19)
+conj_and(marketing-16, support-19)
+poss(aircraft-23, their-21)
+amod(aircraft-23, regional-22)
+prep_for(marketing-16, aircraft-23)
+det(Superjet-26, the-25)
+appos(aircraft-23, Superjet-26)
+aux(reached-30, have-29)
+conj_and(entered-6, reached-30)
+det(deal-32, a-31)
+dobj(reached-30, deal-32)
+nn(Aircraft-36, Kremlin-owned-34)
+nn(Aircraft-36, Unified-35)
+prep_with(reached-30, Aircraft-36)
+amod(co-operation-39, general-38)
+prep_for(Aircraft-36, co-operation-39)</deps>
+      <events>
+        <event id="e28" eiid="ei28" offset="6" string="entered" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e29" eiid="ei29" offset="9" string="agreement" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e30" eiid="ei30" offset="30" string="reached" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e31" eiid="ei31" offset="32" string="deal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t10" text="recently" offset="2" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="15" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>They also have a Moscow design center that has 1,400 employees and a 30-year contract for supply of titanium parts with Russia 's VSMPO-Avisma , which Boeing estimates to be worth $ 18 million .</sentence>
+      <tokens>
+        <t>"
+" "They" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "Moscow" " "</t>
+        <t>" " "design" " "</t>
+        <t>" " "centre" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "1,400" " "</t>
+        <t>" " "employees" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "30-year" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "supply" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "titanium" " "</t>
+        <t>" " "parts" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Russia" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "VSMPO-Avisma" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "estimates" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "worth" " "</t>
+        <t>" " "$" " "</t>
+        <t>" " "18" " "</t>
+        <t>" " "million" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP They)) (ADVP (RB also)) (VP (VBP have) (NP (NP (DT a) (NNP Moscow) (NN design) (NN center)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (NP (NP (CD 1,400) (NNS employees)) (CC and) (NP (DT a) (JJ 30-year) (NN contract))) (PP (IN for) (NP (NP (NN supply)) (PP (IN of) (NP (NN titanium) (NNS parts))))) (PP (IN with) (NP (NP (NP (NNP Russia) (POS 's)) (NNP VSMPO-Avisma)) (, ,) (SBAR (WHNP (WDT which)) (S (NP (NNP Boeing)) (VP (VBZ estimates) (S (VP (TO to) (VP (VB be) (ADJP (JJ worth) (NP (QP ($ $) (CD 18) (CD million))))))))))))))))) (. .)))</parse>
+      <deps>nsubj(have-3, They-1)
+advmod(have-3, also-2)
+root(ROOT-0, have-3)
+det(center-7, a-4)
+nn(center-7, Moscow-5)
+nn(center-7, design-6)
+dobj(have-3, center-7)
+nsubj(has-9, center-7)
+rcmod(center-7, has-9)
+num(employees-11, 1,400-10)
+dobj(has-9, employees-11)
+det(contract-15, a-13)
+amod(contract-15, 30-year-14)
+dobj(has-9, contract-15)
+conj_and(employees-11, contract-15)
+prep_for(has-9, supply-17)
+nn(parts-20, titanium-19)
+prep_of(supply-17, parts-20)
+poss(VSMPO-Avisma-24, Russia-22)
+prep_with(has-9, VSMPO-Avisma-24)
+rel(estimates-28, which-26)
+nsubj(estimates-28, Boeing-27)
+xsubj(worth-31, Boeing-27)
+rcmod(VSMPO-Avisma-24, estimates-28)
+aux(worth-31, to-29)
+cop(worth-31, be-30)
+xcomp(estimates-28, worth-31)
+dep(worth-31, $-32)
+number($-32, 18-33)
+number($-32, million-34)</deps>
+      <events>
+        <event id="e32" eiid="ei32" offset="28" string="estimates" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e33" eiid="ei33" offset="31" string="worth" tense="PRESENT" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t11" text="30-year" offset="14" length="1" type="DURATION" value="P30Y" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="16" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .</sentence>
+      <tokens>
+        <t>"
+" "It" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "reported" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Aeroflot" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "revived" " "</t>
+        <t>" " "after" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "promised" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "technical" " "</t>
+        <t>" " "assistance" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "provided" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Aeroflot" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP It)) (VP (VBZ has) (VP (VBN been) (VP (VBN reported) (SBAR (IN that) (S (NP (NP (DT the) (NN deal)) (PP (IN between) (NP (NNP Boeing) (CC and) (NNP Aeroflot)))) (VP (VBD was) (VP (VBN revived) (SBAR (IN after) (S (NP (NNP Boeing)) (VP (VBD promised) (SBAR (IN that) (S (NP (JJ technical) (NN assistance)) (VP (MD would) (VP (VB be) (VP (VBN provided) (PP (TO to) (NP (NNP Aeroflot))) (PP (IN for) (NP (DT the) (JJ new) (NN aircraft)))))))))))))))))) (. .)))</parse>
+      <deps>nsubjpass(reported-4, It-1)
+aux(reported-4, has-2)
+auxpass(reported-4, been-3)
+root(ROOT-0, reported-4)
+mark(revived-13, that-5)
+det(deal-7, the-6)
+nsubjpass(revived-13, deal-7)
+prep_between(deal-7, Boeing-9)
+prep_between(deal-7, Aeroflot-11)
+conj_and(Boeing-9, Aeroflot-11)
+auxpass(revived-13, was-12)
+ccomp(reported-4, revived-13)
+mark(promised-16, after-14)
+nsubj(promised-16, Boeing-15)
+advcl(revived-13, promised-16)
+mark(provided-22, that-17)
+amod(assistance-19, technical-18)
+nsubjpass(provided-22, assistance-19)
+aux(provided-22, would-20)
+auxpass(provided-22, be-21)
+ccomp(promised-16, provided-22)
+prep_to(provided-22, Aeroflot-24)
+det(aircraft-28, the-26)
+amod(aircraft-28, new-27)
+prep_for(provided-22, aircraft-28)</deps>
+      <events>
+        <event id="e34" eiid="ei34" offset="4" string="reported" tense="PRESENT" aspect="PERFECTIVE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e35" eiid="ei35" offset="7" string="deal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e36" eiid="ei36" offset="13" string="revived" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e37" eiid="ei37" offset="16" string="promised" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e38" eiid="ei38" offset="22" string="provided" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="17" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>Aeroflot 's current fleet of Boeing and Airbus aircraft was built during the Soviet era .</sentence>
+      <tokens>
+        <t>"
+" "Aeroflot" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "current" " "</t>
+        <t>" " "fleet" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "built" " "</t>
+        <t>" " "during" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Soviet" " "</t>
+        <t>" " "era" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NP (NNP Aeroflot) (POS 's)) (JJ current) (NN fleet)) (PP (IN of) (NP (NNP Boeing) (CC and) (NNP Airbus) (NNS aircraft)))) (VP (VBD was) (VP (VBN built) (PP (IN during) (NP (DT the) (JJ Soviet) (NN era))))) (. .)))</parse>
+      <deps>poss(fleet-4, Aeroflot-1)
+amod(fleet-4, current-3)
+nsubjpass(built-11, fleet-4)
+nn(aircraft-9, Boeing-6)
+conj_and(Boeing-6, Airbus-8)
+nn(aircraft-9, Airbus-8)
+prep_of(fleet-4, aircraft-9)
+auxpass(built-11, was-10)
+root(ROOT-0, built-11)
+det(era-15, the-13)
+amod(era-15, Soviet-14)
+prep_during(built-11, era-15)</deps>
+      <events>
+        <event id="e39" eiid="ei39" offset="11" string="built" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t12" text="current" offset="3" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="18" file="71526_Aeroflot_negotiates_purchase_of_22_new_Boeing_787_Dreamliner_aircraft.txt">
+      <sentence>Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .</sentence>
+      <tokens>
+        <t>"
+" "Aeroflot" " "</t>
+        <t>" " "say" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "does" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "affect" " "</t>
+        <t>" " "plans" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "purchase" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "Airbuses" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "later" " "</t>
+        <t>" " "date" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "later" " "</t>
+        <t>" " "delivery" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Aeroflot)) (VP (VBP say) (SBAR (IN that) (S (NP (DT the) (NN deal)) (VP (VBZ does) (RB not) (VP (VB affect) (S (NP (NNS plans)) (VP (TO to) (VP (VB purchase) (NP (JJ new) (NNS Airbuses)) (PP (IN at) (NP (NP (DT a) (JJ later) (NN date)) (PP (IN for) (NP (JJ later) (NN delivery))))))))))))) (. .)))</parse>
+      <deps>nsubj(say-2, Aeroflot-1)
+root(ROOT-0, say-2)
+mark(affect-8, that-3)
+det(deal-5, the-4)
+nsubj(affect-8, deal-5)
+aux(affect-8, does-6)
+neg(affect-8, not-7)
+ccomp(say-2, affect-8)
+nsubj(purchase-11, plans-9)
+aux(purchase-11, to-10)
+xcomp(affect-8, purchase-11)
+amod(Airbuses-13, new-12)
+dobj(purchase-11, Airbuses-13)
+det(date-17, a-15)
+amod(date-17, later-16)
+prep_at(purchase-11, date-17)
+amod(delivery-20, later-19)
+prep_for(date-17, delivery-20)</deps>
+      <events>
+        <event id="e40" eiid="ei40" offset="2" string="say" tense="PRESENT" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e41" eiid="ei41" offset="8" string="affect" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e42" eiid="ei42" offset="11" string="purchase" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei5" event2="t4" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei15" event2="t6" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei19" event2="t7" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei20" event2="t8" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei28" event2="t10" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei34" event2="ei36" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei34" event2="ei37" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei1" event2="ei5" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei6" event2="ei9" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei16" event2="ei17" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei17" event2="ei20" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei19" event2="ei21" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei21" event2="ei23" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei21" event2="ei26" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei21" event2="ei27" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei23" event2="ei24" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei24" event2="ei26" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei24" event2="ei27" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei32" event2="ei38" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei34" event2="ei38" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei36" event2="ei38" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei37" event2="ei38" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei38" event2="ei39" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei16" event2="ei20" relation="BEFORE" closed="true" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei11" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei13" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei16" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei19" event2="ei18" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei26" event2="ei23" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei26" event2="ei27" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei28" event2="ei30" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei30" event2="ei31" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei32" event2="ei33" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei36" event2="ei37" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei41" event2="ei42" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei14" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei17" event2="ei14" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei20" event2="ei14" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei7" event2="ei11" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei1" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei3" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei4" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t5" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei13" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei14" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei16" event2="t6" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei18" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei20" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei18" event2="t8" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei19" event2="t8" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei29" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei30" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei31" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei32" event2="t11" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei33" event2="t11" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei39" event2="t12" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei21" event2="t8" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="IS_INCLUDED" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei21" event2="ei22" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei23" event2="ei25" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei24" event2="ei25" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei28" event2="ei29" relation="IS_INCLUDED" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei34" event2="ei35" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei40" event2="ei41" relation="IS_INCLUDED" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei40" event2="ei42" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei21" event2="ei25" relation="AFTER" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei10" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei16" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei20" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei23" event2="ei27" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei25" event2="ei26" relation="INCLUDES" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei25" event2="ei27" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei28" event2="ei31" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei29" event2="ei30" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei29" event2="ei31" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei35" event2="ei36" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei35" event2="ei37" relation="INCLUDES" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei35" event2="ei38" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei6" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei7" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei12" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei13" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t6" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei17" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei17" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei18" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t7" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t7" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t7" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t8" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei21" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei27" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei24" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei25" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei26" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei27" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t9" event2="t10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t9" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t9" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t9" event2="ei30" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t9" event2="ei31" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei28" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei28" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei28" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei29" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei29" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei29" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei30" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei30" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei30" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei31" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t10" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t10" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t10" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei32" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei36" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei36" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei38" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t11" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t11" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t11" event2="ei36" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t11" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t11" event2="ei38" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei34" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei34" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei35" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei35" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei36" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei36" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei37" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei38" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei39" event2="ei40" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei39" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei39" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t12" event2="ei40" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

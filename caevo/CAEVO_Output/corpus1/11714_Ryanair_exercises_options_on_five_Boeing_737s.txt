@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+    <entry sid="0" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>2005-06-13 .</sentence>
+      <tokens>
+        <t>"
+" "2005-06-13" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2005-06-13)) (. .)))</parse>
+      <deps>root(ROOT-0, 2005-06-13-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2005-06-13" offset="1" length="1" type="DATE" value="2005-06-13" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>Ryanair exercises options on five Boeing 737s .</sentence>
+      <tokens>
+        <t>"
+" "Ryanair" " "</t>
+        <t>" " "exercises" " "</t>
+        <t>" " "options" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "five" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "737s" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Ryanair)) (VP (VBZ exercises) (NP (NP (NNS options)) (PP (IN on) (NP (CD five) (NNP Boeing) (NNS 737s))))) (. .)))</parse>
+      <deps>nsubj(exercises-2, Ryanair-1)
+root(ROOT-0, exercises-2)
+dobj(exercises-2, options-3)
+num(737s-7, five-5)
+nn(737s-7, Boeing-6)
+prep_on(options-3, 737s-7)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>June 13 , 2005 .</sentence>
+      <tokens>
+        <t>"
+" "June" " "</t>
+        <t>" " "13" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2005" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP June) (CD 13)) (, ,) (NP (CD 2005)) (. .)))</parse>
+      <deps>root(ROOT-0, June-1)
+num(June-1, 13-2)
+dep(June-1, 2005-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="June 13 , 2005" offset="1" length="4" type="DATE" value="2005-06-13" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>Irish low cost airline , Ryanair , announced today that it is exercising its options with Boeing to purchase five new 737 aircraft .</sentence>
+      <tokens>
+        <t>"
+" "Irish" " "</t>
+        <t>" " "low" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "airline" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Ryanair" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "announced" " "</t>
+        <t>" " "today" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "exercising" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "options" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "purchase" " "</t>
+        <t>" " "five" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "737" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (JJ Irish) (JJ low) (NN cost) (NN airline)) (, ,) (NP (NNP Ryanair)) (, ,)) (VP (VBD announced) (NP (NN today)) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ is) (VP (VBG exercising) (NP (PRP$ its) (NNS options)) (PP (IN with) (NP (NNP Boeing))) (S (VP (TO to) (VP (VB purchase) (NP (CD five) (JJ new) (NN 737) (NN aircraft)))))))))) (. .)))</parse>
+      <deps>amod(airline-4, Irish-1)
+amod(airline-4, low-2)
+nn(airline-4, cost-3)
+nsubj(announced-8, airline-4)
+appos(airline-4, Ryanair-6)
+root(ROOT-0, announced-8)
+tmod(announced-8, today-9)
+mark(exercising-13, that-10)
+nsubj(exercising-13, it-11)
+xsubj(purchase-19, it-11)
+aux(exercising-13, is-12)
+ccomp(announced-8, exercising-13)
+poss(options-15, its-14)
+dobj(exercising-13, options-15)
+prep_with(exercising-13, Boeing-17)
+aux(purchase-19, to-18)
+xcomp(exercising-13, purchase-19)
+num(aircraft-23, five-20)
+amod(aircraft-23, new-21)
+nn(aircraft-23, 737-22)
+dobj(purchase-19, aircraft-23)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="8" string="announced" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="13" string="exercising" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="19" string="purchase" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>This brings Ryanair 's total number of outstanding orders with the US manufacturer to 230 .</sentence>
+      <tokens>
+        <t>"
+" "This" " "</t>
+        <t>" " "brings" " "</t>
+        <t>" " "Ryanair" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "total" " "</t>
+        <t>" " "number" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "outstanding" " "</t>
+        <t>" " "orders" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "US" " "</t>
+        <t>" " "manufacturer" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "230" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT This)) (VP (VBZ brings) (NP (NP (NP (NNP Ryanair) (POS 's)) (JJ total) (NN number)) (PP (IN of) (NP (NP (JJ outstanding) (NNS orders)) (PP (IN with) (NP (DT the) (NNP US) (NN manufacturer)))))) (PP (TO to) (NP (CD 230)))) (. .)))</parse>
+      <deps>nsubj(brings-2, This-1)
+root(ROOT-0, brings-2)
+poss(number-6, Ryanair-3)
+amod(number-6, total-5)
+dobj(brings-2, number-6)
+amod(orders-9, outstanding-8)
+prep_of(number-6, orders-9)
+det(manufacturer-13, the-11)
+nn(manufacturer-13, US-12)
+prep_with(orders-9, manufacturer-13)
+prep_to(brings-2, 230-15)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="5" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>The new planes , which come from the 737-800 range , will be fitted with blended winglets to boost fuel efficiency by as much as 3 % .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "planes" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "come" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "737-800" " "</t>
+        <t>" " "range" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "fitted" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "blended" " "</t>
+        <t>" " "winglets" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "boost" " "</t>
+        <t>" " "fuel" " "</t>
+        <t>" " "efficiency" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "much" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "3" " "</t>
+        <t>" " "%" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (JJ new) (NNS planes)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBN come) (PP (IN from) (NP (DT the) (CD 737-800) (NN range)))))) (, ,)) (VP (MD will) (VP (VB be) (VP (VBN fitted) (PP (IN with) (NP (JJ blended) (NNS winglets))) (S (VP (TO to) (VP (VB boost) (NP (NN fuel) (NN efficiency)) (PP (IN by) (NP (QP (RB as) (JJ much) (IN as) (CD 3)) (NN %))))))))) (. .)))</parse>
+      <deps>det(planes-3, The-1)
+amod(planes-3, new-2)
+nsubj(come-6, planes-3)
+nsubjpass(fitted-14, planes-3)
+xsubj(boost-19, planes-3)
+rcmod(planes-3, come-6)
+det(range-10, the-8)
+num(range-10, 737-800-9)
+prep_from(come-6, range-10)
+aux(fitted-14, will-12)
+auxpass(fitted-14, be-13)
+root(ROOT-0, fitted-14)
+amod(winglets-17, blended-16)
+prep_with(fitted-14, winglets-17)
+aux(boost-19, to-18)
+xcomp(fitted-14, boost-19)
+nn(efficiency-21, fuel-20)
+dobj(boost-19, efficiency-21)
+quantmod(3-26, as-23)
+quantmod(3-26, much-24)
+quantmod(3-26, as-25)
+num(%-27, 3-26)
+prep_by(boost-19, %-27)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="14" string="fitted" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="19" string="boost" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>Ryanair CEO , Michael O ' Leary , justified his choice of Boeing by saying , `` The Boeing 737-800 has the best technical reliability and ensures that Ryanair is the number one on-time major airline in Europe '' ... `` In addition , it has the lowest unit operating cost .</sentence>
+      <tokens>
+        <t>"
+" "Ryanair" " "</t>
+        <t>" " "CEO" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Michael" " "</t>
+        <t>" " "O" ""</t>
+        <t>"" "'" " "</t>
+        <t>" " "Leary" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "justified" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "choice" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "The" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "737-800" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "best" " "</t>
+        <t>" " "technical" " "</t>
+        <t>" " "reliability" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "ensures" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "Ryanair" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "number" " "</t>
+        <t>" " "one" " "</t>
+        <t>" " "on-time" " "</t>
+        <t>" " "major" " "</t>
+        <t>" " "airline" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "In" " "</t>
+        <t>" " "addition" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "lowest" " "</t>
+        <t>" " "unit" " "</t>
+        <t>" " "operating" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NP (NNP Ryanair) (NNP CEO)) (, ,) (NP (NP (NNP Michael) (NNP O) (POS ')) (NNP Leary)) (, ,)) (VP (VBN justified) (NP (NP (PRP$ his) (NN choice)) (PP (IN of) (NP (NNP Boeing)))) (PP (IN by) (S (VP (VBG saying) (, ,) (`` ``) (S (NP (DT The) (NNP Boeing) (CD 737-800)) (VP (VP (VBZ has) (NP (DT the) (JJS best) (JJ technical) (NN reliability))) (CC and) (VP (VBZ ensures) (SBAR (IN that) (S (NP (NNP Ryanair)) (VP (VBZ is) (NP (DT the) (NN number) (CD one) (JJ on-time) (JJ major) (NN airline) (PP (IN in) (NP (NNP Europe))) ('' ''))))))))))))) (: ...) (S (`` ``) (PP (IN In) (NP (NN addition))) (, ,) (NP (PRP it)) (VP (VBZ has) (NP (DT the) (JJS lowest) (NN unit) (NN operating) (NN cost)))) (. .)))</parse>
+      <deps>nn(CEO-2, Ryanair-1)
+nsubj(justified-9, CEO-2)
+nn(O-5, Michael-4)
+poss(Leary-7, O-5)
+appos(CEO-2, Leary-7)
+root(ROOT-0, justified-9)
+poss(choice-11, his-10)
+dobj(justified-9, choice-11)
+prep_of(choice-11, Boeing-13)
+prepc_by(justified-9, saying-15)
+det(Boeing-19, The-18)
+nsubj(has-21, Boeing-19)
+nsubj(ensures-27, Boeing-19)
+num(Boeing-19, 737-800-20)
+ccomp(saying-15, has-21)
+det(reliability-25, the-22)
+amod(reliability-25, best-23)
+amod(reliability-25, technical-24)
+dobj(has-21, reliability-25)
+ccomp(saying-15, ensures-27)
+conj_and(has-21, ensures-27)
+mark(airline-36, that-28)
+nsubj(airline-36, Ryanair-29)
+cop(airline-36, is-30)
+det(airline-36, the-31)
+nn(airline-36, number-32)
+num(airline-36, one-33)
+amod(airline-36, on-time-34)
+amod(airline-36, major-35)
+ccomp(ensures-27, airline-36)
+prep_in(airline-36, Europe-38)
+prep_in(has-46, addition-43)
+nsubj(has-46, it-45)
+parataxis(justified-9, has-46)
+det(cost-51, the-47)
+amod(cost-51, lowest-48)
+nn(cost-51, unit-49)
+nn(cost-51, operating-50)
+dobj(has-46, cost-51)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="9" string="justified" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="15" string="saying" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>The addition of these five aircraft will continue to enable us to develop more new routes across Europe and bring low fares to many more European consumers . ''</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "addition" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "these" " "</t>
+        <t>" " "five" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "continue" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "enable" " "</t>
+        <t>" " "us" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "develop" " "</t>
+        <t>" " "more" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "routes" " "</t>
+        <t>" " "across" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "bring" " "</t>
+        <t>" " "low" " "</t>
+        <t>" " "fares" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "many" " "</t>
+        <t>" " "more" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "consumers" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (NN addition)) (PP (IN of) (NP (DT these) (CD five) (NN aircraft)))) (VP (MD will) (VP (VB continue) (S (VP (TO to) (VP (VB enable) (S (NP (PRP us)) (VP (TO to) (VP (VP (VB develop) (NP (JJR more) (JJ new) (NNS routes)) (PP (IN across) (NP (NNP Europe)))) (CC and) (VP (VB bring) (NP (JJ low) (NNS fares)) (PP (TO to) (NP (JJ many) (ADJP (RBR more) (JJ European)) (NNS consumers)))))))))))) (. .) ('' '')))</parse>
+      <deps>det(addition-2, The-1)
+nsubj(continue-8, addition-2)
+xsubj(enable-10, addition-2)
+det(aircraft-6, these-4)
+num(aircraft-6, five-5)
+prep_of(addition-2, aircraft-6)
+aux(continue-8, will-7)
+root(ROOT-0, continue-8)
+aux(enable-10, to-9)
+xcomp(continue-8, enable-10)
+nsubj(develop-13, us-11)
+nsubj(bring-20, us-11)
+aux(develop-13, to-12)
+xcomp(enable-10, develop-13)
+amod(routes-16, more-14)
+amod(routes-16, new-15)
+dobj(develop-13, routes-16)
+prep_across(develop-13, Europe-18)
+xcomp(enable-10, bring-20)
+conj_and(develop-13, bring-20)
+amod(fares-22, low-21)
+dobj(bring-20, fares-22)
+amod(consumers-27, many-24)
+advmod(European-26, more-25)
+amod(consumers-27, European-26)
+prep_to(bring-20, consumers-27)</deps>
+      <events>
+        <event id="e8" eiid="ei8" offset="8" string="continue" tense="FUTURE" aspect="NONE" class="ASPECTUAL" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="10" string="enable" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="13" string="develop" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e11" eiid="ei11" offset="20" string="bring" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>Ryanair is the world 's most profitable airline , having reported record profits of $ 269m earlier this year , and is pursuing an aggressive expansion plan which will see it 's total number of passengers jump to 70m over the next few years .</sentence>
+      <tokens>
+        <t>"
+" "Ryanair" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "world" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "most" " "</t>
+        <t>" " "profitable" " "</t>
+        <t>" " "airline" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "having" " "</t>
+        <t>" " "reported" " "</t>
+        <t>" " "record" " "</t>
+        <t>" " "profits" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "$" " "</t>
+        <t>" " "269m" " "</t>
+        <t>" " "earlier" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "year" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "pursuing" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "aggressive" " "</t>
+        <t>" " "expansion" " "</t>
+        <t>" " "plan" " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "see" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "total" " "</t>
+        <t>" " "number" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "passengers" " "</t>
+        <t>" " "jump" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "70m" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "few" " "</t>
+        <t>" " "years" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Ryanair)) (VP (VBZ is) (NP (NP (DT the) (NN world) (POS 's)) (ADJP (RBS most) (JJ profitable)) (NN airline)) (, ,) (S (VP (VBG having) (VP (VP (VBN reported) (NP (NP (NN record) (NNS profits)) (PP (IN of) (NP ($ $) (CD 269m)))) (NP (RBR earlier) (DT this) (NN year))) (, ,) (CC and) (VP (VBZ is) (VP (VBG pursuing) (NP (NP (DT an) (JJ aggressive) (NN expansion) (NN plan)) (SBAR (WHNP (WDT which)) (S (VP (MD will) (VP (VB see) (NP (NP (NP (PRP it) (POS 's)) (JJ total) (NN number)) (PP (IN of) (NP (NNS passengers) (NN jump)))) (PP (TO to) (NP (CD 70m))) (PP (IN over) (NP (DT the) (JJ next) (JJ few) (NNS years)))))))))))))) (. .)))</parse>
+      <deps>nsubj(airline-8, Ryanair-1)
+cop(airline-8, is-2)
+det(world-4, the-3)
+poss(airline-8, world-4)
+advmod(profitable-7, most-6)
+amod(airline-8, profitable-7)
+root(ROOT-0, airline-8)
+aux(reported-11, having-10)
+partmod(airline-8, reported-11)
+nn(profits-13, record-12)
+dobj(reported-11, profits-13)
+prep_of(profits-13, $-15)
+num($-15, 269m-16)
+advmod(year-19, earlier-17)
+det(year-19, this-18)
+tmod(reported-11, year-19)
+aux(pursuing-23, is-22)
+partmod(airline-8, pursuing-23)
+conj_and(reported-11, pursuing-23)
+det(plan-27, an-24)
+amod(plan-27, aggressive-25)
+nn(plan-27, expansion-26)
+dobj(pursuing-23, plan-27)
+nsubj(see-30, plan-27)
+aux(see-30, will-29)
+rcmod(plan-27, see-30)
+poss(number-34, it-31)
+amod(number-34, total-33)
+dobj(see-30, number-34)
+nn(jump-37, passengers-36)
+prep_of(number-34, jump-37)
+prep_to(see-30, 70m-39)
+det(years-44, the-41)
+amod(years-44, next-42)
+amod(years-44, few-43)
+prep_over(see-30, years-44)</deps>
+      <events>
+        <event id="e12" eiid="ei12" offset="11" string="reported" tense="PAST" aspect="PERFECTIVE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="23" string="pursuing" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="30" string="see" tense="FUTURE" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="the next few years" offset="41" length="4" type="DURATION" value="PXY" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="9" file="11714_Ryanair_exercises_options_on_five_Boeing_737s.txt">
+      <sentence>At present Ryanair has 91 aircraft and 230 on order .</sentence>
+      <tokens>
+        <t>"
+" "At" " "</t>
+        <t>" " "present" " "</t>
+        <t>" " "Ryanair" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "91" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "230" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "order" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN At) (ADJP (JJ present))) (NP (NNP Ryanair)) (VP (VBZ has) (NP (NP (CD 91) (NN aircraft)) (CC and) (NP (NP (CD 230)) (PP (IN on) (NP (NN order)))))) (. .)))</parse>
+      <deps>prep_at(has-4, present-2)
+nsubj(has-4, Ryanair-3)
+root(ROOT-0, has-4)
+num(aircraft-6, 91-5)
+dobj(has-4, aircraft-6)
+dobj(has-4, 230-8)
+conj_and(aircraft-6, 230-8)
+prep_on(230-8, order-10)</deps>
+      <events />
+      <timexes>
+        <timex tid="t4" text="present" offset="2" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei1" event2="ei2" relation="IS_INCLUDED" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="IS_INCLUDED" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei8" event2="ei12" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei11" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei8" event2="ei11" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei10" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei11" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei13" event2="t3" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei14" event2="t3" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="ei7" relation="IS_INCLUDED" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="t2" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei9" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei12" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei13" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei14" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+  </file>
+</root>
+

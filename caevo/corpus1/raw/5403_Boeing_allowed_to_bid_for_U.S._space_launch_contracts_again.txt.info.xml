@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+    <entry sid="0" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>2005-03-06 .</sentence>
+      <tokens>
+        <t>"
+" "2005-03-06" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2005-03-06)) (. .)))</parse>
+      <deps>root(ROOT-0, 2005-03-06-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2005-03-06" offset="1" length="1" type="DATE" value="2005-03-06" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>Boeing allowed to bid for U.S. space launch contracts again .</sentence>
+      <tokens>
+        <t>"
+" "Boeing" " "</t>
+        <t>" " "allowed" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "bid" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "U.S." " "</t>
+        <t>" " "space" " "</t>
+        <t>" " "launch" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "again" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Boeing)) (VP (VBD allowed) (S (VP (TO to) (VP (VB bid) (PP (IN for) (NP (NNP U.S.) (NN space) (NN launch) (NNS contracts))) (ADVP (RB again)))))) (. .)))</parse>
+      <deps>nsubj(allowed-2, Boeing-1)
+xsubj(bid-4, Boeing-1)
+root(ROOT-0, allowed-2)
+aux(bid-4, to-3)
+xcomp(allowed-2, bid-4)
+nn(contracts-9, U.S.-6)
+nn(contracts-9, space-7)
+nn(contracts-9, launch-8)
+prep_for(bid-4, contracts-9)
+advmod(bid-4, again-10)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="2" string="allowed" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="4" string="bid" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>March 06 , 2005 .</sentence>
+      <tokens>
+        <t>"
+" "March" " "</t>
+        <t>" " "06" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2005" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP March) (CD 06)) (, ,) (NP (CD 2005)) (. .)))</parse>
+      <deps>root(ROOT-0, March-1)
+num(March-1, 06-2)
+dep(March-1, 2005-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="March 06 , 2005" offset="1" length="4" type="DATE" value="2005-03-06" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>Boeing 's Launch Systems , Launch Services and Delta Program business units are to be allowed to bid once more for U.S. space launch contracts , the USAF has announced .</sentence>
+      <tokens>
+        <t>"
+" "Boeing" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Launch" " "</t>
+        <t>" " "Systems" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Launch" " "</t>
+        <t>" " "Services" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Delta" " "</t>
+        <t>" " "Program" " "</t>
+        <t>" " "business" " "</t>
+        <t>" " "units" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "allowed" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "bid" " "</t>
+        <t>" " "once" " "</t>
+        <t>" " "more" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "U.S." " "</t>
+        <t>" " "space" " "</t>
+        <t>" " "launch" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "USAF" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "announced" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NNP Boeing) (POS 's)) (NP (NNP Launch) (NNPS Systems))) (PRN (, ,) (S (NP (NNP Launch) (NNP Services) (CC and) (NNP Delta) (NNP Program) (NN business) (NNS units)) (VP (VBP are) (S (VP (TO to) (VP (VB be) (VP (VBN allowed) (S (VP (TO to) (VP (VB bid) (ADVP (RB once) (RBR more)) (PP (IN for) (NP (NNP U.S.) (NN space) (NN launch) (NNS contracts)))))))))))) (, ,)) (NP (DT the) (NNP USAF)) (VP (VBZ has) (VP (VBN announced))) (. .)))</parse>
+      <deps>dep(Systems-4, Boeing-1)
+possessive(Boeing-1, 's-2)
+nn(Systems-4, Launch-3)
+dep(announced-30, Systems-4)
+nn(Services-7, Launch-6)
+nsubj(are-13, Services-7)
+xsubj(allowed-16, Services-7)
+nn(units-12, Delta-9)
+nn(units-12, Program-10)
+nn(units-12, business-11)
+conj_and(Services-7, units-12)
+nsubj(are-13, units-12)
+xsubj(allowed-16, units-12)
+parataxis(announced-30, are-13)
+aux(allowed-16, to-14)
+auxpass(allowed-16, be-15)
+xcomp(are-13, allowed-16)
+aux(bid-18, to-17)
+xcomp(allowed-16, bid-18)
+advmod(more-20, once-19)
+advmod(bid-18, more-20)
+nn(contracts-25, U.S.-22)
+nn(contracts-25, space-23)
+nn(contracts-25, launch-24)
+prep_for(bid-18, contracts-25)
+det(USAF-28, the-27)
+nsubj(announced-30, USAF-28)
+aux(announced-30, has-29)
+root(ROOT-0, announced-30)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="16" string="allowed" tense="PRESENT" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="18" string="bid" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="30" string="announced" tense="PRESENT" aspect="PERFECTIVE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="once" offset="19" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>Boeing had been suspended since July 24 , 2003 after violating federal law .</sentence>
+      <tokens>
+        <t>"
+" "Boeing" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "suspended" " "</t>
+        <t>" " "since" " "</t>
+        <t>" " "July" " "</t>
+        <t>" " "24" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2003" " "</t>
+        <t>" " "after" " "</t>
+        <t>" " "violating" " "</t>
+        <t>" " "federal" " "</t>
+        <t>" " "law" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Boeing)) (VP (VBD had) (VP (VBN been) (VP (VBN suspended) (PP (IN since) (NP (NNP July) (CD 24) (, ,) (CD 2003))) (PP (IN after) (S (VP (VBG violating) (NP (JJ federal) (NN law)))))))) (. .)))</parse>
+      <deps>nsubjpass(suspended-4, Boeing-1)
+aux(suspended-4, had-2)
+auxpass(suspended-4, been-3)
+root(ROOT-0, suspended-4)
+prep_since(suspended-4, July-6)
+num(July-6, 24-7)
+num(July-6, 2003-9)
+prepc_after(suspended-4, violating-11)
+amod(law-13, federal-12)
+dobj(violating-11, law-13)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="4" string="suspended" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="11" string="violating" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="July 24 , 2003" offset="6" length="4" type="DATE" value="2003-07-24" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="5" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>The company was discovered to have been in possession of thousands of pages of documentation from Lockheed Martin , Boeing 's rival during the 1998 evolved expendable launch vehicle source selection process .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "discovered" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "possession" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "thousands" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "pages" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "documentation" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Lockheed" " "</t>
+        <t>" " "Martin" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "rival" " "</t>
+        <t>" " "during" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "1998" " "</t>
+        <t>" " "evolved" " "</t>
+        <t>" " "expendable" " "</t>
+        <t>" " "launch" " "</t>
+        <t>" " "vehicle" " "</t>
+        <t>" " "source" " "</t>
+        <t>" " "selection" " "</t>
+        <t>" " "process" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN company)) (VP (VBD was) (VP (VBN discovered) (S (VP (TO to) (VP (VB have) (VP (VBN been) (PP (IN in) (NP (NP (NN possession)) (PP (IN of) (NP (NP (NNS thousands)) (PP (IN of) (NP (NP (NNS pages)) (PP (IN of) (NP (NN documentation))))))))) (PP (IN from) (NP (NP (NNP Lockheed) (NNP Martin)) (, ,) (NP (NP (NNP Boeing) (POS 's)) (NN rival)))) (PP (IN during) (NP (DT the) (ADJP (NP (CD 1998) (NNS evolved)) (JJ expendable)) (NN launch) (NN vehicle) (NN source) (NN selection) (NN process))))))))) (. .)))</parse>
+      <deps>det(company-2, The-1)
+nsubjpass(discovered-4, company-2)
+xsubj(been-7, company-2)
+auxpass(discovered-4, was-3)
+root(ROOT-0, discovered-4)
+aux(been-7, to-5)
+aux(been-7, have-6)
+xcomp(discovered-4, been-7)
+prep_in(been-7, possession-9)
+prep_of(possession-9, thousands-11)
+prep_of(thousands-11, pages-13)
+prep_of(pages-13, documentation-15)
+nn(Martin-18, Lockheed-17)
+prep_from(been-7, Martin-18)
+poss(rival-22, Boeing-20)
+appos(Martin-18, rival-22)
+det(process-32, the-24)
+num(evolved-26, 1998-25)
+npadvmod(expendable-27, evolved-26)
+amod(process-32, expendable-27)
+nn(process-32, launch-28)
+nn(process-32, vehicle-29)
+nn(process-32, source-30)
+nn(process-32, selection-31)
+prep_during(been-7, process-32)</deps>
+      <events>
+        <event id="e8" eiid="ei8" offset="4" string="discovered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="1998" offset="25" length="1" type="DATE" value="1998" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="6" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>The USAF and Boeing have signed an interim agreement to protect the Air Force 's interests .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "USAF" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "signed" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "interim" " "</t>
+        <t>" " "agreement" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "protect" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "interests" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NNP USAF) (CC and) (NNP Boeing)) (VP (VBP have) (VP (VBN signed) (NP (DT an) (JJ interim) (NN agreement)) (S (VP (TO to) (VP (VB protect) (NP (NP (DT the) (NNP Air) (NNP Force) (POS 's)) (NNS interests))))))) (. .)))</parse>
+      <deps>det(USAF-2, The-1)
+nsubj(signed-6, USAF-2)
+xsubj(protect-11, USAF-2)
+conj_and(USAF-2, Boeing-4)
+nsubj(signed-6, Boeing-4)
+xsubj(protect-11, Boeing-4)
+aux(signed-6, have-5)
+root(ROOT-0, signed-6)
+det(agreement-9, an-7)
+amod(agreement-9, interim-8)
+dobj(signed-6, agreement-9)
+aux(protect-11, to-10)
+xcomp(signed-6, protect-11)
+det(Force-14, the-12)
+nn(Force-14, Air-13)
+poss(interests-16, Force-14)
+dobj(protect-11, interests-16)</deps>
+      <events>
+        <event id="e9" eiid="ei9" offset="6" string="signed" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="11" string="protect" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>The agreement allows for the reinstating of the suspension if Boeing is indicted or convicted , or if new evidence is found .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "agreement" " "</t>
+        <t>" " "allows" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "reinstating" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "suspension" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "indicted" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "convicted" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "evidence" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "found" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN agreement)) (VP (VBZ allows) (PP (IN for) (NP (NP (DT the) (NN reinstating)) (PP (IN of) (NP (DT the) (NN suspension))))) (SBAR (SBAR (IN if) (S (NP (NNP Boeing)) (VP (VBZ is) (VP (VBN indicted) (CC or) (VBN convicted))))) (, ,) (CC or) (SBAR (IN if) (S (NP (JJ new) (NN evidence)) (VP (VBZ is) (VP (VBN found))))))) (. .)))</parse>
+      <deps>det(agreement-2, The-1)
+nsubj(allows-3, agreement-2)
+root(ROOT-0, allows-3)
+det(reinstating-6, the-5)
+prep_for(allows-3, reinstating-6)
+det(suspension-9, the-8)
+prep_of(reinstating-6, suspension-9)
+mark(indicted-13, if-10)
+nsubjpass(indicted-13, Boeing-11)
+nsubjpass(convicted-15, Boeing-11)
+auxpass(indicted-13, is-12)
+dep(allows-3, indicted-13)
+dep(allows-3, convicted-15)
+conj_or(indicted-13, convicted-15)
+mark(found-22, if-18)
+amod(evidence-20, new-19)
+nsubjpass(found-22, evidence-20)
+auxpass(found-22, is-21)
+dep(allows-3, found-22)
+conj_or(indicted-13, found-22)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="3" string="allows" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e12" eiid="ei12" offset="13" string="indicted" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="15" string="convicted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="22" string="found" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>Boeing will have to submit to outside verification of the remedial steps it has taken , and can not charge the Air Force for associated costs .</sentence>
+      <tokens>
+        <t>"
+" "Boeing" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "submit" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "outside" " "</t>
+        <t>" " "verification" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "remedial" " "</t>
+        <t>" " "steps" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "taken" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "can" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "charge" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "associated" " "</t>
+        <t>" " "costs" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NNP Boeing)) (VP (MD will) (VP (VB have) (S (VP (TO to) (VP (VB submit) (PP (TO to) (NP (NP (JJ outside) (NN verification)) (PP (IN of) (NP (DT the) (JJ remedial) (NNS steps))))))))))) (NP (PRP it)) (VP (VP (VBZ has) (VP (VBN taken))) (, ,) (CC and) (VP (MD can) (RB not) (VP (VB charge) (NP (NP (DT the) (NNP Air) (NNP Force)) (PP (IN for) (NP (VBN associated) (NNS costs))))))) (. .)))</parse>
+      <deps>nsubj(have-3, Boeing-1)
+xsubj(submit-5, Boeing-1)
+aux(have-3, will-2)
+dep(taken-15, have-3)
+aux(submit-5, to-4)
+xcomp(have-3, submit-5)
+amod(verification-8, outside-7)
+prep_to(submit-5, verification-8)
+det(steps-12, the-10)
+amod(steps-12, remedial-11)
+prep_of(verification-8, steps-12)
+nsubj(taken-15, it-13)
+nsubj(charge-20, it-13)
+aux(taken-15, has-14)
+root(ROOT-0, taken-15)
+aux(charge-20, can-18)
+neg(charge-20, not-19)
+conj_and(taken-15, charge-20)
+det(Force-23, the-21)
+nn(Force-23, Air-22)
+dobj(charge-20, Force-23)
+amod(costs-26, associated-25)
+prep_for(Force-23, costs-26)</deps>
+      <events>
+        <event id="e15" eiid="ei15" offset="3" string="have" tense="FUTURE" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="5" string="submit" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e17" eiid="ei17" offset="15" string="taken" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e18" eiid="ei18" offset="20" string="charge" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="9" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>Internal management responsibilities for ethical practice have been changed .</sentence>
+      <tokens>
+        <t>"
+" "Internal" " "</t>
+        <t>" " "management" " "</t>
+        <t>" " "responsibilities" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "ethical" " "</t>
+        <t>" " "practice" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "changed" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Internal) (NN management) (NNS responsibilities)) (PP (IN for) (NP (JJ ethical) (NN practice)))) (VP (VBP have) (VP (VBN been) (VP (VBN changed)))) (. .)))</parse>
+      <deps>nn(responsibilities-3, Internal-1)
+nn(responsibilities-3, management-2)
+nsubjpass(changed-9, responsibilities-3)
+amod(practice-6, ethical-5)
+prep_for(responsibilities-3, practice-6)
+aux(changed-9, have-7)
+auxpass(changed-9, been-8)
+root(ROOT-0, changed-9)</deps>
+      <events>
+        <event id="e19" eiid="ei19" offset="9" string="changed" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="10" file="5403_Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again.txt">
+      <sentence>Lockheed Martin 's Atlas V and Boeing 's Delta IV are two types of expendable rocket , designed to reduce the cost of space launches .</sentence>
+      <tokens>
+        <t>"
+" "Lockheed" " "</t>
+        <t>" " "Martin" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Atlas" " "</t>
+        <t>" " "V" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Delta" " "</t>
+        <t>" " "IV" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "types" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "expendable" " "</t>
+        <t>" " "rocket" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "designed" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "reduce" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "space" " "</t>
+        <t>" " "launches" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NP (NNP Lockheed) (NNP Martin) (POS 's)) (NNP Atlas) (NNP V)) (CC and) (NP (NP (NNP Boeing) (POS 's)) (NNP Delta) (NNP IV))) (VP (VBP are) (NP (NP (CD two) (NNS types)) (PP (IN of) (NP (NP (JJ expendable) (NN rocket)) (, ,) (VP (VBN designed) (S (VP (TO to) (VP (VB reduce) (NP (NP (DT the) (NN cost)) (PP (IN of) (NP (NN space) (NNS launches)))))))))))) (. .)))</parse>
+      <deps>nn(Martin-2, Lockheed-1)
+poss(V-5, Martin-2)
+nn(V-5, Atlas-4)
+nsubj(types-13, V-5)
+poss(IV-10, Boeing-7)
+nn(IV-10, Delta-9)
+conj_and(V-5, IV-10)
+nsubj(types-13, IV-10)
+cop(types-13, are-11)
+num(types-13, two-12)
+root(ROOT-0, types-13)
+amod(rocket-16, expendable-15)
+prep_of(types-13, rocket-16)
+partmod(rocket-16, designed-18)
+aux(reduce-20, to-19)
+xcomp(designed-18, reduce-20)
+det(cost-22, the-21)
+dobj(reduce-20, cost-22)
+nn(launches-25, space-24)
+prep_of(cost-22, launches-25)</deps>
+      <events>
+        <event id="e20" eiid="ei20" offset="18" string="designed" tense="PASTPART" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e21" eiid="ei21" offset="20" string="reduce" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei3" event2="t3" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei4" event2="t3" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei6" event2="t4" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="t4" event2="t5" relation="AFTER" closed="false" origin="TimeTimeSieve" type="tt" />
+    <tlink event1="ei6" event2="t5" relation="AFTER" closed="true" origin="TimeTimeSieve" type="et" />
+    <tlink event1="ei3" event2="ei6" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei11" event2="ei15" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei12" event2="ei15" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei15" event2="ei19" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="t5" event2="ei3" relation="BEFORE" closed="true" origin="ReichenbachDG13" type="et" />
+    <tlink event1="t5" event2="ei5" relation="BEFORE" closed="true" origin="ReichenbachDG13" type="et" />
+    <tlink event1="t5" event2="ei8" relation="BEFORE" closed="true" origin="ReichenbachDG13" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei17" event2="ei18" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei20" event2="ei21" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei4" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei11" event2="ei16" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei16" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei13" event2="ei16" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei16" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei17" event2="ei16" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei19" event2="ei16" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="t5" event2="ei4" relation="BEFORE" closed="true" origin="XCompDepSieve" type="et" />
+    <tlink event1="ei5" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="t4" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="ei7" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei3" event2="ei7" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei8" event2="ei7" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei15" event2="ei18" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei16" event2="ei18" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t1" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei7" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei8" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei9" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

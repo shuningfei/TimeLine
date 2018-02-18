@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="61389_Airbus_announces_job_cuts_of_10,000.txt">
+    <entry sid="0" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>2007-02-28 .</sentence>
+      <tokens>
+        <t>"
+" "2007-02-28" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2007-02-28)) (. .)))</parse>
+      <deps>root(ROOT-0, 2007-02-28-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2007-02-28" offset="1" length="1" type="DATE" value="2007-02-28" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>Airbus announces job cuts of 10,000 .</sentence>
+      <tokens>
+        <t>"
+" "Airbus" " "</t>
+        <t>" " "announces" " "</t>
+        <t>" " "job" " "</t>
+        <t>" " "cuts" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "10,000" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Airbus)) (VP (VBZ announces) (NP (NP (NN job) (NNS cuts)) (PP (IN of) (NP (CD 10,000))))) (. .)))</parse>
+      <deps>nsubj(announces-2, Airbus-1)
+root(ROOT-0, announces-2)
+nn(cuts-4, job-3)
+dobj(announces-2, cuts-4)
+prep_of(cuts-4, 10,000-6)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>February 28 , 2007 .</sentence>
+      <tokens>
+        <t>"
+" "February" " "</t>
+        <t>" " "28" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2007" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP February) (CD 28)) (, ,) (NP (CD 2007)) (. .)))</parse>
+      <deps>root(ROOT-0, February-1)
+num(February-1, 28-2)
+dep(February-1, 2007-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="February 28 , 2007" offset="1" length="4" type="DATE" value="2007-02-28" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>150px Airbus , Europe 's biggest aircraft manufacturer , has announced 10,000 job cuts over the next four years .</sentence>
+      <tokens>
+        <t>"
+" "150px" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "biggest" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "manufacturer" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "announced" " "</t>
+        <t>" " "10,000" " "</t>
+        <t>" " "job" " "</t>
+        <t>" " "cuts" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "four" " "</t>
+        <t>" " "years" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP 150px) (NNP Airbus)) (, ,) (NP (NP (NNP Europe) (POS 's)) (JJS biggest) (NN aircraft) (NN manufacturer)) (, ,)) (VP (VBZ has) (VP (VBN announced) (NP (CD 10,000) (NN job) (NNS cuts)) (PP (IN over) (NP (DT the) (JJ next) (CD four) (NNS years))))) (. .)))</parse>
+      <deps>nn(Airbus-2, 150px-1)
+nsubj(announced-11, Airbus-2)
+poss(manufacturer-8, Europe-4)
+amod(manufacturer-8, biggest-6)
+nn(manufacturer-8, aircraft-7)
+appos(Airbus-2, manufacturer-8)
+aux(announced-11, has-10)
+root(ROOT-0, announced-11)
+num(cuts-14, 10,000-12)
+nn(cuts-14, job-13)
+dobj(announced-11, cuts-14)
+det(years-19, the-16)
+amod(years-19, next-17)
+num(years-19, four-18)
+prep_over(announced-11, years-19)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="11" string="announced" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="the next four years" offset="16" length="4" type="DURATION" value="P4Y" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>The news comes as its parent company , EADS starts a major restructuring program because the company is not efficient enough .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "news" " "</t>
+        <t>" " "comes" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "parent" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " "starts" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "major" " "</t>
+        <t>" " "restructuring" " "</t>
+        <t>" " "programme" " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "efficient" " "</t>
+        <t>" " "enough" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT The) (NN news)) (VP (VBZ comes) (PP (IN as) (NP (PRP$ its) (NN parent) (NN company))))) (, ,) (NP (NNS EADS)) (VP (VBZ starts) (NP (DT a) (JJ major) (NN restructuring) (NN program)) (SBAR (IN because) (S (NP (DT the) (NN company)) (VP (VBZ is) (RB not) (ADJP (JJ efficient) (RB enough)))))) (. .)))</parse>
+      <deps>det(news-2, The-1)
+nsubj(comes-3, news-2)
+ccomp(starts-10, comes-3)
+poss(company-7, its-5)
+nn(company-7, parent-6)
+prep_as(comes-3, company-7)
+nsubj(starts-10, EADS-9)
+root(ROOT-0, starts-10)
+det(program-14, a-11)
+amod(program-14, major-12)
+nn(program-14, restructuring-13)
+dobj(starts-10, program-14)
+mark(efficient-20, because-15)
+det(company-17, the-16)
+nsubj(efficient-20, company-17)
+cop(efficient-20, is-18)
+neg(efficient-20, not-19)
+advcl(starts-10, efficient-20)
+advmod(efficient-20, enough-21)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="3" string="comes" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="10" string="starts" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="13" string="restructuring" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="5" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>Louis Gallois , the Airbus chief executive , said the company expects to cut approximately 4,300 jobs in France , 3,700 in Germany , 1,600 in UK and 400 in Spain .</sentence>
+      <tokens>
+        <t>"
+" "Louis" " "</t>
+        <t>" " "Gallois" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "chief" " "</t>
+        <t>" " "executive" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "expects" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "cut" " "</t>
+        <t>" " "approximately" " "</t>
+        <t>" " "4,300" " "</t>
+        <t>" " "jobs" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "France" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "3,700" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Germany" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "1,600" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "UK" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "400" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Spain" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Louis) (NNP Gallois)) (, ,) (NP (DT the) (NNP Airbus) (NN chief) (NN executive)) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (NN company)) (VP (VBZ expects) (S (VP (TO to) (VP (VB cut) (NP (NP (NP (QP (RB approximately) (CD 4,300)) (NNS jobs)) (PP (IN in) (NP (NNP France)))) (, ,) (NP (NP (CD 3,700)) (PP (IN in) (NP (NNP Germany)))) (, ,) (NP (NP (CD 1,600)) (PP (IN in) (NP (NNP UK)))) (CC and) (NP (NP (CD 400)) (PP (IN in) (NP (NNP Spain)))))))))))) (. .)))</parse>
+      <deps>nn(Gallois-2, Louis-1)
+nsubj(said-9, Gallois-2)
+det(executive-7, the-4)
+nn(executive-7, Airbus-5)
+nn(executive-7, chief-6)
+appos(Gallois-2, executive-7)
+root(ROOT-0, said-9)
+det(company-11, the-10)
+nsubj(expects-12, company-11)
+xsubj(cut-14, company-11)
+ccomp(said-9, expects-12)
+aux(cut-14, to-13)
+xcomp(expects-12, cut-14)
+quantmod(4,300-16, approximately-15)
+num(jobs-17, 4,300-16)
+dobj(cut-14, jobs-17)
+prep_in(jobs-17, France-19)
+dobj(cut-14, 3,700-21)
+conj_and(jobs-17, 3,700-21)
+prep_in(3,700-21, Germany-23)
+dobj(cut-14, 1,600-25)
+conj_and(jobs-17, 1,600-25)
+prep_in(1,600-25, UK-27)
+dobj(cut-14, 400-29)
+conj_and(jobs-17, 400-29)
+prep_in(400-29, Spain-31)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="9" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e6" eiid="ei6" offset="12" string="expects" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="14" string="cut" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>About half of those cuts will be made among subcontractors and temporary workers .</sentence>
+      <tokens>
+        <t>"
+" "About" " "</t>
+        <t>" " "half" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "those" " "</t>
+        <t>" " "cuts" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "among" " "</t>
+        <t>" " "subcontractors" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "temporary" " "</t>
+        <t>" " "workers" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (QP (RB About) (PDT half))) (PP (IN of) (NP (DT those) (NNS cuts)))) (VP (MD will) (VP (VB be) (VP (VBN made) (PP (IN among) (NP (NP (NNS subcontractors)) (CC and) (NP (JJ temporary) (NNS workers))))))) (. .)))</parse>
+      <deps>quantmod(half-2, About-1)
+nsubjpass(made-8, half-2)
+det(cuts-5, those-4)
+prep_of(half-2, cuts-5)
+aux(made-8, will-6)
+auxpass(made-8, be-7)
+root(ROOT-0, made-8)
+prep_among(made-8, subcontractors-10)
+amod(workers-13, temporary-12)
+prep_among(made-8, workers-13)
+conj_and(subcontractors-10, workers-13)</deps>
+      <events>
+        <event id="e8" eiid="ei8" offset="8" string="made" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>Actual Airbus employee reduction would be about 5,000 , or 9 % of the total European work force of 55,000 full-time Airbus employees .</sentence>
+      <tokens>
+        <t>"
+" "Actual" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "employee" " "</t>
+        <t>" " "reduction" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "5,000" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "9" " "</t>
+        <t>" " "%" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "total" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "work" " "</t>
+        <t>" " "force" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "55,000" " "</t>
+        <t>" " "full-time" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "employees" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (CD Actual) (NNP Airbus) (NN employee) (NN reduction)) (VP (MD would) (VP (VB be) (NP (NP (QP (RB about) (CD 5,000))) (, ,) (CC or) (NP (NP (CD 9) (NN %)) (PP (IN of) (NP (NP (DT the) (JJ total) (JJ European) (NN work) (NN force)) (PP (IN of) (NP (CD 55,000) (JJ full-time) (NNP Airbus) (NNS employees))))))))) (. .)))</parse>
+      <deps>num(reduction-4, Actual-1)
+nn(reduction-4, Airbus-2)
+nn(reduction-4, employee-3)
+nsubj(5,000-8, reduction-4)
+aux(5,000-8, would-5)
+cop(5,000-8, be-6)
+quantmod(5,000-8, about-7)
+root(ROOT-0, 5,000-8)
+num(%-12, 9-11)
+conj_or(5,000-8, %-12)
+det(force-18, the-14)
+amod(force-18, total-15)
+amod(force-18, European-16)
+nn(force-18, work-17)
+prep_of(%-12, force-18)
+num(employees-23, 55,000-20)
+amod(employees-23, full-time-21)
+nn(employees-23, Airbus-22)
+prep_of(force-18, employees-23)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="8" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>Although Gallois said he hoped to achieve this mainly through attrition , the unions were displeased .</sentence>
+      <tokens>
+        <t>"
+" "Although" " "</t>
+        <t>" " "Gallois" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "hoped" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "achieve" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "mainly" " "</t>
+        <t>" " "through" " "</t>
+        <t>" " "attrition" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "unions" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "displeased" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN Although) (S (NP (NNP Gallois)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD hoped) (S (VP (TO to) (VP (VB achieve) (NP (DT this)) (ADVP (RB mainly)) (PP (IN through) (NP (NN attrition)))))))))))) (, ,) (NP (DT the) (NNS unions)) (VP (VBD were) (ADJP (JJ displeased))) (. .)))</parse>
+      <deps>mark(said-3, Although-1)
+nsubj(said-3, Gallois-2)
+advcl(displeased-16, said-3)
+nsubj(hoped-5, he-4)
+xsubj(achieve-7, he-4)
+ccomp(said-3, hoped-5)
+aux(achieve-7, to-6)
+xcomp(hoped-5, achieve-7)
+dobj(achieve-7, this-8)
+advmod(achieve-7, mainly-9)
+prep_through(achieve-7, attrition-11)
+det(unions-14, the-13)
+nsubj(displeased-16, unions-14)
+cop(displeased-16, were-15)
+root(ROOT-0, displeased-16)</deps>
+      <events>
+        <event id="e9" eiid="ei9" offset="3" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="5" string="hoped" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e11" eiid="ei11" offset="7" string="achieve" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="9" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>Union officials said nearly 14,000 employees at four French sites had a two hour work stoppage Wednesday afternoon to protest the cuts .</sentence>
+      <tokens>
+        <t>"
+" "Union" " "</t>
+        <t>" " "officials" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "nearly" " "</t>
+        <t>" " "14,000" " "</t>
+        <t>" " "employees" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "four" " "</t>
+        <t>" " "French" " "</t>
+        <t>" " "sites" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "hour" " "</t>
+        <t>" " "work" " "</t>
+        <t>" " "stoppage" " "</t>
+        <t>" " "Wednesday" " "</t>
+        <t>" " "afternoon" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "protest" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "cuts" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Union) (NNS officials)) (VP (VBD said) (NP (RB nearly) (CD 14,000) (NNS employees)) (PP (IN at) (NP (NP (CD four) (JJ French) (NNS sites)) (VP (VBD had) (NP (DT a) (CD two) (NN hour) (NN work) (NN stoppage))))) (NP (NNP Wednesday) (NN afternoon)) (S (VP (TO to) (VP (VB protest) (NP (DT the) (NNS cuts)))))) (. .)))</parse>
+      <deps>nn(officials-2, Union-1)
+nsubj(said-3, officials-2)
+xsubj(protest-20, officials-2)
+root(ROOT-0, said-3)
+advmod(employees-6, nearly-4)
+num(employees-6, 14,000-5)
+dobj(said-3, employees-6)
+num(sites-10, four-8)
+amod(sites-10, French-9)
+prep_at(said-3, sites-10)
+partmod(sites-10, had-11)
+det(stoppage-16, a-12)
+num(stoppage-16, two-13)
+nn(stoppage-16, hour-14)
+nn(stoppage-16, work-15)
+dobj(had-11, stoppage-16)
+nn(afternoon-18, Wednesday-17)
+dobj(said-3, afternoon-18)
+aux(protest-20, to-19)
+xcomp(said-3, protest-20)
+det(cuts-22, the-21)
+dobj(protest-20, cuts-22)</deps>
+      <events>
+        <event id="e12" eiid="ei12" offset="3" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="20" string="protest" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="two hour" offset="13" length="2" type="DURATION" value="PT2H" temporalFunction="false" />
+        <timex tid="t5" text="Wednesday afternoon" offset="17" length="2" type="TIME" value="XXXX-WXX-3TAF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="10" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>`` The response has been massive , '' said Julien Talavan , a spokesman for Force Ouvri &amp;#232; re , the main Airbus union in France .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "The" " "</t>
+        <t>" " "response" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "massive" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "Talavan" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "spokesman" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "Ouvri" ""</t>
+        <t>"" "&amp;#232;" ""</t>
+        <t>"" "re" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "main" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "union" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "France" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (SINV (`` ``) (S (NP (DT The) (NN response)) (VP (VBZ has) (VP (VBN been) (ADJP (JJ massive))))) (, ,) ('' '') (VP (VBD said) (NP (NP (NNP Julien) (NNP Talavan)) (, ,) (NP (NP (DT a) (NN spokesman)) (PP (IN for) (NP (NNP Force) (NNP Ouvri)))))) (NP (NP (CD &amp;#232;) (NN re)) (, ,) (NP (NP (DT the) (JJ main) (NNP Airbus) (NN union)) (PP (IN in) (NP (NNP France))))) (. .)))</parse>
+      <deps>det(response-3, The-2)
+nsubj(massive-6, response-3)
+aux(massive-6, has-4)
+cop(massive-6, been-5)
+ccomp(said-9, massive-6)
+root(ROOT-0, said-9)
+nn(Talavan-11, Julien-10)
+dobj(said-9, Talavan-11)
+det(spokesman-14, a-13)
+appos(Talavan-11, spokesman-14)
+nn(Ouvri-17, Force-16)
+prep_for(spokesman-14, Ouvri-17)
+num(re-19, &amp;#232;-18)
+nsubj(said-9, re-19)
+det(union-24, the-21)
+amod(union-24, main-22)
+nn(union-24, Airbus-23)
+appos(re-19, union-24)
+prep_in(union-24, France-26)</deps>
+      <events>
+        <event id="e14" eiid="ei14" offset="9" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="11" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>`` This is just the beginning , '' he said , hinting at future labor action .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "This" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "just" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "beginning" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "hinting" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "future" " "</t>
+        <t>" " "labor" " "</t>
+        <t>" " "action" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (DT This)) (VP (VBZ is) (ADVP (RB just)) (NP (DT the) (NN beginning)))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said) (, ,) (S (VP (VBG hinting) (PP (IN at) (NP (JJ future) (NN labor) (NN action)))))) (. .)))</parse>
+      <deps>nsubj(beginning-6, This-2)
+cop(beginning-6, is-3)
+advmod(beginning-6, just-4)
+det(beginning-6, the-5)
+ccomp(said-10, beginning-6)
+nsubj(said-10, he-9)
+root(ROOT-0, said-10)
+xcomp(said-10, hinting-12)
+amod(action-16, future-14)
+nn(action-16, labor-15)
+prep_at(hinting-12, action-16)</deps>
+      <events>
+        <event id="e15" eiid="ei15" offset="10" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="12" string="hinting" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e17" eiid="ei17" offset="16" string="action" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t6" text="future" offset="14" length="1" type="DATE" value="FUTURE_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="12" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>This move comes after well-publicized delays on its A380 super-jumbo commercial airliner .</sentence>
+      <tokens>
+        <t>"
+" "This" " "</t>
+        <t>" " "move" " "</t>
+        <t>" " "comes" " "</t>
+        <t>" " "after" " "</t>
+        <t>" " "well-publicized" " "</t>
+        <t>" " "delays" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "super-jumbo" " "</t>
+        <t>" " "commercial" " "</t>
+        <t>" " "airliner" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT This) (NN move)) (VP (VBZ comes) (PP (IN after) (NP (NP (JJ well-publicized) (NNS delays)) (PP (IN on) (NP (PRP$ its) (JJ A380) (JJ super-jumbo) (JJ commercial) (NN airliner)))))) (. .)))</parse>
+      <deps>det(move-2, This-1)
+nsubj(comes-3, move-2)
+root(ROOT-0, comes-3)
+amod(delays-6, well-publicized-5)
+prep_after(comes-3, delays-6)
+poss(airliner-12, its-8)
+amod(airliner-12, A380-9)
+amod(airliner-12, super-jumbo-10)
+amod(airliner-12, commercial-11)
+prep_on(delays-6, airliner-12)</deps>
+      <events>
+        <event id="e18" eiid="ei18" offset="2" string="move" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e19" eiid="ei19" offset="3" string="comes" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="13" file="61389_Airbus_announces_job_cuts_of_10,000.txt">
+      <sentence>The restructuring announcement also includes the proposed sale or closure of 3 plants .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "restructuring" " "</t>
+        <t>" " "announcement" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "includes" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "proposed" " "</t>
+        <t>" " "sale" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "closure" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "3" " "</t>
+        <t>" " "plants" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN restructuring) (NN announcement)) (ADVP (RB also)) (VP (VBZ includes) (NP (NP (DT the) (JJ proposed) (NN sale) (CC or) (NN closure)) (PP (IN of) (NP (CD 3) (NNS plants))))) (. .)))</parse>
+      <deps>det(announcement-3, The-1)
+nn(announcement-3, restructuring-2)
+nsubj(includes-5, announcement-3)
+advmod(includes-5, also-4)
+root(ROOT-0, includes-5)
+det(sale-8, the-6)
+amod(sale-8, proposed-7)
+dobj(includes-5, sale-8)
+dobj(includes-5, closure-10)
+conj_or(sale-8, closure-10)
+num(plants-13, 3-12)
+prep_of(sale-8, plants-13)</deps>
+      <events>
+        <event id="e20" eiid="ei20" offset="8" string="sale" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei16" event2="t6" relation="SIMULTANEOUS" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei9" event2="ei10" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei5" event2="ei8" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei3" event2="ei2" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei19" event2="ei18" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="t6" event2="ei15" relation="INCLUDES" closed="true" origin="XCompDepSieve" type="et" />
+    <tlink event1="ei5" event2="ei7" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei12" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei1" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei12" event2="t4" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei13" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei12" event2="t5" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei13" event2="t5" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei17" event2="t6" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei16" event2="ei17" relation="INCLUDES" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="t4" event2="t5" relation="BEFORE" closed="true" origin="MLEventTimeSameSent" type="tt" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei9" event2="ei11" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t3" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei9" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei13" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t4" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei14" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei15" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t6" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei18" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

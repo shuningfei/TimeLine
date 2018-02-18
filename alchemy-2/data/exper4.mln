@@ -1,0 +1,27 @@
+EventDCT(time, event)
+
+INFINITIVE(event)
+PRESENT(event)
+FUTURE(event)
+PAST(event)
+PASTPART(event)
+PRESPART(event)
+
+AFTER_ET(event, time)
+BEFORE_ET(event, time)
+SIMULTANEOUS_ET(event, time)
+IS_INCLUDED_ET(event, time)
+INCLUDES_ET(event, time)
+
+BEFORE_EE(event, event)
+SIMULTANEOUS_EE(event, event)
+INCLUDES_EE(event, event)
+
+BEFORE_TT(time, time)
+SIMULTANEOUS_TT(time, time)
+INCLUDES_TT(time, time)
+
+FUTURE(e) ^ EventDCT(t, e) => AFTER_ET(e, t)
+PAST(e) ^ EventDCT(t, e) => BEFORE_ET(e, t)
+
+

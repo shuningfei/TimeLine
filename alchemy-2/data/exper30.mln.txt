@@ -1,0 +1,41 @@
+//predicate declarations
+Tense(event,tense)
+EventDCT(time,event)
+E2T(event,time,relET)
+E2E(event,event,relEE)
+Cross_doc_ev_coref(event,event)
+
+Tense(e, +te) ^ EventDCT(t, e) => E2T(e, t, +r)
+
+E2T(e1, t1, SIMULTANEOUS) ^ E2E(e1, e2, SIMULTANEOUS) => E2T(e2, t1, SIMULTANEOUS)
+E2T(e1, t1, BEFORE) ^ E2E(e1, e2, SIMULTANEOUS) => E2T(e2, t1, BEFORE)
+E2T(e1, t1, AFTER) ^ E2E(e1, e2, SIMULTANEOUS) => E2T(e2, t1, AFTER)
+
+E2T(e1, t1, SIMULTANEOUS) ^ E2E(e1, e2, BEFORE) => E2T(e2, t1, AFTER)
+E2T(e1, t1, AFTER) ^ E2E(e1, e2, BEFORE) => E2T(e2, t1, AFTER)
+
+E2T(e1, t1, SIMULTANEOUS) ^ E2E(e2, e1, BEFORE) => E2T(e2, t1, BEFORE)
+E2T(e1, t1, BEFORE) ^ E2E(e2, e1, BEFORE) => E2T(e2, t1, BEFORE)
+
+E2T(e, t, SIMULTANEOUS) => !E2T(e, t, BEFORE)
+E2T(e, t, SIMULTANEOUS) => !E2T(e, t, AFTER)
+E2T(e, t, BEFORE) => !E2T(e, t, AFTER)
+
+E2T(e1, t1, SIMULTANEOUS) ^ E2T(e2, t1, SIMULTANEOUS) => E2E(e1, e2, SIMULTANEOUS)
+E2T(e1, t1, SIMULTANEOUS) ^ E2T(e2, t1, AFTER) => E2E(e1, e2, BEFORE)
+E2T(e1, t1, SIMULTANEOUS) ^ E2T(e2, t1, BEFORE) => E2E(e2, e1, BEFORE)
+E2T(e1, t1, BEFORE) ^ E2T(e2, t1, AFTER) => E2E(e1, e2, BEFORE) 
+
+E2E(e1, e2, BEFORE) ^ E2E(e2, e3, BEFORE) => E2E(e1, e3, BEFORE)
+E2E(e1, e2, SIMULTANEOUS) ^ E2E(e2, e3, SIMULTANEOUS) => E2E(e1, e3, SIMULTANEOUS)
+E2E(e1, e2, BEFORE) ^ E2E(e2, e3, SIMULTANEOUS) => E2E(e1, e3, BEFORE)
+
+E2E(e1, e2, SIMULTANEOUS) => !E2E(e1, e2, BEFORE)
+
+E2E(e1, e2, BEFORE) ^ Cross_doc_ev_coref(e2, e3) => E2E(e1, e3, BEFORE)
+E2E(e1, e2, SIMULTANEOUS) ^ Cross_doc_ev_coref(e2, e3) => E2E(e1, e3, SIMULTANEOUS)
+
+E2T(e1, t1, BEFORE) ^ Cross_doc_ev_coref(e1, e2) => E2T(e2, t1, BEFORE)
+E2T(e1, t1, AFTER) ^ Cross_doc_ev_coref(e1, e2) => E2T(e2, t1, AFTER)
+E2T(e1, t1, SIMULTANEOUS) ^ Cross_doc_ev_coref(e1, e2) => E2T(e2, t1, SIMULTANEOUS)
+

@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="87805_Indonesia_transport_minister.txt">
+    <entry sid="0" file="87805_Indonesia_transport_minister.txt">
+      <sentence>2007-12-20 .</sentence>
+      <tokens>
+        <t>"
+" "2007-12-20" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2007-12-20)) (. .)))</parse>
+      <deps>root(ROOT-0, 2007-12-20-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2007-12-20" offset="1" length="1" type="DATE" value="2007-12-20" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Indonesia 's transport minister tells airlines not to buy European aircraft due to EU ban .</sentence>
+      <tokens>
+        <t>"
+" "Indonesia" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "transport" " "</t>
+        <t>" " "minister" " "</t>
+        <t>" " "tells" " "</t>
+        <t>" " "airlines" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "buy" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "due" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "EU" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Indonesia) (POS 's)) (NN transport) (NN minister)) (VP (VBZ tells) (S (NP (NNS airlines)) (RB not) (VP (TO to) (VP (VB buy) (S (NP (JJ European) (NN aircraft)) (ADJP (JJ due) (PP (TO to) (NP (NNP EU) (NN ban))))))))) (. .)))</parse>
+      <deps>poss(minister-4, Indonesia-1)
+nn(minister-4, transport-3)
+nsubj(tells-5, minister-4)
+root(ROOT-0, tells-5)
+nsubj(buy-9, airlines-6)
+neg(buy-9, not-7)
+aux(buy-9, to-8)
+xcomp(tells-5, buy-9)
+amod(aircraft-11, European-10)
+nsubj(due-12, aircraft-11)
+xcomp(buy-9, due-12)
+nn(ban-15, EU-14)
+prep_to(due-12, ban-15)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="9" string="buy" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="87805_Indonesia_transport_minister.txt">
+      <sentence>December 20 , 2007 .</sentence>
+      <tokens>
+        <t>"
+" "December" " "</t>
+        <t>" " "20" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2007" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP December) (CD 20)) (, ,) (NP (CD 2007)) (. .)))</parse>
+      <deps>root(ROOT-0, December-1)
+num(December-1, 20-2)
+dep(December-1, 2007-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="December 20 , 2007" offset="1" length="4" type="DATE" value="2007-12-20" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Jusman Syafii Djamal , minister of transport for Indonesia , has recommended that local airlines should not purchase aircraft from European manufacturers , such as Airbus .</sentence>
+      <tokens>
+        <t>"
+" "Jusman" " "</t>
+        <t>" " "Syafii" " "</t>
+        <t>" " "Djamal" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "minister" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "transport" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "recommended" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "local" " "</t>
+        <t>" " "airlines" " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "purchase" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "manufacturers" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "such" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Jusman) (NNP Syafii) (NNP Djamal)) (, ,) (NP (NP (NN minister)) (PP (IN of) (NP (NP (NN transport)) (PP (IN for) (NP (NNP Indonesia)))))) (, ,)) (VP (VBZ has) (VP (VBN recommended) (SBAR (IN that) (S (NP (JJ local) (NNS airlines)) (VP (MD should) (RB not) (VP (VB purchase) (NP (NN aircraft)) (PP (IN from) (NP (NP (JJ European) (NNS manufacturers)) (, ,) (PP (JJ such) (IN as) (NP (NNP Airbus))))))))))) (. .)))</parse>
+      <deps>nn(Djamal-3, Jusman-1)
+nn(Djamal-3, Syafii-2)
+nsubj(recommended-12, Djamal-3)
+appos(Djamal-3, minister-5)
+prep_of(minister-5, transport-7)
+prep_for(transport-7, Indonesia-9)
+aux(recommended-12, has-11)
+root(ROOT-0, recommended-12)
+mark(purchase-18, that-13)
+amod(airlines-15, local-14)
+nsubj(purchase-18, airlines-15)
+aux(purchase-18, should-16)
+neg(purchase-18, not-17)
+ccomp(recommended-12, purchase-18)
+dobj(purchase-18, aircraft-19)
+amod(manufacturers-22, European-21)
+prep_from(purchase-18, manufacturers-22)
+prep_such_as(manufacturers-22, Airbus-26)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="12" string="recommended" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="18" string="purchase" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="87805_Indonesia_transport_minister.txt">
+      <sentence>It is a direct response to the decision of the European Union -LRB- EU -RRB- to add all 51 of Indonesia 's air carriers to the list of air carriers banned in the EU .</sentence>
+      <tokens>
+        <t>"
+" "It" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "direct" " "</t>
+        <t>" " "response" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "decision" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "Union" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "EU" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "add" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "51" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "air" " "</t>
+        <t>" " "carriers" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "list" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "air" " "</t>
+        <t>" " "carriers" " "</t>
+        <t>" " "banned" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "EU" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP It)) (VP (VBZ is) (NP (NP (DT a) (JJ direct) (NN response)) (PP (TO to) (NP (NP (DT the) (NN decision)) (PP (IN of) (NP (DT the) (JJ European) (NN Union) (PRN (-LRB- -LRB-) (NP (NNP EU)) (-RRB- -RRB-)) (S (VP (TO to) (VP (VB add) (NP (NP (QP (DT all) (CD 51))) (PP (IN of) (NP (NP (NNP Indonesia) (POS 's)) (NN air) (NNS carriers)))) (PP (TO to) (NP (NP (DT the) (NN list)) (PP (IN of) (NP (NP (NN air) (NNS carriers)) (VP (VBN banned) (PP (IN in) (NP (DT the) (NNP EU))))))))))))))))) (. .)))</parse>
+      <deps>nsubj(response-5, It-1)
+cop(response-5, is-2)
+det(response-5, a-3)
+amod(response-5, direct-4)
+root(ROOT-0, response-5)
+det(decision-8, the-7)
+prep_to(response-5, decision-8)
+det(Union-12, the-10)
+amod(Union-12, European-11)
+prep_of(decision-8, Union-12)
+appos(Union-12, EU-14)
+aux(add-17, to-16)
+infmod(Union-12, add-17)
+quantmod(51-19, all-18)
+dobj(add-17, 51-19)
+poss(carriers-24, Indonesia-21)
+nn(carriers-24, air-23)
+prep_of(51-19, carriers-24)
+det(list-27, the-26)
+prep_to(add-17, list-27)
+nn(carriers-30, air-29)
+prep_of(list-27, carriers-30)
+partmod(carriers-30, banned-31)
+det(EU-34, the-33)
+prep_in(banned-31, EU-34)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="8" string="decision" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="17" string="add" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e6" eiid="ei6" offset="31" string="banned" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="5" file="87805_Indonesia_transport_minister.txt">
+      <sentence>The EU made the decision to ban the Indonesian air traffic due to a string of accidents in the country , including two major disasters this year - the losses of Adam Air Flight 574 and Garuda Indonesia Flight 200 , which killed 102 and 21 people respectively .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "EU" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "decision" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "air" " "</t>
+        <t>" " "traffic" " "</t>
+        <t>" " "due" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "string" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "accidents" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "country" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "including" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "major" " "</t>
+        <t>" " "disasters" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "year" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "losses" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Adam" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Flight" " "</t>
+        <t>" " "574" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Garuda" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "Flight" " "</t>
+        <t>" " "200" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "killed" " "</t>
+        <t>" " "102" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "21" " "</t>
+        <t>" " "people" " "</t>
+        <t>" " "respectively" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NNP EU)) (VP (VBD made) (NP (DT the) (NN decision)) (S (VP (TO to) (VP (VB ban) (S (NP (DT the) (NNP Indonesian) (NN air) (NN traffic)) (ADJP (JJ due) (PP (TO to) (NP (NP (DT a) (NN string)) (PP (IN of) (NP (NP (NNS accidents)) (PP (IN in) (NP (DT the) (NN country))))) (, ,) (PP (VBG including) (NP (NP (NP (CD two) (JJ major) (NNS disasters)) (NP (DT this) (NN year))) (: -) (NP (NP (DT the) (NNS losses)) (PP (IN of) (NP (NNP Adam) (NNP Air) (NNP Flight) (NNP 574) (CC and) (NNP Garuda) (NNP Indonesia) (NN Flight))))))))))))) (NP (NP (CD 200)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD killed) (NP (QP (CD 102) (CC and) (CD 21)) (NNS people)) (ADVP (RB respectively))))))) (. .)))</parse>
+      <deps>det(EU-2, The-1)
+nsubj(made-3, EU-2)
+xsubj(ban-7, EU-2)
+root(ROOT-0, made-3)
+det(decision-5, the-4)
+dobj(made-3, decision-5)
+aux(ban-7, to-6)
+xcomp(made-3, ban-7)
+det(traffic-11, the-8)
+nn(traffic-11, Indonesian-9)
+nn(traffic-11, air-10)
+nsubj(due-12, traffic-11)
+xcomp(ban-7, due-12)
+det(string-15, a-14)
+prep_to(due-12, string-15)
+prep_of(string-15, accidents-17)
+det(country-20, the-19)
+prep_in(accidents-17, country-20)
+num(disasters-25, two-23)
+amod(disasters-25, major-24)
+prep_including(string-15, disasters-25)
+det(year-27, this-26)
+dep(disasters-25, year-27)
+det(losses-30, the-29)
+dep(disasters-25, losses-30)
+nn(574-35, Adam-32)
+nn(574-35, Air-33)
+nn(574-35, Flight-34)
+prep_of(losses-30, 574-35)
+nn(Flight-39, Garuda-37)
+nn(Flight-39, Indonesia-38)
+prep_of(losses-30, Flight-39)
+conj_and(574-35, Flight-39)
+dobj(made-3, 200-40)
+nsubj(killed-43, 200-40)
+rcmod(200-40, killed-43)
+num(people-47, 102-44)
+conj_and(102-44, 21-46)
+num(people-47, 21-46)
+dobj(killed-43, people-47)
+advmod(killed-43, respectively-48)</deps>
+      <events>
+        <event id="e7" eiid="ei7" offset="3" string="made" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="5" string="decision" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="7" string="ban" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="43" string="killed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="year" offset="27" length="1" type="DURATION" value="P1Y" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="6" file="87805_Indonesia_transport_minister.txt">
+      <sentence>`` We do not need to buy aircraft from Europe as long as the flying ban stays unrevoked , '' Detik.com quoted Djamal as saying , although Xinhua translated the quote as : `` As long as the ban is still in place , it is better we do not buy aircraft -RRB- from Europe . ''</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "We" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "need" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "buy" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "long" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "flying" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "stays" " "</t>
+        <t>" " "unrevoked" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "Detik.com" " "</t>
+        <t>" " "quoted" " "</t>
+        <t>" " "Djamal" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "although" " "</t>
+        <t>" " "Xinhua" " "</t>
+        <t>" " "translated" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "quote" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "As" " "</t>
+        <t>" " "long" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "still" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "place" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "better" " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "buy" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "]" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBP do) (RB not) (VP (VB need) (S (VP (TO to) (VP (VB buy) (NP (NN aircraft)) (PP (IN from) (NP (NNP Europe))) (ADVP (ADVP (RB as) (RB long)) (SBAR (IN as) (S (NP (DT the) (VBG flying) (NN ban)) (VP (VBZ stays) (ADJP (JJ unrevoked)) (PRN (, ,) ('' '') (S (NP (NNP Detik.com)) (VP (VBD quoted) (NP (NNP Djamal)) (PP (IN as) (S (VP (VBG saying)))))) (, ,)) (SBAR (IN although) (S (NP (NNP Xinhua)) (VP (VBN translated) (ADVP (NP (DT the) (NN quote)) (RB as))))))))))))))) (: :) (`` ``) (S (ADVP (RB As) (RB long) (SBAR (IN as) (S (NP (DT the) (NN ban)) (VP (VBZ is) (ADVP (RB still)) (PP (IN in) (NP (NN place))))))) (, ,) (NP (PRP it)) (VP (VBZ is) (ADJP (JJR better)) (PRN (S (NP (PRP we)) (VP (VBP do) (RB not) (VP (VB buy) (NP (NN aircraft))))) (-RRB- -RRB-)) (PP (IN from) (NP (NNP Europe))))) (. .) ('' '')))</parse>
+      <deps>nsubj(need-5, We-2)
+xsubj(buy-7, We-2)
+aux(need-5, do-3)
+neg(need-5, not-4)
+root(ROOT-0, need-5)
+aux(buy-7, to-6)
+xcomp(need-5, buy-7)
+dobj(buy-7, aircraft-8)
+prep_from(buy-7, Europe-10)
+advmod(long-12, as-11)
+advmod(buy-7, long-12)
+mark(unrevoked-18, as-13)
+det(ban-16, the-14)
+amod(ban-16, flying-15)
+nsubj(unrevoked-18, ban-16)
+cop(unrevoked-18, stays-17)
+ccomp(long-12, unrevoked-18)
+nsubj(quoted-22, Detik.com-21)
+parataxis(unrevoked-18, quoted-22)
+dobj(quoted-22, Djamal-23)
+prepc_as(quoted-22, saying-25)
+mark(translated-29, although-27)
+nsubj(translated-29, Xinhua-28)
+advcl(unrevoked-18, translated-29)
+det(quote-31, the-30)
+npadvmod(as-32, quote-31)
+advmod(translated-29, as-32)
+advmod(long-36, As-35)
+advmod(better-47, long-36)
+mark(is-40, as-37)
+det(ban-39, the-38)
+nsubj(is-40, ban-39)
+ccomp(long-36, is-40)
+advmod(is-40, still-41)
+prep_in(is-40, place-43)
+nsubj(better-47, it-45)
+cop(better-47, is-46)
+ccomp(need-5, better-47)
+parataxis(need-5, better-47)
+nsubj(buy-51, we-48)
+aux(buy-51, do-49)
+neg(buy-51, not-50)
+parataxis(better-47, buy-51)
+dobj(buy-51, aircraft-52)
+prep_from(better-47, Europe-55)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="5" string="need" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e12" eiid="ei12" offset="7" string="buy" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="17" string="stays" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="22" string="quoted" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e15" eiid="ei15" offset="25" string="saying" tense="PRESPART" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="29" string="translated" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e17" eiid="ei17" offset="51" string="buy" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="87805_Indonesia_transport_minister.txt">
+      <sentence>`` If aircraft are purchased and registered as Indonesian in Europe -RRB- , we are worried the planes wo n't be able to fly to Indonesia because Indonesian airlines ' aircraft are banned from flying over Europe , '' he continued .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "If" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "purchased" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "registered" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "]" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "worried" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "planes" " "</t>
+        <t>" " "wo" " "</t>
+        <t>" " "n't" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "able" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "fly" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "airlines" " "</t>
+        <t>" " "'" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "banned" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "flying" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "continued" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (SBAR (IN If) (S (NP (NN aircraft)) (VP (VBP are) (VP (VBN purchased) (CC and) (VBN registered) (PP (IN as) (NP (NP (NNP Indonesian)) (PP (IN in) (NP (NNP Europe))))) (-RRB- -RRB-))))) (, ,) (NP (PRP we)) (VP (VBP are) (ADJP (VBN worried) (SBAR (S (NP (DT the) (NNS planes)) (VP (MD wo) (RB n't) (VP (VB be) (ADJP (JJ able) (S (VP (TO to) (VP (VB fly) (PP (TO to) (NP (NNP Indonesia))))))) (SBAR (IN because) (S (NP (NP (NNP Indonesian) (NNS airlines) (POS ')) (NN aircraft)) (VP (VBP are) (VP (VBN banned) (PP (IN from) (S (VP (VBG flying) (PP (IN over) (NP (NNP Europe))))))))))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD continued)) (. .)))</parse>
+      <deps>mark(purchased-5, If-2)
+nsubjpass(purchased-5, aircraft-3)
+nsubjpass(registered-7, aircraft-3)
+auxpass(purchased-5, are-4)
+advcl(worried-16, purchased-5)
+conj_and(purchased-5, registered-7)
+advcl(worried-16, registered-7)
+prep_as(purchased-5, Indonesian-9)
+prep_in(Indonesian-9, Europe-11)
+nsubjpass(worried-16, we-14)
+auxpass(worried-16, are-15)
+ccomp(continued-41, worried-16)
+det(planes-18, the-17)
+nsubj(able-22, planes-18)
+xsubj(fly-24, planes-18)
+aux(able-22, wo-19)
+neg(able-22, n't-20)
+cop(able-22, be-21)
+ccomp(worried-16, able-22)
+aux(fly-24, to-23)
+xcomp(able-22, fly-24)
+prep_to(fly-24, Indonesia-26)
+mark(banned-33, because-27)
+nn(airlines-29, Indonesian-28)
+poss(aircraft-31, airlines-29)
+nsubjpass(banned-33, aircraft-31)
+auxpass(banned-33, are-32)
+advcl(able-22, banned-33)
+prepc_from(banned-33, flying-35)
+prep_over(flying-35, Europe-37)
+nsubj(continued-41, he-40)
+root(ROOT-0, continued-41)</deps>
+      <events>
+        <event id="e18" eiid="ei18" offset="5" string="purchased" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e19" eiid="ei19" offset="7" string="registered" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e20" eiid="ei20" offset="16" string="worried" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e21" eiid="ei21" offset="22" string="able" tense="NONE" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e22" eiid="ei22" offset="24" string="fly" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e23" eiid="ei23" offset="33" string="banned" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e24" eiid="ei24" offset="35" string="flying" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e25" eiid="ei25" offset="41" string="continued" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Djamal is concerned that instead new European planes would have to be flown into Indonesia prior to registration , with higher costs incurred as a result .</sentence>
+      <tokens>
+        <t>"
+" "Djamal" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "concerned" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "instead" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "planes" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "flown" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "prior" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "registration" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "higher" " "</t>
+        <t>" " "costs" " "</t>
+        <t>" " "incurred" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "result" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Djamal)) (VP (VBZ is) (ADJP (JJ concerned)) (SBAR (IN that) (S (ADVP (RB instead)) (NP (JJ new) (JJ European) (NNS planes)) (VP (MD would) (VP (VB have) (S (VP (TO to) (VP (VB be) (VP (VBN flown) (PP (IN into) (NP (NNP Indonesia))) (PP (RB prior) (PP (TO to) (NP (NN registration)))) (, ,) (PP (IN with) (NP (NP (JJR higher) (NNS costs)) (VP (VBN incurred) (PP (IN as) (NP (DT a) (NN result))))))))))))))) (. .)))</parse>
+      <deps>nsubj(concerned-3, Djamal-1)
+cop(concerned-3, is-2)
+root(ROOT-0, concerned-3)
+mark(have-10, that-4)
+advmod(have-10, instead-5)
+amod(planes-8, new-6)
+amod(planes-8, European-7)
+nsubj(have-10, planes-8)
+xsubj(flown-13, planes-8)
+aux(have-10, would-9)
+ccomp(concerned-3, have-10)
+aux(flown-13, to-11)
+auxpass(flown-13, be-12)
+xcomp(have-10, flown-13)
+prep_into(flown-13, Indonesia-15)
+prep_prior_to(flown-13, registration-18)
+amod(costs-22, higher-21)
+prep_with(flown-13, costs-22)
+partmod(costs-22, incurred-23)
+det(result-26, a-25)
+prep_as(incurred-23, result-26)</deps>
+      <events>
+        <event id="e26" eiid="ei26" offset="3" string="concerned" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e27" eiid="ei27" offset="13" string="flown" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e28" eiid="ei28" offset="18" string="registration" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e29" eiid="ei29" offset="23" string="incurred" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="9" file="87805_Indonesia_transport_minister.txt">
+      <sentence>The announcement , which had already been issued to airlines two weeks ago , was made at a joint press conference with Indonesian Vice President Jusuf Kalla in Jakarta .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "announcement" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "already" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "issued" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "airlines" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "weeks" " "</t>
+        <t>" " "ago" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "joint" " "</t>
+        <t>" " "press" " "</t>
+        <t>" " "conference" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "Vice" " "</t>
+        <t>" " "President" " "</t>
+        <t>" " "Jusuf" " "</t>
+        <t>" " "Kalla" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Jakarta" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (NN announcement)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD had) (ADVP (RB already)) (VP (VBN been) (VP (VBN issued) (PP (TO to) (NP (NP (NNS airlines)) (ADVP (NP (CD two) (NNS weeks)) (RB ago))))))))) (, ,)) (VP (VBD was) (VP (VBN made) (PP (IN at) (NP (DT a) (JJ joint) (NN press) (NN conference))) (PP (IN with) (NP (NP (NNP Indonesian) (NNP Vice) (NNP President) (NNP Jusuf) (NNP Kalla)) (PP (IN in) (NP (NNP Jakarta))))))) (. .)))</parse>
+      <deps>det(announcement-2, The-1)
+nsubjpass(issued-8, announcement-2)
+nsubjpass(made-16, announcement-2)
+aux(issued-8, had-5)
+advmod(issued-8, already-6)
+auxpass(issued-8, been-7)
+rcmod(announcement-2, issued-8)
+prep_to(issued-8, airlines-10)
+num(weeks-12, two-11)
+npadvmod(ago-13, weeks-12)
+advmod(airlines-10, ago-13)
+auxpass(made-16, was-15)
+root(ROOT-0, made-16)
+det(conference-21, a-18)
+amod(conference-21, joint-19)
+nn(conference-21, press-20)
+prep_at(made-16, conference-21)
+nn(Kalla-27, Indonesian-23)
+nn(Kalla-27, Vice-24)
+nn(Kalla-27, President-25)
+nn(Kalla-27, Jusuf-26)
+prep_with(made-16, Kalla-27)
+prep_in(Kalla-27, Jakarta-29)</deps>
+      <events>
+        <event id="e30" eiid="ei30" offset="2" string="announcement" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e31" eiid="ei31" offset="8" string="issued" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e32" eiid="ei32" offset="16" string="made" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="two weeks" offset="11" length="2" type="DURATION" value="P2W" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="10" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Djamal told reporters that he felt the best option was the lifting of the ban .</sentence>
+      <tokens>
+        <t>"
+" "Djamal" " "</t>
+        <t>" " "told" " "</t>
+        <t>" " "reporters" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "felt" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "best" " "</t>
+        <t>" " "option" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "lifting" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Djamal)) (VP (VBD told) (NP (NNS reporters)) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD felt) (SBAR (S (NP (DT the) (JJS best) (NN option)) (VP (VBD was) (NP (NP (DT the) (NN lifting)) (PP (IN of) (NP (DT the) (NN ban))))))))))) (. .)))</parse>
+      <deps>nsubj(told-2, Djamal-1)
+root(ROOT-0, told-2)
+dobj(told-2, reporters-3)
+mark(felt-6, that-4)
+nsubj(felt-6, he-5)
+ccomp(told-2, felt-6)
+det(option-9, the-7)
+amod(option-9, best-8)
+nsubj(lifting-12, option-9)
+cop(lifting-12, was-10)
+det(lifting-12, the-11)
+ccomp(felt-6, lifting-12)
+det(ban-15, the-14)
+prep_of(lifting-12, ban-15)</deps>
+      <events>
+        <event id="e33" eiid="ei33" offset="2" string="told" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e34" eiid="ei34" offset="6" string="felt" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e35" eiid="ei35" offset="12" string="lifting" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="11" file="87805_Indonesia_transport_minister.txt">
+      <sentence>`` The easiest way is to lift the ban , because the ban goes against the principle of open sky policy , '' he said .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "The" " "</t>
+        <t>" " "easiest" " "</t>
+        <t>" " "way" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "lift" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "goes" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "principle" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "open" " "</t>
+        <t>" " "sky" " "</t>
+        <t>" " "policy" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (DT The) (JJS easiest) (NN way)) (VP (VBZ is) (S (VP (TO to) (VP (VB lift) (NP (DT the) (NN ban)) (, ,) (SBAR (IN because) (S (NP (DT the) (NN ban)) (VP (VBZ goes) (PP (IN against) (NP (NP (DT the) (NN principle)) (PP (IN of) (NP (JJ open) (NN sky) (NN policy))))))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .)))</parse>
+      <deps>det(way-4, The-2)
+amod(way-4, easiest-3)
+nsubj(is-5, way-4)
+xsubj(lift-7, way-4)
+ccomp(said-25, is-5)
+aux(lift-7, to-6)
+xcomp(is-5, lift-7)
+det(ban-9, the-8)
+dobj(lift-7, ban-9)
+mark(goes-14, because-11)
+det(ban-13, the-12)
+nsubj(goes-14, ban-13)
+advcl(lift-7, goes-14)
+det(principle-17, the-16)
+prep_against(goes-14, principle-17)
+amod(policy-21, open-19)
+nn(policy-21, sky-20)
+prep_of(principle-17, policy-21)
+nsubj(said-25, he-24)
+root(ROOT-0, said-25)</deps>
+      <events>
+        <event id="e36" eiid="ei36" offset="7" string="lift" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e37" eiid="ei37" offset="25" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="12" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Indonesian President Susilo Bambang Yudhoyono has already postponed a diplomatic visit to Europe , citing the ban as his reason .</sentence>
+      <tokens>
+        <t>"
+" "Indonesian" " "</t>
+        <t>" " "President" " "</t>
+        <t>" " "Susilo" " "</t>
+        <t>" " "Bambang" " "</t>
+        <t>" " "Yudhoyono" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "already" " "</t>
+        <t>" " "postponed" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "diplomatic" " "</t>
+        <t>" " "visit" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "citing" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "reason" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Indonesian) (NNP President) (NNP Susilo) (NNP Bambang) (NNP Yudhoyono)) (VP (VBZ has) (ADVP (RB already)) (VP (VBN postponed) (NP (DT a) (JJ diplomatic) (NN visit)) (PP (TO to) (NP (NNP Europe))) (, ,) (S (VP (VBG citing) (NP (DT the) (NN ban)) (PP (IN as) (NP (PRP$ his) (NN reason))))))) (. .)))</parse>
+      <deps>nn(Yudhoyono-5, Indonesian-1)
+nn(Yudhoyono-5, President-2)
+nn(Yudhoyono-5, Susilo-3)
+nn(Yudhoyono-5, Bambang-4)
+nsubj(postponed-8, Yudhoyono-5)
+aux(postponed-8, has-6)
+advmod(postponed-8, already-7)
+root(ROOT-0, postponed-8)
+det(visit-11, a-9)
+amod(visit-11, diplomatic-10)
+dobj(postponed-8, visit-11)
+prep_to(postponed-8, Europe-13)
+partmod(postponed-8, citing-15)
+det(ban-17, the-16)
+dobj(citing-15, ban-17)
+poss(reason-20, his-19)
+prep_as(citing-15, reason-20)</deps>
+      <events>
+        <event id="e38" eiid="ei38" offset="8" string="postponed" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e39" eiid="ei39" offset="11" string="visit" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e40" eiid="ei40" offset="15" string="citing" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="13" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Normally , the president flies on an aircraft operated by state-owned national flag carrier Garuda Indonesia .</sentence>
+      <tokens>
+        <t>"
+" "Normally" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "president" " "</t>
+        <t>" " "flies" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "operated" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "state-owned" " "</t>
+        <t>" " "national" " "</t>
+        <t>" " "flag" " "</t>
+        <t>" " "carrier" " "</t>
+        <t>" " "Garuda" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Normally)) (, ,) (NP (DT the) (NN president)) (VP (VBZ flies) (PP (IN on) (NP (NP (DT an) (NN aircraft)) (VP (VBN operated) (PP (IN by) (NP (JJ state-owned) (JJ national) (NN flag) (NN carrier) (NNP Garuda) (NNP Indonesia))))))) (. .)))</parse>
+      <deps>advmod(flies-5, Normally-1)
+det(president-4, the-3)
+nsubj(flies-5, president-4)
+root(ROOT-0, flies-5)
+det(aircraft-8, an-7)
+prep_on(flies-5, aircraft-8)
+partmod(aircraft-8, operated-9)
+amod(Indonesia-16, state-owned-11)
+amod(Indonesia-16, national-12)
+nn(Indonesia-16, flag-13)
+nn(Indonesia-16, carrier-14)
+nn(Indonesia-16, Garuda-15)
+agent(operated-9, Indonesia-16)</deps>
+      <events>
+        <event id="e41" eiid="ei41" offset="5" string="flies" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e42" eiid="ei42" offset="9" string="operated" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="14" file="87805_Indonesia_transport_minister.txt">
+      <sentence>A European Commission review was held in Brussels on November 28 .</sentence>
+      <tokens>
+        <t>"
+" "A" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "Commission" " "</t>
+        <t>" " "review" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "held" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Brussels" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "November" " "</t>
+        <t>" " "28" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT A) (JJ European) (NNP Commission) (NN review)) (VP (VBD was) (VP (VBN held) (PP (IN in) (NP (NNP Brussels))) (PP (IN on) (NP (NNP November) (CD 28))))) (. .)))</parse>
+      <deps>det(review-4, A-1)
+amod(review-4, European-2)
+nn(review-4, Commission-3)
+nsubjpass(held-6, review-4)
+auxpass(held-6, was-5)
+root(ROOT-0, held-6)
+prep_in(held-6, Brussels-8)
+prep_on(held-6, November-10)
+num(November-10, 28-11)</deps>
+      <events>
+        <event id="e43" eiid="ei43" offset="6" string="held" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="November 28" offset="10" length="2" type="DATE" value="XXXX-11-28" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="15" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Although bans were lifted on Pakistani flag carrier Pakistan International Airlines and Surinam carrier Blue Wing Airlines , the sanctions on Indonesian airlines remained in force .</sentence>
+      <tokens>
+        <t>"
+" "Although" " "</t>
+        <t>" " "bans" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "lifted" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "Pakistani" " "</t>
+        <t>" " "flag" " "</t>
+        <t>" " "carrier" " "</t>
+        <t>" " "Pakistan" " "</t>
+        <t>" " "International" " "</t>
+        <t>" " "Airlines" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Surinam" " "</t>
+        <t>" " "carrier" " "</t>
+        <t>" " "Blue" " "</t>
+        <t>" " "Wing" " "</t>
+        <t>" " "Airlines" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "sanctions" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "airlines" " "</t>
+        <t>" " "remained" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "force" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN Although) (S (NP (NNS bans)) (VP (VBD were) (VP (VBN lifted) (PP (IN on) (NP (JJ Pakistani) (NN flag) (NN carrier) (NNP Pakistan) (NNP International) (NNPS Airlines) (CC and) (NN Surinam) (NN carrier) (NNP Blue) (NNP Wing) (NNP Airlines))))))) (, ,) (NP (NP (DT the) (NNS sanctions)) (PP (IN on) (NP (JJ Indonesian) (NNS airlines)))) (VP (VBD remained) (PP (IN in) (NP (NN force)))) (. .)))</parse>
+      <deps>mark(lifted-4, Although-1)
+nsubjpass(lifted-4, bans-2)
+auxpass(lifted-4, were-3)
+advcl(remained-24, lifted-4)
+amod(Airlines-11, Pakistani-6)
+nn(Airlines-11, flag-7)
+nn(Airlines-11, carrier-8)
+nn(Airlines-11, Pakistan-9)
+nn(Airlines-11, International-10)
+prep_on(lifted-4, Airlines-11)
+nn(Airlines-17, Surinam-13)
+nn(Airlines-17, carrier-14)
+nn(Airlines-17, Blue-15)
+nn(Airlines-17, Wing-16)
+prep_on(lifted-4, Airlines-17)
+conj_and(Airlines-11, Airlines-17)
+det(sanctions-20, the-19)
+nsubj(remained-24, sanctions-20)
+amod(airlines-23, Indonesian-22)
+prep_on(sanctions-20, airlines-23)
+root(ROOT-0, remained-24)
+prep_in(remained-24, force-26)</deps>
+      <events>
+        <event id="e44" eiid="ei44" offset="4" string="lifted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e45" eiid="ei45" offset="20" string="sanctions" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e46" eiid="ei46" offset="24" string="remained" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="16" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Multiple local air carriers are considering the possibility of fleet expansions , with some evaluating Airbus jets as possible options .</sentence>
+      <tokens>
+        <t>"
+" "Multiple" " "</t>
+        <t>" " "local" " "</t>
+        <t>" " "air" " "</t>
+        <t>" " "carriers" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "considering" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "possibility" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "fleet" " "</t>
+        <t>" " "expansions" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "some" " "</t>
+        <t>" " "evaluating" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "jets" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "possible" " "</t>
+        <t>" " "options" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Multiple) (JJ local) (NN air) (NNS carriers)) (VP (VBP are) (VP (VBG considering) (NP (NP (DT the) (NN possibility)) (PP (IN of) (NP (NN fleet) (NNS expansions)))) (, ,) (PP (IN with) (S (NP (DT some)) (VP (VBG evaluating) (NP (NNP Airbus) (NNS jets)) (PP (IN as) (NP (JJ possible) (NNS options)))))))) (. .)))</parse>
+      <deps>amod(carriers-4, Multiple-1)
+amod(carriers-4, local-2)
+nn(carriers-4, air-3)
+nsubj(considering-6, carriers-4)
+aux(considering-6, are-5)
+root(ROOT-0, considering-6)
+det(possibility-8, the-7)
+dobj(considering-6, possibility-8)
+nn(expansions-11, fleet-10)
+prep_of(possibility-8, expansions-11)
+nsubj(evaluating-15, some-14)
+prepc_with(considering-6, evaluating-15)
+nn(jets-17, Airbus-16)
+dobj(evaluating-15, jets-17)
+amod(options-20, possible-19)
+prep_as(evaluating-15, options-20)</deps>
+      <events>
+        <event id="e47" eiid="ei47" offset="6" string="considering" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="17" file="87805_Indonesia_transport_minister.txt">
+      <sentence>Airbus , in particular , charge an added cost for taking an aircraft to Indonesia for registration .</sentence>
+      <tokens>
+        <t>"
+" "Airbus" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "particular" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "charge" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "added" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "taking" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Indonesia" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "registration" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Airbus)) (, ,) (PP (IN in) (ADJP (JJ particular))) (, ,) (VP (VBP charge) (NP (DT an) (VBN added) (NN cost)) (PP (IN for) (S (VP (VBG taking) (NP (DT an) (NN aircraft)) (PP (TO to) (NP (NP (NNP Indonesia)) (PP (IN for) (NP (NN registration))))))))) (. .)))</parse>
+      <deps>nsubj(charge-6, Airbus-1)
+prep_in(charge-6, particular-4)
+root(ROOT-0, charge-6)
+det(cost-9, an-7)
+amod(cost-9, added-8)
+dobj(charge-6, cost-9)
+prepc_for(charge-6, taking-11)
+det(aircraft-13, an-12)
+dobj(taking-11, aircraft-13)
+prep_to(taking-11, Indonesia-15)
+prep_for(Indonesia-15, registration-17)</deps>
+      <events>
+        <event id="e48" eiid="ei48" offset="6" string="charge" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e49" eiid="ei49" offset="11" string="taking" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="18" file="87805_Indonesia_transport_minister.txt">
+      <sentence>`` There is an additional cost that must be paid by Indonesian airlines that buy the -LRB- Airbus -RRB- plane from Europe , US$ 200,000 , '' said Djamal .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "There" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "additional" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "must" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "paid" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "airlines" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "buy" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "plane" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "US$" " "</t>
+        <t>" " "200,000" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "Djamal" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (SINV (`` ``) (S (NP (EX There)) (VP (VBZ is) (NP (NP (NP (DT an) (JJ additional) (NN cost)) (SBAR (WHNP (WDT that)) (S (VP (MD must) (VP (VB be) (VP (VBN paid) (PP (IN by) (NP (NP (JJ Indonesian) (NNS airlines)) (SBAR (WHNP (WDT that)) (S (VP (VBP buy) (NP (DT the) (PRN (-LRB- -LRB-) (NP (NNP Airbus)) (-RRB- -RRB-)) (NN plane)) (PP (IN from) (NP (NNP Europe)))))))))))))) (, ,) (ADJP ($ US$) (CD 200,000))))) (, ,) ('' '') (VP (VBD said)) (NP (NNP Djamal)) (. .)))</parse>
+      <deps>expl(is-3, There-2)
+ccomp(said-28, is-3)
+det(cost-6, an-4)
+amod(cost-6, additional-5)
+nsubj(is-3, cost-6)
+nsubjpass(paid-10, cost-6)
+aux(paid-10, must-8)
+auxpass(paid-10, be-9)
+rcmod(cost-6, paid-10)
+amod(airlines-13, Indonesian-12)
+agent(paid-10, airlines-13)
+nsubj(buy-15, airlines-13)
+rcmod(airlines-13, buy-15)
+det(plane-20, the-16)
+appos(plane-20, Airbus-18)
+dobj(buy-15, plane-20)
+prep_from(buy-15, Europe-22)
+amod(cost-6, US$-24)
+number(US$-24, 200,000-25)
+root(ROOT-0, said-28)
+nsubj(said-28, Djamal-29)</deps>
+      <events>
+        <event id="e50" eiid="ei50" offset="10" string="paid" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e51" eiid="ei51" offset="15" string="buy" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e52" eiid="ei52" offset="28" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="19" file="87805_Indonesia_transport_minister.txt">
+      <sentence>`` Because of that we recommend not buying planes from Europe .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "Because" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "recommend" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "buying" " "</t>
+        <t>" " "planes" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (PP (IN Because) (PP (IN of) (NP (DT that)))) (NP (PRP we)) (VP (VBP recommend) (S (RB not) (VP (VBG buying) (NP (NNS planes)) (PP (IN from) (NP (NNP Europe)))))) (. .)))</parse>
+      <deps>prepc_because_of(recommend-6, of-3)
+pobj(recommend-6, that-4)
+nsubj(recommend-6, we-5)
+root(ROOT-0, recommend-6)
+neg(buying-8, not-7)
+xcomp(recommend-6, buying-8)
+dobj(buying-8, planes-9)
+prep_from(buying-8, Europe-11)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="20" file="87805_Indonesia_transport_minister.txt">
+      <sentence>As long as the EU ban is still in place , there will be additional payment . ''</sentence>
+      <tokens>
+        <t>"
+" "As" " "</t>
+        <t>" " "long" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "EU" " "</t>
+        <t>" " "ban" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "still" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "place" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "there" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "additional" " "</t>
+        <t>" " "payment" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB As) (RB long) (SBAR (IN as) (S (NP (DT the) (NNP EU) (NN ban)) (VP (VBZ is) (ADVP (RB still)) (PP (IN in) (NP (NN place))))))) (, ,) (NP (EX there)) (VP (MD will) (VP (VB be) (NP (JJ additional) (NN payment)))) (. .) ('' '')))</parse>
+      <deps>advmod(long-2, As-1)
+advmod(payment-16, long-2)
+mark(is-7, as-3)
+det(ban-6, the-4)
+nn(ban-6, EU-5)
+nsubj(is-7, ban-6)
+ccomp(long-2, is-7)
+advmod(is-7, still-8)
+prep_in(is-7, place-10)
+expl(payment-16, there-12)
+aux(payment-16, will-13)
+cop(payment-16, be-14)
+amod(payment-16, additional-15)
+root(ROOT-0, payment-16)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="21" file="87805_Indonesia_transport_minister.txt">
+      <sentence>However , he went on to say that should a manufacturer be willing to pay the cost itself , he did not object to the purchase of the aircraft .</sentence>
+      <tokens>
+        <t>"
+" "However" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "went" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "say" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "manufacturer" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "willing" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "pay" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "itself" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "object" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "purchase" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB However)) (PRN (, ,) (S (NP (PRP he)) (VP (VBD went) (PRT (RP on)) (S (VP (TO to) (VP (VB say) (SBAR (IN that) (SINV (MD should) (NP (DT a) (NN manufacturer)) (VP (VB be) (ADJP (JJ willing) (S (VP (TO to) (VP (VB pay) (NP (DT the) (NN cost)) (NP (PRP itself)))))))))))))) (, ,)) (NP (PRP he)) (VP (VBD did) (RB not) (VP (VB object) (PP (TO to) (NP (NP (DT the) (NN purchase)) (PP (IN of) (NP (DT the) (NN aircraft))))))) (. .)))</parse>
+      <deps>advmod(object-23, However-1)
+nsubj(went-4, he-3)
+xsubj(say-7, he-3)
+parataxis(object-23, went-4)
+prt(went-4, on-5)
+aux(say-7, to-6)
+xcomp(went-4, say-7)
+mark(willing-13, that-8)
+aux(willing-13, should-9)
+det(manufacturer-11, a-10)
+nsubj(willing-13, manufacturer-11)
+xsubj(pay-15, manufacturer-11)
+cop(willing-13, be-12)
+dep(say-7, willing-13)
+aux(pay-15, to-14)
+xcomp(willing-13, pay-15)
+det(cost-17, the-16)
+iobj(pay-15, cost-17)
+dobj(pay-15, itself-18)
+nsubj(object-23, he-20)
+aux(object-23, did-21)
+neg(object-23, not-22)
+root(ROOT-0, object-23)
+det(purchase-26, the-25)
+prep_to(object-23, purchase-26)
+det(aircraft-29, the-28)
+prep_of(purchase-26, aircraft-29)</deps>
+      <events>
+        <event id="e53" eiid="ei53" offset="4" string="went" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e54" eiid="ei54" offset="7" string="say" tense="INFINITIVE" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e55" eiid="ei55" offset="15" string="pay" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e56" eiid="ei56" offset="23" string="object" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e57" eiid="ei57" offset="26" string="purchase" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="22" file="87805_Indonesia_transport_minister.txt">
+      <sentence>He has also confirmed that no Indonesian officers will be sent to Europe to assist with the situation .</sentence>
+      <tokens>
+        <t>"
+" "He" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "confirmed" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "no" " "</t>
+        <t>" " "Indonesian" " "</t>
+        <t>" " "officers" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "sent" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Europe" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "assist" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "situation" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VBZ has) (ADVP (RB also)) (VP (VBN confirmed) (SBAR (IN that) (S (NP (DT no) (NNP Indonesian) (NNS officers)) (VP (MD will) (VP (VB be) (VP (VBN sent) (PP (TO to) (NP (NNP Europe))) (S (VP (TO to) (VP (VB assist) (PP (IN with) (NP (DT the) (NN situation))))))))))))) (. .)))</parse>
+      <deps>nsubj(confirmed-4, He-1)
+aux(confirmed-4, has-2)
+advmod(confirmed-4, also-3)
+root(ROOT-0, confirmed-4)
+mark(sent-11, that-5)
+det(officers-8, no-6)
+nn(officers-8, Indonesian-7)
+nsubjpass(sent-11, officers-8)
+xsubj(assist-15, officers-8)
+aux(sent-11, will-9)
+auxpass(sent-11, be-10)
+ccomp(confirmed-4, sent-11)
+prep_to(sent-11, Europe-13)
+aux(assist-15, to-14)
+xcomp(sent-11, assist-15)
+det(situation-18, the-17)
+prep_with(assist-15, situation-18)</deps>
+      <events>
+        <event id="e58" eiid="ei58" offset="4" string="confirmed" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e59" eiid="ei59" offset="11" string="sent" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e60" eiid="ei60" offset="15" string="assist" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei31" event2="t4" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei43" event2="t5" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei33" event2="ei34" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei18" event2="ei27" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei19" event2="ei27" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei20" event2="ei27" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei23" event2="ei27" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei25" event2="ei27" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei27" event2="ei29" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei27" event2="ei31" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei27" event2="ei32" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei53" event2="ei59" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei56" event2="ei59" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei58" event2="ei59" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei18" event2="ei19" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei25" event2="ei20" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei21" event2="ei22" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei21" event2="ei23" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei38" event2="ei39" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei46" event2="ei45" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei53" event2="ei54" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei59" event2="ei60" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei27" event2="ei21" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei53" event2="ei60" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei56" event2="ei60" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei58" event2="ei60" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei8" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei6" event2="ei9" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei12" event2="ei17" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei12" event2="ei18" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei13" event2="ei25" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei17" event2="ei18" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei22" event2="ei24" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei22" event2="ei27" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei24" event2="ei27" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei33" event2="ei37" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei47" event2="ei49" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei7" event2="t3" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei8" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei10" event2="t3" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei30" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei32" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="ei10" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei15" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei16" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei15" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei16" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei16" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei20" event2="ei21" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei20" event2="ei22" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei20" event2="ei23" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei20" event2="ei24" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei23" event2="ei24" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei27" event2="ei28" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei33" event2="ei35" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei34" event2="ei35" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei38" event2="ei40" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei41" event2="ei42" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei48" event2="ei49" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei50" event2="ei51" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei53" event2="ei55" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei54" event2="ei55" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei56" event2="ei57" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei9" event2="ei8" relation="AFTER" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei11" event2="ei17" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei17" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei14" event2="ei16" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei14" event2="ei17" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei16" event2="ei17" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei20" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei21" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei22" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei23" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei24" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei25" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei21" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei22" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei23" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei24" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei25" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei21" event2="ei24" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei21" event2="ei25" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei22" event2="ei23" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei22" event2="ei25" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei23" event2="ei25" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei24" event2="ei25" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei26" event2="ei27" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei26" event2="ei28" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei26" event2="ei29" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei28" event2="ei29" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei30" event2="ei31" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei30" event2="ei32" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei31" event2="ei32" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei36" event2="ei37" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei39" event2="ei40" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei44" event2="ei45" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei44" event2="ei46" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei50" event2="ei52" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei51" event2="ei52" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei53" event2="ei56" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei53" event2="ei57" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei54" event2="ei56" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei54" event2="ei57" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei55" event2="ei56" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei55" event2="ei57" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t1" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei6" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei7" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t3" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei25" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei25" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei25" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei26" event2="ei30" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei26" event2="ei31" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei26" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei26" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei27" event2="ei30" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei27" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei28" event2="ei30" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei28" event2="ei31" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei28" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei28" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei29" event2="ei30" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei29" event2="ei31" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei29" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei29" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei30" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei30" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei30" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t4" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei33" event2="ei36" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei34" event2="ei36" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei34" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei35" event2="ei36" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei35" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei36" event2="ei38" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei36" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei36" event2="ei40" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei38" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei40" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei39" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei39" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei40" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei40" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei41" event2="ei43" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei41" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei42" event2="ei43" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei42" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei43" event2="ei44" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei45" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei46" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t5" event2="ei44" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei45" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei46" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei44" event2="ei47" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei47" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei47" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei48" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei49" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei49" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei49" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei53" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei59" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei60" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei55" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei55" event2="ei59" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei55" event2="ei60" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei56" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei57" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei57" event2="ei59" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei57" event2="ei60" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

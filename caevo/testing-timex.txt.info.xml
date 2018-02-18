@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="testing-timex.txt">
+    <entry sid="0" file="testing-timex.txt">
+      <sentence>Libya brought the case in 2003 to Britain because of 11\/25\/1980 and complained .</sentence>
+      <tokens>
+        <t>"" "Libya" " "</t>
+        <t>" " "brought" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "case" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "2003" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Britain" " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "11/25/1980" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "complained" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Libya)) (VP (VP (VBD brought) (NP (DT the) (NN case)) (PP (IN in) (NP (CD 2003))) (PP (TO to) (NP (NP (NNP Britain)) (PP (RB because) (IN of) (NP (CD 11\/25\/1980)))))) (CC and) (VP (VBD complained))) (. .)))</parse>
+      <deps>nsubj(brought-2, Libya-1)
+nsubj(complained-13, Libya-1)
+root(ROOT-0, brought-2)
+det(case-4, the-3)
+dobj(brought-2, case-4)
+prep_in(brought-2, 2003-6)
+prep_to(brought-2, Britain-8)
+prep_because_of(Britain-8, 11\/25\/1980-11)
+conj_and(brought-2, complained-13)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="2" string="brought" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="13" string="complained" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="2003" offset="6" length="1" type="DATE" value="2003" temporalFunction="false" />
+        <timex tid="t2" text="11/25/1980" offset="11" length="1" type="DATE" value="1980-11-25" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="t1" event2="t2" relation="AFTER" closed="false" origin="TimeTimeSieve" type="tt" />
+    <tlink event1="ei1" event2="t2" relation="AFTER" closed="true" origin="TimeTimeSieve" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei2" event2="t1" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="t2" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+  </file>
+</root>
+

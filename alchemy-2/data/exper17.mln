@@ -1,0 +1,64 @@
+EventDCT(time, event)
+
+INFINITIVE(event)
+PRESENT(event)
+FUTURE(event)
+PAST(event)
+PASTPART(event)
+PRESPART(event)
+
+AFTER_ET(event, time)
+BEFORE_ET(event, time)
+SIMULTANEOUS_ET(event, time)
+IS_INCLUDED_ET(event, time)
+INCLUDES_ET(event, time)
+
+BEFORE_EE(event, event)
+SIMULTANEOUS_EE(event, event)
+INCLUDES_EE(event, event)
+
+BEFORE_TT(time, time)
+SIMULTANEOUS_TT(time, time)
+INCLUDES_TT(time, time)
+Cross_doc_ev_coref(event, event)
+
+FUTURE(e) ^ EventDCT(t, e) => AFTER_ET(e, t)
+PAST(e) ^ EventDCT(t, e) => BEFORE_ET(e, t)
+PRESENT(e) ^ EventDCT(t, e) => SIMULTANEOUS_ET(e, t)
+PASTPART(e) ^ EventDCT(t, e) => BEFORE_ET(e, t)
+
+SIMULTANEOUS_ET(e1, t1) ^ SIMULTANEOUS_EE(e1, e2) => SIMULTANEOUS_ET(e2, t1)
+BEFORE_ET(e1, t1) ^ SIMULTANEOUS_EE(e1, e2) => BEFORE_ET(e2, t1)
+AFTER_ET(e1, t1) ^ SIMULTANEOUS_EE(e1, e2) => AFTER_ET(e2, t1)
+
+SIMULTANEOUS_ET(e1, t1) ^ BEFORE_EE(e1, e2) => AFTER_ET(e2,t1)
+AFTER_ET(e1, t1) ^ BEFORE_EE(e1, e2) => AFTER_ET(e2,t1)
+
+SIMULTANEOUS_ET(e1, t1) ^ BEFORE_EE(e2, e1) => BEFORE_ET(e2,t1)
+BEFORE_ET(e1, t1) ^ BEFORE_EE(e2, e1) => BEFORE_ET(e2,t1)
+
+SIMULTANEOUS_ET(e, t) => !BEFORE_ET(e, t)
+SIMULTANEOUS_ET(e, t) => !AFTER_ET(e, t)
+BEFORE_ET(e, t) => !AFTER_ET(e, t)
+
+BEFORE_EE(e1, e2) ^ BEFORE_EE(e2, e3) => BEFORE_EE(e1, e3)
+SIMULTANEOUS_EE(e1, e2) ^ SIMULTANEOUS_EE(e2, e3) => SIMULTANEOUS_EE(e1, e3)
+BEFORE_EE(e1, e2) ^ SIMULTANEOUS_EE(e2, e3) => BEFORE_EE(e1, e3)
+
+SIMULTANEOUS_EE(e1, e2) => !BEFORE_EE(e1, e2)
+
+BEFORE_EE(e1, e2) ^ Cross_doc_ev_coref(e2, e3) => BEFORE_EE(e1, e3)
+SIMULTANEOUS_EE(e1, e2) ^ Cross_doc_ev_coref(e2, e3) => SIMULTANEOUS_EE(e1, e3)
+
+BEFORE_ET(e1, t1) ^ Cross_doc_ev_coref(e1, e2) => BEFORE_ET(e2, t1)
+AFTER_ET(e1, t1) ^ Cross_doc_ev_coref(e1, e2) => AFTER_ET(e2, t1)
+SIMULTANEOUS_ET(e1, t1) ^ Cross_doc_ev_coref(e1, e2) => SIMULTANEOUS_ET(e2, t1)
+
+BEFORE_ET(e1, t1) ^ SIMULTANEOUS_EE(e1, e2) ^ Cross_doc_ev_coref(e2, e3) => BEFORE_ET(e3, t1)
+AFTER_ET(e1, t1) ^ SIMULTANEOUS_EE(e1, e2) ^ Cross_doc_ev_coref(e2, e3) => AFTER_ET(e3, t1)
+SIMULTANEOUS_ET(e1, t1) ^ BEFORE_EE(e2, e3) ^ Cross_doc_ev_coref(e1, e2) => BEFORE_ET(e3, t1)
+
+BEFORE_EE(e1, e2) ^ BEFORE_EE(e2, e3) ^ Cross_doc_ev_coref(e3, e4) => BEFORE_EE(e1, e4)
+SIMULTANEOUS_EE(e1, e2) ^ SIMULTANEOUS_EE(e2, e3) ^ Cross_doc_ev_coref(e3, e4) => SIMULTANEOUS_EE(e1, e4)
+
+FUTURE(e2) ^ (PAST(e1) v PASTPART(e1) v PRESENT(e1)) ^ EventDCT(t1, e1) ^ EventDCT(t2, e2) => BEFORE_EE(e1, e2)

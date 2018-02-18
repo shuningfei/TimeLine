@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="82597_First_A380_enters_commercial_service.txt">
+    <entry sid="0" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>2007-10-17 .</sentence>
+      <tokens>
+        <t>"
+" "2007-10-17" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2007-10-17)) (. .)))</parse>
+      <deps>root(ROOT-0, 2007-10-17-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2007-10-17" offset="1" length="1" type="DATE" value="2007-10-17" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>First A380 enters commercial service .</sentence>
+      <tokens>
+        <t>"
+" "First" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "enters" " "</t>
+        <t>" " "commercial" " "</t>
+        <t>" " "service" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP First) (NNP A380)) (VP (VBZ enters) (NP (JJ commercial) (NN service))) (. .)))</parse>
+      <deps>nn(A380-2, First-1)
+nsubj(enters-3, A380-2)
+root(ROOT-0, enters-3)
+amod(service-5, commercial-4)
+dobj(enters-3, service-5)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>October 17 , 2007 .</sentence>
+      <tokens>
+        <t>"
+" "October" " "</t>
+        <t>" " "17" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2007" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP October) (CD 17)) (, ,) (NP (CD 2007)) (. .)))</parse>
+      <deps>root(ROOT-0, October-1)
+num(October-1, 17-2)
+dep(October-1, 2007-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="October 17 , 2007" offset="1" length="4" type="DATE" value="2007-10-17" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>It was a milestone in aviation history : the first Airbus A380 landed at Singapore 's Changi International Airport at 6:40 p.m. -LRB- GMT +8 -RRB- after a 12-hour flight from Airbus ' Delivery Center .</sentence>
+      <tokens>
+        <t>"
+" "It" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "milestone" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "aviation" " "</t>
+        <t>" " "history" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "landed" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Changi" " "</t>
+        <t>" " "International" " "</t>
+        <t>" " "Airport" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "6:40" " "</t>
+        <t>" " "p.m." " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "GMT" " "</t>
+        <t>" " "+8" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "after" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "12-hour" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "'" " "</t>
+        <t>" " "Delivery" " "</t>
+        <t>" " "Center" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (PRP It)) (VP (VBD was) (NP (NP (DT a) (NN milestone)) (PP (IN in) (NP (NN aviation) (NN history)))))) (: :) (S (NP (DT the) (JJ first) (NNP Airbus) (NNP A380)) (VP (VBD landed) (PP (IN at) (NP (NP (NNP Singapore) (POS 's)) (NNP Changi) (NNP International) (NNP Airport))) (PP (IN at) (NP (NP (CD 6:40) (NN p.m.)) (PRN (-LRB- -LRB-) (NP (NNP GMT) (CD +8)) (-RRB- -RRB-)))) (PP (IN after) (NP (NP (DT a) (JJ 12-hour) (NN flight)) (PP (IN from) (NP (NP (NNP Airbus) (POS ')) (NN Delivery) (NN Center))))))) (. .)))</parse>
+      <deps>nsubj(milestone-4, It-1)
+cop(milestone-4, was-2)
+det(milestone-4, a-3)
+root(ROOT-0, milestone-4)
+nn(history-7, aviation-6)
+prep_in(milestone-4, history-7)
+det(A380-12, the-9)
+amod(A380-12, first-10)
+nn(A380-12, Airbus-11)
+nsubj(landed-13, A380-12)
+parataxis(milestone-4, landed-13)
+poss(Airport-19, Singapore-15)
+nn(Airport-19, Changi-17)
+nn(Airport-19, International-18)
+prep_at(landed-13, Airport-19)
+num(p.m.-22, 6:40-21)
+prep_at(landed-13, p.m.-22)
+appos(p.m.-22, GMT-24)
+num(GMT-24, +8-25)
+det(flight-30, a-28)
+amod(flight-30, 12-hour-29)
+prep_after(landed-13, flight-30)
+poss(Center-35, Airbus-32)
+nn(Center-35, Delivery-34)
+prep_from(flight-30, Center-35)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="13" string="landed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="6:40 p.m." offset="21" length="2" type="TIME" value="T18:40" temporalFunction="false" />
+        <timex tid="t4" text="12-hour" offset="29" length="1" type="DURATION" value="PT12H" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>The aircraft was greeted by some 400 guests , including the Prime Minister of Singapore , Mr. Lee Hsien Loong , at the soon-to-open Terminal 3 of Changi International Airport .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "greeted" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "some" " "</t>
+        <t>" " "400" " "</t>
+        <t>" " "guests" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "including" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Prime" " "</t>
+        <t>" " "Minister" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Mr." " "</t>
+        <t>" " "Lee" " "</t>
+        <t>" " "Hsien" " "</t>
+        <t>" " "Loong" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "soon-to-open" " "</t>
+        <t>" " "Terminal" " "</t>
+        <t>" " "3" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Changi" " "</t>
+        <t>" " "International" " "</t>
+        <t>" " "Airport" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN aircraft)) (VP (VBD was) (VP (VBN greeted) (PP (IN by) (NP (NP (QP (DT some) (CD 400)) (NNS guests)) (, ,) (PP (VBG including) (NP (NP (NP (DT the) (NNP Prime) (NNP Minister)) (PP (IN of) (NP (NNP Singapore)))) (, ,) (NP (NNP Mr.) (NNP Lee) (NNP Hsien) (NNP Loong)) (, ,) (ADVP (IN at) (NP (DT the) (NN soon-to-open))) (NP (NP (NNP Terminal) (CD 3)) (PP (IN of) (NP (NNP Changi) (NNP International) (NNP Airport)))))))))) (. .)))</parse>
+      <deps>det(aircraft-2, The-1)
+nsubjpass(greeted-4, aircraft-2)
+auxpass(greeted-4, was-3)
+root(ROOT-0, greeted-4)
+quantmod(400-7, some-6)
+num(guests-8, 400-7)
+agent(greeted-4, guests-8)
+det(Minister-13, the-11)
+nn(Minister-13, Prime-12)
+prep_including(guests-8, Minister-13)
+prep_of(Minister-13, Singapore-15)
+nn(Loong-20, Mr.-17)
+nn(Loong-20, Lee-18)
+nn(Loong-20, Hsien-19)
+appos(Minister-13, Loong-20)
+advmod(Minister-13, at-22)
+det(soon-to-open-24, the-23)
+pobj(at-22, soon-to-open-24)
+dep(Minister-13, Terminal-25)
+num(Terminal-25, 3-26)
+nn(Airport-30, Changi-28)
+nn(Airport-30, International-29)
+prep_of(Terminal-25, Airport-30)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="4" string="greeted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="5" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>In his speech , the Prime Minister applauded Singapore Airlines -LRB- SIA -RRB- - the recipient carrier - and cited its success as a source of pride for all Singaporeans .</sentence>
+      <tokens>
+        <t>"
+" "In" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "speech" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Prime" " "</t>
+        <t>" " "Minister" " "</t>
+        <t>" " "applauded" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "Airlines" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "SIA" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "recipient" " "</t>
+        <t>" " "carrier" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "cited" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "success" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "source" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "pride" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "Singaporeans" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN In) (NP (PRP$ his) (NN speech))) (, ,) (NP (DT the) (NNP Prime) (NNP Minister)) (VP (VP (VBD applauded) (NP (NP (NP (NNP Singapore) (NNPS Airlines)) (PRN (-LRB- -LRB-) (NP (NNP SIA)) (-RRB- -RRB-))) (: -) (NP (DT the) (JJ recipient) (NN carrier)) (: -))) (CC and) (VP (VBD cited) (NP (PRP$ its) (NN success)) (PP (IN as) (NP (NP (DT a) (NN source)) (PP (IN of) (NP (NN pride))))) (PP (IN for) (NP (DT all) (NNPS Singaporeans))))) (. .)))</parse>
+      <deps>poss(speech-3, his-2)
+prep_in(applauded-8, speech-3)
+det(Minister-7, the-5)
+nn(Minister-7, Prime-6)
+nsubj(applauded-8, Minister-7)
+nsubj(cited-20, Minister-7)
+root(ROOT-0, applauded-8)
+nn(Airlines-10, Singapore-9)
+dobj(applauded-8, Airlines-10)
+appos(Airlines-10, SIA-12)
+det(carrier-17, the-15)
+amod(carrier-17, recipient-16)
+dep(Airlines-10, carrier-17)
+conj_and(applauded-8, cited-20)
+poss(success-22, its-21)
+dobj(cited-20, success-22)
+det(source-25, a-24)
+prep_as(cited-20, source-25)
+prep_of(source-25, pride-27)
+det(Singaporeans-30, all-29)
+prep_for(cited-20, Singaporeans-30)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="8" string="applauded" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="20" string="cited" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>He also said that the landing was a milestone not only for SIA , but also for Changi International Airport , the country 's main airport .</sentence>
+      <tokens>
+        <t>"
+" "He" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "landing" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "milestone" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "only" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "SIA" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "but" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Changi" " "</t>
+        <t>" " "International" " "</t>
+        <t>" " "Airport" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "country" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "main" " "</t>
+        <t>" " "airport" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (ADVP (RB also)) (VP (VBD said) (SBAR (IN that) (S (NP (DT the) (NN landing)) (VP (VBD was) (NP (DT a) (NN milestone)) (PP (CONJP (RB not) (JJ only)) (PP (IN for) (NP (NNP SIA))) (, ,) (CONJP (CC but) (RB also)) (PP (IN for) (NP (NP (NNP Changi) (NNP International) (NNP Airport)) (, ,) (NP (NP (DT the) (NN country) (POS 's)) (JJ main) (NN airport))))))))) (. .)))</parse>
+      <deps>nsubj(said-3, He-1)
+advmod(said-3, also-2)
+root(ROOT-0, said-3)
+mark(milestone-9, that-4)
+det(landing-6, the-5)
+nsubj(milestone-9, landing-6)
+cop(milestone-9, was-7)
+det(milestone-9, a-8)
+ccomp(said-3, milestone-9)
+neg(only-11, not-10)
+preconj(milestone-9, only-11)
+prep_for(milestone-9, SIA-13)
+nn(Airport-20, Changi-18)
+nn(Airport-20, International-19)
+prep_for(milestone-9, Airport-20)
+conj_and(SIA-13, Airport-20)
+det(country-23, the-22)
+poss(airport-26, country-23)
+amod(airport-26, main-25)
+appos(Airport-20, airport-26)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="3" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>All existing terminals are currently A380-ready , and the SGD1.75-billion Terminal 3 will open its doors in January next year .</sentence>
+      <tokens>
+        <t>"
+" "All" " "</t>
+        <t>" " "existing" " "</t>
+        <t>" " "terminals" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "currently" " "</t>
+        <t>" " "A380-ready" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "SGD1.75-billion" " "</t>
+        <t>" " "Terminal" " "</t>
+        <t>" " "3" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "open" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "doors" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "January" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "year" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT All) (VBG existing) (NNS terminals)) (VP (VBP are) (ADVP (RB currently)) (ADJP (JJ A380-ready)))) (, ,) (CC and) (S (NP (DT the) (NNP SGD1.75-billion) (NNP Terminal) (NNP 3)) (VP (MD will) (VP (VB open) (NP (PRP$ its) (NNS doors)) (PP (IN in) (NP (NNP January))) (NP (JJ next) (NN year))))) (. .)))</parse>
+      <deps>det(terminals-3, All-1)
+amod(terminals-3, existing-2)
+nsubj(A380-ready-6, terminals-3)
+cop(A380-ready-6, are-4)
+advmod(A380-ready-6, currently-5)
+root(ROOT-0, A380-ready-6)
+det(3-12, the-9)
+nn(3-12, SGD1.75-billion-10)
+nn(3-12, Terminal-11)
+nsubj(open-14, 3-12)
+aux(open-14, will-13)
+conj_and(A380-ready-6, open-14)
+poss(doors-16, its-15)
+dobj(open-14, doors-16)
+prep_in(open-14, January-18)
+amod(year-20, next-19)
+tmod(open-14, year-20)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="6" string="A380-ready" tense="PRESENT" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="14" string="open" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="currently" offset="5" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+        <timex tid="t6" text="January" offset="18" length="1" type="DATE" value="XXXX-01" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="8" file="82597_First_A380_enters_commercial_service.txt">
+      <sentence>The A380 will make a special charity flight on October 25 from Singapore to Sydney and will begin regular service on the Singapore-Sydney route on October 28 .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "make" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "special" " "</t>
+        <t>" " "charity" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "October" " "</t>
+        <t>" " "25" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Sydney" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "begin" " "</t>
+        <t>" " "regular" " "</t>
+        <t>" " "service" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Singapore-Sydney" " "</t>
+        <t>" " "route" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "October" " "</t>
+        <t>" " "28" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN A380)) (VP (VP (MD will) (VP (VB make) (NP (NP (DT a) (JJ special) (NN charity) (NN flight)) (PP (IN on) (NP (NNP October) (CD 25)))) (PP (IN from) (NP (NNP Singapore))) (PP (TO to) (NP (NNP Sydney))))) (CC and) (VP (MD will) (VP (VB begin) (NP (JJ regular) (NN service)) (PP (IN on) (NP (NP (DT the) (JJ Singapore-Sydney) (NN route)) (PP (IN on) (NP (NNP October) (CD 28)))))))) (. .)))</parse>
+      <deps>det(A380-2, The-1)
+nsubj(make-4, A380-2)
+nsubj(begin-18, A380-2)
+aux(make-4, will-3)
+root(ROOT-0, make-4)
+det(flight-8, a-5)
+amod(flight-8, special-6)
+nn(flight-8, charity-7)
+dobj(make-4, flight-8)
+prep_on(flight-8, October-10)
+num(October-10, 25-11)
+prep_from(make-4, Singapore-13)
+prep_to(make-4, Sydney-15)
+aux(begin-18, will-17)
+conj_and(make-4, begin-18)
+amod(service-20, regular-19)
+dobj(begin-18, service-20)
+det(route-24, the-22)
+amod(route-24, Singapore-Sydney-23)
+prep_on(begin-18, route-24)
+prep_on(route-24, October-26)
+num(October-26, 28-27)</deps>
+      <events>
+        <event id="e8" eiid="ei8" offset="4" string="make" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="18" string="begin" tense="FUTURE" aspect="NONE" class="ASPECTUAL" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t7" text="October 25" offset="10" length="2" type="DATE" value="XXXX-10-25" temporalFunction="false" />
+        <timex tid="t8" text="October 28" offset="26" length="2" type="DATE" value="XXXX-10-28" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei7" event2="t6" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei5" event2="ei7" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="t7" event2="t8" relation="SIMULTANEOUS" closed="false" origin="WordNet209" type="tt" />
+    <tlink event1="ei1" event2="t3" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="t4" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t5" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="t5" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei8" event2="t7" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei8" event2="t8" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="t8" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei6" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei7" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei7" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t5" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t5" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t5" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t6" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

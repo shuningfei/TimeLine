@@ -1,0 +1,162 @@
+//predicate declarations
+PRESENT(event)
+INCLUDES_TT(time,time)
+INFINITIVE(event)
+BEFORE_EE(event,event)
+BEFORE_ET(event,time)
+SIMULTANEOUS_EE(event,event)
+SIMULTANEOUS_ET(event,time)
+PASTPART(event)
+EventDCT(time,event)
+FUTURE(event)
+INCLUDES_EE(event,event)
+BEFORE_TT(time,time)
+INCLUDES_ET(event,time)
+AFTER_ET(event,time)
+PAST(event)
+PRESPART(event)
+SIMULTANEOUS_TT(time,time)
+IS_INCLUDED_ET(event,time)
+Cross_doc_ev_coref(event,event)
+
+// 0       FUTURE(e) ^ EventDCT(t,e) => AFTER_ET(e,t)
+0       !EventDCT(a1,a2) v !FUTURE(a2) v AFTER_ET(a2,a1)
+
+// 0       PAST(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0       !EventDCT(a1,a2) v !PAST(a2) v BEFORE_ET(a2,a1)
+
+// 0       PRESENT(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+0       !EventDCT(a1,a2) v !PRESENT(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// 0       PASTPART(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0       !EventDCT(a1,a2) v !PASTPART(a2) v BEFORE_ET(a2,a1)
+
+// 5.03689  SIMULTANEOUS_ET(e1,t1) ^ SIMULTANEOUS_EE(e1,e2) => SIMULTANEOUS_ET(e2,t1)
+5.03689  SIMULTANEOUS_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v !SIMULTANEOUS_EE(a3,a1)
+
+// 0.468153  BEFORE_ET(e1,t1) ^ SIMULTANEOUS_EE(e1,e2) => BEFORE_ET(e2,t1)
+0.468153  BEFORE_ET(a1,a2) v !BEFORE_ET(a3,a2) v !SIMULTANEOUS_EE(a3,a1)
+
+// 0.32207  AFTER_ET(e1,t1) ^ SIMULTANEOUS_EE(e1,e2) => AFTER_ET(e2,t1)
+0.32207  AFTER_ET(a1,a2) v !AFTER_ET(a3,a2) v !SIMULTANEOUS_EE(a3,a1)
+
+// 5.38509  SIMULTANEOUS_ET(e1,t1) ^ BEFORE_EE(e1,e2) => AFTER_ET(e2,t1)
+5.38509  AFTER_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v !BEFORE_EE(a3,a1)
+
+// -0.18284  AFTER_ET(e1,t1) ^ BEFORE_EE(e1,e2) => AFTER_ET(e2,t1)
+-0.18284  AFTER_ET(a1,a2) v !AFTER_ET(a3,a2) v !BEFORE_EE(a3,a1)
+
+// 4.80767  SIMULTANEOUS_ET(e1,t1) ^ BEFORE_EE(e2,e1) => BEFORE_ET(e2,t1)
+4.80767  BEFORE_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v !BEFORE_EE(a1,a3)
+
+// 0.092683  BEFORE_ET(e1,t1) ^ BEFORE_EE(e2,e1) => BEFORE_ET(e2,t1)
+0.092683  BEFORE_ET(a1,a2) v !BEFORE_ET(a3,a2) v !BEFORE_EE(a1,a3)
+
+// 0       SIMULTANEOUS_ET(e,t) => !BEFORE_ET(e,t)
+0       !BEFORE_ET(a1,a2) v !SIMULTANEOUS_ET(a1,a2)
+
+// 0       SIMULTANEOUS_ET(e,t) => !AFTER_ET(e,t)
+0       !AFTER_ET(a1,a2) v !SIMULTANEOUS_ET(a1,a2)
+
+// 0       BEFORE_ET(e,t) => !AFTER_ET(e,t)
+0       !AFTER_ET(a1,a2) v !BEFORE_ET(a1,a2)
+
+// 0.100814  BEFORE_EE(e1,e2) ^ BEFORE_EE(e2,e3) => BEFORE_EE(e1,e3)
+0.100814  BEFORE_EE(a1,a2) v !BEFORE_EE(a1,a3) v !BEFORE_EE(a3,a2)
+
+// 1.42149  SIMULTANEOUS_EE(e1,e2) ^ SIMULTANEOUS_EE(e2,e3) => SIMULTANEOUS_EE(e1,e3)
+1.42149  SIMULTANEOUS_EE(a1,a2) v !SIMULTANEOUS_EE(a1,a3) v !SIMULTANEOUS_EE(a3,a2)
+
+// 0.406863  BEFORE_EE(e1,e2) ^ SIMULTANEOUS_EE(e2,e3) => BEFORE_EE(e1,e3)
+0.406863  BEFORE_EE(a1,a2) v !BEFORE_EE(a1,a3) v !SIMULTANEOUS_EE(a3,a2)
+
+// 2.60908  SIMULTANEOUS_EE(e1,e2) => !BEFORE_EE(e1,e2)
+2.60908  !BEFORE_EE(a1,a2) v !SIMULTANEOUS_EE(a1,a2)
+
+// 4.26979  BEFORE_EE(e1,e2) ^ Cross_doc_ev_coref(e2,e3) => BEFORE_EE(e1,e3)
+4.26979  BEFORE_EE(a1,a2) v !BEFORE_EE(a1,a3) v !Cross_doc_ev_coref(a3,a2)
+
+// 1.9452  SIMULTANEOUS_EE(e1,e2) ^ Cross_doc_ev_coref(e2,e3) => SIMULTANEOUS_EE(e1,e3)
+1.9452  SIMULTANEOUS_EE(a1,a2) v !SIMULTANEOUS_EE(a1,a3) v !Cross_doc_ev_coref(a3,a2)
+
+// 0       BEFORE_ET(e1,t1) ^ Cross_doc_ev_coref(e1,e2) => BEFORE_ET(e2,t1)
+0       BEFORE_ET(a1,a2) v !BEFORE_ET(a3,a2) v !Cross_doc_ev_coref(a3,a1)
+
+// 0       AFTER_ET(e1,t1) ^ Cross_doc_ev_coref(e1,e2) => AFTER_ET(e2,t1)
+0       AFTER_ET(a1,a2) v !AFTER_ET(a3,a2) v !Cross_doc_ev_coref(a3,a1)
+
+// 0       SIMULTANEOUS_ET(e1,t1) ^ Cross_doc_ev_coref(e1,e2) => SIMULTANEOUS_ET(e2,t1)
+0       SIMULTANEOUS_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v !Cross_doc_ev_coref(a3,a1)
+
+// 1.46477  BEFORE_ET(e1,t1) ^ SIMULTANEOUS_EE(e1,e2) ^ Cross_doc_ev_coref(e2,e3) => BEFORE_ET(e3,t1)
+1.46477  BEFORE_ET(a1,a2) v !BEFORE_ET(a3,a2) v !SIMULTANEOUS_EE(a3,a4) v !Cross_doc_ev_coref(a4,a1)
+
+// 1.2337  AFTER_ET(e1,t1) ^ SIMULTANEOUS_EE(e1,e2) ^ Cross_doc_ev_coref(e2,e3) => AFTER_ET(e3,t1)
+1.2337  AFTER_ET(a1,a2) v !AFTER_ET(a3,a2) v !SIMULTANEOUS_EE(a3,a4) v !Cross_doc_ev_coref(a4,a1)
+
+// -0.715472  SIMULTANEOUS_ET(e1,t1) ^ BEFORE_EE(e2,e3) ^ Cross_doc_ev_coref(e1,e2) => BEFORE_ET(e3,t1)
+-0.715472  BEFORE_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v !BEFORE_EE(a4,a1) v !Cross_doc_ev_coref(a3,a4)
+
+// -0.110028  BEFORE_EE(e1,e2) ^ BEFORE_EE(e2,e3) ^ Cross_doc_ev_coref(e3,e4) => BEFORE_EE(e1,e4)
+-0.110028  BEFORE_EE(a1,a2) v !BEFORE_EE(a1,a3) v !BEFORE_EE(a3,a4) v !Cross_doc_ev_coref(a4,a2)
+
+// 1.16323  SIMULTANEOUS_EE(e1,e2) ^ SIMULTANEOUS_EE(e2,e3) ^ Cross_doc_ev_coref(e3,e4) => SIMULTANEOUS_EE(e1,e4)
+1.16323  SIMULTANEOUS_EE(a1,a2) v !SIMULTANEOUS_EE(a1,a3) v !SIMULTANEOUS_EE(a3,a4) v !Cross_doc_ev_coref(a4,a2)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       INFINITIVE(a1)
+0       INFINITIVE(a1)
+
+// 0       PRESENT(a1)
+0       PRESENT(a1)
+
+// 0       FUTURE(a1)
+0       FUTURE(a1)
+
+// 0       PAST(a1)
+0       PAST(a1)
+
+// 0       PASTPART(a1)
+0       PASTPART(a1)
+
+// 0       PRESPART(a1)
+0       PRESPART(a1)
+
+// 0       AFTER_ET(a1,a2)
+0       AFTER_ET(a1,a2)
+
+// 0       BEFORE_ET(a1,a2)
+0       BEFORE_ET(a1,a2)
+
+// 0       SIMULTANEOUS_ET(a1,a2)
+0       SIMULTANEOUS_ET(a1,a2)
+
+// 0       IS_INCLUDED_ET(a1,a2)
+0       IS_INCLUDED_ET(a1,a2)
+
+// 0       INCLUDES_ET(a1,a2)
+0       INCLUDES_ET(a1,a2)
+
+// 1.57549  BEFORE_EE(a1,a2)
+1.57549  BEFORE_EE(a1,a2)
+
+// 0.289861  SIMULTANEOUS_EE(a1,a2)
+0.289861  SIMULTANEOUS_EE(a1,a2)
+
+// 0       INCLUDES_EE(a1,a2)
+0       INCLUDES_EE(a1,a2)
+
+// 0       BEFORE_TT(a1,a2)
+0       BEFORE_TT(a1,a2)
+
+// 0       SIMULTANEOUS_TT(a1,a2)
+0       SIMULTANEOUS_TT(a1,a2)
+
+// 0       INCLUDES_TT(a1,a2)
+0       INCLUDES_TT(a1,a2)
+
+// 0       Cross_doc_ev_coref(a1,a2)
+0       Cross_doc_ev_coref(a1,a2)
+

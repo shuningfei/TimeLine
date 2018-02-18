@@ -1,0 +1,17 @@
+//predicate declarations
+EventDCT(time,event)
+FUTURE(event)
+AFTER_ET(event,time)
+
+// -0.199547  FUTURE(e) ^ EventDCT(t,e) => AFTER_ET(e,t)
+-0.199547  !EventDCT(a1,a2) v !FUTURE(a2) v AFTER_ET(a2,a1)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       FUTURE(a1)
+0       FUTURE(a1)
+
+// -6.59071  AFTER_ET(a1,a2)
+-6.59071  AFTER_ET(a1,a2)
+

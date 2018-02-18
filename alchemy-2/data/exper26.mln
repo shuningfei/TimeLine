@@ -1,0 +1,13 @@
+EventDCT(time, event)
+Tense(event, tense)
+E2T(event, time, rel)
+
+BEFORE_EE(event, event)
+SIMULTANEOUS_EE(event, event)
+
+BEFORE_TT(time, time)
+SIMULTANEOUS_TT(time, time)
+Cross_doc_ev_coref(event, event)
+
+Tense(e, +te) ^ EventDCT(t, e) => E2T(e, t, +r)
+

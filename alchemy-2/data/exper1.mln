@@ -1,0 +1,5 @@
+EventDCT(time, event)
+FUTURE(event)
+AFTER_ET(event, time)
+
+FUTURE(e) ^ EventDCT(t, e) => AFTER_ET(e, t)

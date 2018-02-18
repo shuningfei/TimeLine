@@ -1,0 +1,10 @@
+EventDCT(time, event)
+
+FUTURE(event)
+PAST(event)
+
+AFTER_ET(event, time)
+BEFORE_ET(event, time)
+
+FUTURE(e) ^ EventDCT(t, e) => AFTER_ET(e, t)
+PAST(e) ^ EventDCT(t, e) => BEFORE_ET(e, t)

@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+    <entry sid="0" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>2004-11-24 .</sentence>
+      <tokens>
+        <t>"
+" "2004-11-24" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2004-11-24)) (. .)))</parse>
+      <deps>root(ROOT-0, 2004-11-24-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2004-11-24" offset="1" length="1" type="DATE" value="2004-11-24" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Internal emails expose Boeing-Air Force contract discussions .</sentence>
+      <tokens>
+        <t>"
+" "Internal" " "</t>
+        <t>" " "emails" " "</t>
+        <t>" " "expose" " "</t>
+        <t>" " "Boeing-Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "discussions" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Internal) (NNS emails)) (VP (VBP expose) (NP (NNP Boeing-Air) (NNP Force) (NN contract) (NNS discussions))) (. .)))</parse>
+      <deps>nn(emails-2, Internal-1)
+nsubj(expose-3, emails-2)
+root(ROOT-0, expose-3)
+nn(discussions-7, Boeing-Air-4)
+nn(discussions-7, Force-5)
+nn(discussions-7, contract-6)
+dobj(expose-3, discussions-7)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="3" string="expose" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>November 24 , 2004 .</sentence>
+      <tokens>
+        <t>"
+" "November" " "</t>
+        <t>" " "24" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2004" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP November) (CD 24)) (, ,) (NP (CD 2004)) (. .)))</parse>
+      <deps>root(ROOT-0, November-1)
+num(November-1, 24-2)
+dep(November-1, 2004-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="November 24 , 2004" offset="1" length="4" type="DATE" value="2004-11-24" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Emails exchanged among United States Air Force officials regarding a USD$ 23 billion dollar deal with aircraft manufacturer Boeing have been entered into the public record .</sentence>
+      <tokens>
+        <t>"
+" "Emails" " "</t>
+        <t>" " "exchanged" " "</t>
+        <t>" " "among" " "</t>
+        <t>" " "United" " "</t>
+        <t>" " "States" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "officials" " "</t>
+        <t>" " "regarding" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "USD$" " "</t>
+        <t>" " "23" " "</t>
+        <t>" " "billion" " "</t>
+        <t>" " "dollar" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "manufacturer" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "entered" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "public" " "</t>
+        <t>" " "record" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNS Emails)) (VP (VBN exchanged) (PP (IN among) (S (NP (NNP United) (NNPS States) (NNP Air) (NNP Force) (NNS officials)) (VP (VBG regarding) (NP (DT a) (JJ USD$) (ADJP (QP (CD 23) (CD billion))) (NN dollar) (NN deal)) (PP (IN with) (NP (NN aircraft) (NN manufacturer) (NNP Boeing)))))))) (VP (VBP have) (VP (VBN been) (VP (VBN entered) (PP (IN into) (NP (DT the) (JJ public) (NN record)))))) (. .)))</parse>
+      <deps>nsubjpass(entered-22, Emails-1)
+partmod(Emails-1, exchanged-2)
+nn(officials-8, United-4)
+nn(officials-8, States-5)
+nn(officials-8, Air-6)
+nn(officials-8, Force-7)
+nsubj(regarding-9, officials-8)
+prepc_among(exchanged-2, regarding-9)
+det(deal-15, a-10)
+amod(deal-15, USD$-11)
+number(billion-13, 23-12)
+num(deal-15, billion-13)
+nn(deal-15, dollar-14)
+dobj(regarding-9, deal-15)
+nn(Boeing-19, aircraft-17)
+nn(Boeing-19, manufacturer-18)
+prep_with(regarding-9, Boeing-19)
+aux(entered-22, have-20)
+auxpass(entered-22, been-21)
+root(ROOT-0, entered-22)
+det(record-26, the-24)
+amod(record-26, public-25)
+prep_into(entered-22, record-26)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="9" string="regarding" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="22" string="entered" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Senator John McCain -LRB- R-AZ -RRB- entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .</sentence>
+      <tokens>
+        <t>"
+" "Senator" " "</t>
+        <t>" " "John" " "</t>
+        <t>" " "McCain" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "R-AZ" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "entered" " "</t>
+        <t>" " "them" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Congressional" " "</t>
+        <t>" " "Record" " "</t>
+        <t>" " "during" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "speech" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "week" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "now-cancelled" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "lease" " "</t>
+        <t>" " "100" " "</t>
+        <t>" " "mid-air" " "</t>
+        <t>" " "tanker" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Senator) (NNP John) (NNP McCain)) (PRN (-LRB- -LRB-) (NP (NNP R-AZ)) (-RRB- -RRB-))) (VP (VBD entered) (NP (PRP them)) (PP (IN into) (NP (DT the) (NNP Congressional) (NNP Record))) (PP (IN during) (NP (DT a) (NN speech))) (NP (JJ last) (NN week)) (PP (IN against) (NP (DT the) (JJ now-cancelled) (NN deal) (S (VP (TO to) (VP (VB lease) (NP (CD 100) (JJ mid-air) (NN tanker) (NN aircraft)) (PP (IN from) (NP (NNP Boeing))))))))) (. .)))</parse>
+      <deps>nn(McCain-3, Senator-1)
+nn(McCain-3, John-2)
+nsubj(entered-7, McCain-3)
+appos(McCain-3, R-AZ-5)
+root(ROOT-0, entered-7)
+dobj(entered-7, them-8)
+det(Record-12, the-10)
+nn(Record-12, Congressional-11)
+prep_into(entered-7, Record-12)
+det(speech-15, a-14)
+prep_during(entered-7, speech-15)
+amod(week-17, last-16)
+tmod(entered-7, week-17)
+det(deal-21, the-19)
+amod(deal-21, now-cancelled-20)
+prep_against(entered-7, deal-21)
+aux(lease-23, to-22)
+infmod(deal-21, lease-23)
+num(aircraft-27, 100-24)
+amod(aircraft-27, mid-air-25)
+nn(aircraft-27, tanker-26)
+dobj(lease-23, aircraft-27)
+prep_from(lease-23, Boeing-29)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="7" string="entered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="23" string="lease" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="week" offset="17" length="1" type="DURATION" value="P1W" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="5" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .</sentence>
+      <tokens>
+        <t>"
+" "Congressional" " "</t>
+        <t>" " "lawmakers" " "</t>
+        <t>" " "rejected" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "proposal" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "October" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "although" " "</t>
+        <t>" " "industry" " "</t>
+        <t>" " "experts" " "</t>
+        <t>" " "say" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "killed" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Pentagon" " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "reports" " "</t>
+        <t>" " "stating" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "favored" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Congressional) (NNS lawmakers)) (VP (VBD rejected) (NP (DT the) (NN proposal)) (PP (IN in) (NP (NNP October))) (, ,) (SBAR (IN although) (S (NP (NN industry) (NNS experts)) (VP (VBP say) (SBAR (S (NP (DT the) (NN deal)) (VP (VBD had) (VP (VBN been) (VP (VBN killed) (PP (IN by) (NP (NP (DT the) (NNP Pentagon)) (PP (RB because) (IN of) (NP (NNS reports))))) (S (VP (VBG stating) (SBAR (IN that) (S (NP (DT the) (NN deal)) (VP (VBD had) (VP (VBN favored) (NP (NNP Boeing))))))))))))))))) (. .)))</parse>
+      <deps>amod(lawmakers-2, Congressional-1)
+nsubj(rejected-3, lawmakers-2)
+root(ROOT-0, rejected-3)
+det(proposal-5, the-4)
+dobj(rejected-3, proposal-5)
+prep_in(rejected-3, October-7)
+mark(say-12, although-9)
+nn(experts-11, industry-10)
+nsubj(say-12, experts-11)
+advcl(rejected-3, say-12)
+det(deal-14, the-13)
+nsubjpass(killed-17, deal-14)
+aux(killed-17, had-15)
+auxpass(killed-17, been-16)
+ccomp(say-12, killed-17)
+det(Pentagon-20, the-19)
+agent(killed-17, Pentagon-20)
+prep_because_of(Pentagon-20, reports-23)
+xcomp(killed-17, stating-24)
+mark(favored-29, that-25)
+det(deal-27, the-26)
+nsubj(favored-29, deal-27)
+aux(favored-29, had-28)
+ccomp(stating-24, favored-29)
+dobj(favored-29, Boeing-30)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="3" string="rejected" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="5" string="proposal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="12" string="say" tense="PRESENT" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="14" string="deal" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="17" string="killed" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e11" eiid="ei11" offset="24" string="stating" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e12" eiid="ei12" offset="29" string="favored" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="October" offset="7" length="1" type="DATE" value="XXXX-10" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="6" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Senator McCain has been the deal 's most vocal critic .</sentence>
+      <tokens>
+        <t>"
+" "Senator" " "</t>
+        <t>" " "McCain" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "most" " "</t>
+        <t>" " "vocal" " "</t>
+        <t>" " "critic" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Senator) (NNP McCain)) (VP (VBZ has) (VP (VBN been) (NP (NP (DT the) (NN deal) (POS 's)) (JJS most) (JJ vocal) (NN critic)))) (. .)))</parse>
+      <deps>nn(McCain-2, Senator-1)
+nsubj(critic-10, McCain-2)
+aux(critic-10, has-3)
+cop(critic-10, been-4)
+det(deal-6, the-5)
+poss(critic-10, deal-6)
+amod(critic-10, most-8)
+amod(critic-10, vocal-9)
+root(ROOT-0, critic-10)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="7" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>The original negotiations with Boeing were over a no-bid contract .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "original" " "</t>
+        <t>" " "negotiations" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "no-bid" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (JJ original) (NNS negotiations)) (PP (IN with) (NP (NNP Boeing)))) (VP (VBD were) (PP (IN over) (NP (DT a) (JJ no-bid) (NN contract)))) (. .)))</parse>
+      <deps>det(negotiations-3, The-1)
+amod(negotiations-3, original-2)
+nsubj(were-6, negotiations-3)
+prep_with(negotiations-3, Boeing-5)
+root(ROOT-0, were-6)
+det(contract-10, a-8)
+amod(contract-10, no-bid-9)
+prep_over(were-6, contract-10)</deps>
+      <events>
+        <event id="e13" eiid="ei13" offset="3" string="negotiations" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Such contracts are often justified by the speed they offer , eliminating a preliminary bid and selection round that may last months .</sentence>
+      <tokens>
+        <t>"
+" "Such" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "often" " "</t>
+        <t>" " "justified" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "speed" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "offer" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "eliminating" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "preliminary" " "</t>
+        <t>" " "bid" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "selection" " "</t>
+        <t>" " "round" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "may" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "months" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Such) (NNS contracts)) (VP (VBP are) (ADVP (RB often)) (VP (VBN justified) (PP (IN by) (NP (NP (DT the) (NN speed)) (SBAR (S (NP (PRP they)) (VP (VBP offer) (, ,) (S (VP (VBG eliminating) (NP (NP (DT a) (JJ preliminary) (NN bid) (CC and) (NN selection) (NN round)) (SBAR (WHNP (WDT that)) (S (VP (MD may) (VP (VB last) (NP (NNS months)))))))))))))))) (. .)))</parse>
+      <deps>amod(contracts-2, Such-1)
+nsubjpass(justified-5, contracts-2)
+auxpass(justified-5, are-3)
+advmod(justified-5, often-4)
+root(ROOT-0, justified-5)
+det(speed-8, the-7)
+agent(justified-5, speed-8)
+dobj(offer-10, speed-8)
+nsubj(offer-10, they-9)
+rcmod(speed-8, offer-10)
+xcomp(offer-10, eliminating-12)
+det(bid-15, a-13)
+amod(bid-15, preliminary-14)
+dobj(eliminating-12, bid-15)
+nsubj(last-21, bid-15)
+nn(round-18, selection-17)
+dobj(eliminating-12, round-18)
+conj_and(bid-15, round-18)
+nsubj(last-21, round-18)
+aux(last-21, may-20)
+rcmod(bid-15, last-21)
+tmod(last-21, months-22)</deps>
+      <events>
+        <event id="e14" eiid="ei14" offset="5" string="justified" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e15" eiid="ei15" offset="10" string="offer" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="12" string="eliminating" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="may" offset="20" length="1" type="DATE" value="XXXX-05" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="9" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>However , no-bid contracts are only open to the company selected by the procuring agency .</sentence>
+      <tokens>
+        <t>"
+" "However" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "no-bid" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "only" " "</t>
+        <t>" " "open" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "selected" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "procuring" " "</t>
+        <t>" " "agency" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB However)) (, ,) (NP (JJ no-bid) (NNS contracts)) (VP (VBP are) (ADJP (RB only) (JJ open) (PP (TO to) (NP (NP (DT the) (NN company)) (VP (VBN selected) (PP (IN by) (NP (DT the) (VBG procuring) (NN agency)))))))) (. .)))</parse>
+      <deps>advmod(open-7, However-1)
+amod(contracts-4, no-bid-3)
+nsubj(open-7, contracts-4)
+cop(open-7, are-5)
+advmod(open-7, only-6)
+root(ROOT-0, open-7)
+det(company-10, the-9)
+prep_to(open-7, company-10)
+partmod(company-10, selected-11)
+det(agency-15, the-13)
+amod(agency-15, procuring-14)
+agent(selected-11, agency-15)</deps>
+      <events>
+        <event id="e17" eiid="ei17" offset="11" string="selected" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="10" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>This leaves no-bid contracts open to accusations of conflicts of interest among the procurement personnel .</sentence>
+      <tokens>
+        <t>"
+" "This" " "</t>
+        <t>" " "leaves" " "</t>
+        <t>" " "no-bid" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "open" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "accusations" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "conflicts" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "interest" " "</t>
+        <t>" " "among" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "procurement" " "</t>
+        <t>" " "personnel" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT This)) (VP (VBZ leaves) (S (NP (JJ no-bid) (NNS contracts)) (ADJP (JJ open) (PP (TO to) (NP (NP (NNS accusations)) (PP (IN of) (NP (NP (NNS conflicts)) (PP (IN of) (NP (NP (NN interest)) (PP (IN among) (NP (DT the) (JJ procurement) (NNS personnel)))))))))))) (. .)))</parse>
+      <deps>nsubj(leaves-2, This-1)
+root(ROOT-0, leaves-2)
+amod(contracts-4, no-bid-3)
+nsubj(open-5, contracts-4)
+xcomp(leaves-2, open-5)
+prep_to(open-5, accusations-7)
+prep_of(accusations-7, conflicts-9)
+prep_of(conflicts-9, interest-11)
+det(personnel-15, the-13)
+amod(personnel-15, procurement-14)
+prep_among(interest-11, personnel-15)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="11" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Such accusations have previously been leveled against Vice President Dick Cheney for a no-bid contract to Halliburton , and are now being made against senior Air Force officials for choosing Boeing to replace its tanker fleet .</sentence>
+      <tokens>
+        <t>"
+" "Such" " "</t>
+        <t>" " "accusations" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "previously" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "leveled" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "Vice" " "</t>
+        <t>" " "President" " "</t>
+        <t>" " "Dick" " "</t>
+        <t>" " "Cheney" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "no-bid" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Halliburton" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "now" " "</t>
+        <t>" " "being" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "senior" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "officials" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "choosing" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "replace" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "tanker" " "</t>
+        <t>" " "fleet" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Such) (NNS accusations)) (VP (VP (VBP have) (ADVP (RB previously)) (VP (VBN been) (VP (VBN leveled) (PP (IN against) (NP (NP (NNP Vice) (NNP President) (NNP Dick) (NNP Cheney)) (PP (IN for) (NP (DT a) (JJ no-bid) (NN contract))))) (PP (TO to) (NP (NNP Halliburton)))))) (, ,) (CC and) (VP (VBP are) (ADVP (RB now)) (VP (VBG being) (VP (VBN made) (PP (IN against) (NP (JJ senior) (NNP Air) (NNP Force) (NNS officials))) (PP (IN for) (S (VP (VBG choosing) (S (NP (NNP Boeing)) (VP (TO to) (VP (VB replace) (NP (PRP$ its) (NN tanker) (NN fleet)))))))))))) (. .)))</parse>
+      <deps>amod(accusations-2, Such-1)
+nsubjpass(leveled-6, accusations-2)
+nsubjpass(made-23, accusations-2)
+aux(leveled-6, have-3)
+advmod(leveled-6, previously-4)
+auxpass(leveled-6, been-5)
+root(ROOT-0, leveled-6)
+nn(Cheney-11, Vice-8)
+nn(Cheney-11, President-9)
+nn(Cheney-11, Dick-10)
+prep_against(leveled-6, Cheney-11)
+det(contract-15, a-13)
+amod(contract-15, no-bid-14)
+prep_for(Cheney-11, contract-15)
+prep_to(leveled-6, Halliburton-17)
+aux(made-23, are-20)
+advmod(made-23, now-21)
+auxpass(made-23, being-22)
+conj_and(leveled-6, made-23)
+amod(officials-28, senior-25)
+nn(officials-28, Air-26)
+nn(officials-28, Force-27)
+prep_against(made-23, officials-28)
+prepc_for(made-23, choosing-30)
+nsubj(replace-33, Boeing-31)
+aux(replace-33, to-32)
+xcomp(choosing-30, replace-33)
+poss(fleet-36, its-34)
+nn(fleet-36, tanker-35)
+dobj(replace-33, fleet-36)</deps>
+      <events>
+        <event id="e18" eiid="ei18" offset="6" string="leveled" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e19" eiid="ei19" offset="23" string="made" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e20" eiid="ei20" offset="30" string="choosing" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e21" eiid="ei21" offset="33" string="replace" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t6" text="previously" offset="4" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+        <timex tid="t7" text="now" offset="21" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="12" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>In the released emails , Air Force officials responsible for the awarding of contracts appear biased against Boeing 's main competitor , Airbus and its CEO Ralph Crosby .</sentence>
+      <tokens>
+        <t>"
+" "In" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "released" " "</t>
+        <t>" " "emails" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "officials" " "</t>
+        <t>" " "responsible" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "awarding" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "appear" " "</t>
+        <t>" " "biased" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "main" " "</t>
+        <t>" " "competitor" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "CEO" " "</t>
+        <t>" " "Ralph" " "</t>
+        <t>" " "Crosby" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN In) (NP (DT the) (JJ released) (NNS emails))) (, ,) (NP (NP (NNP Air) (NNP Force) (NNS officials)) (ADJP (JJ responsible) (PP (IN for) (NP (NP (DT the) (NN awarding)) (PP (IN of) (NP (NNS contracts))))))) (VP (VBP appear) (VP (VBN biased) (PP (IN against) (NP (NP (NP (NNP Boeing) (POS 's)) (JJ main) (NN competitor)) (, ,) (NP (NP (NNP Airbus)) (CC and) (NP (PRP$ its) (NNP CEO) (NNP Ralph) (NNP Crosby))))))) (. .)))</parse>
+      <deps>det(emails-4, the-2)
+amod(emails-4, released-3)
+prep_in(biased-16, emails-4)
+nn(officials-8, Air-6)
+nn(officials-8, Force-7)
+nsubjpass(biased-16, officials-8)
+amod(officials-8, responsible-9)
+det(awarding-12, the-11)
+prep_for(responsible-9, awarding-12)
+prep_of(awarding-12, contracts-14)
+auxpass(biased-16, appear-15)
+root(ROOT-0, biased-16)
+poss(competitor-21, Boeing-18)
+amod(competitor-21, main-20)
+prep_against(biased-16, competitor-21)
+appos(competitor-21, Airbus-23)
+poss(Crosby-28, its-25)
+nn(Crosby-28, CEO-26)
+nn(Crosby-28, Ralph-27)
+appos(competitor-21, Crosby-28)
+conj_and(Airbus-23, Crosby-28)</deps>
+      <events>
+        <event id="e22" eiid="ei22" offset="15" string="appear" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e23" eiid="ei23" offset="16" string="biased" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="13" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Airbus is owned by European Aeronautic Defense &amp; Space Company -LRB- EADS -RRB- .</sentence>
+      <tokens>
+        <t>"
+" "Airbus" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "owned" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "Aeronautic" " "</t>
+        <t>" " "Defense" " "</t>
+        <t>" " "&amp;amp;" " "</t>
+        <t>" " "Space" " "</t>
+        <t>" " "Company" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Airbus)) (VP (VBZ is) (VP (VBN owned) (PP (IN by) (NP (NP (NNP European) (NNP Aeronautic) (NNP Defense) (CC &amp;) (NNP Space) (NNP Company)) (PRN (-LRB- -LRB-) (NP (NNP EADS)) (-RRB- -RRB-)))))) (. .)))</parse>
+      <deps>nsubjpass(owned-3, Airbus-1)
+auxpass(owned-3, is-2)
+root(ROOT-0, owned-3)
+nn(Defense-7, European-5)
+nn(Defense-7, Aeronautic-6)
+agent(owned-3, Defense-7)
+nn(Company-10, Space-9)
+agent(owned-3, Company-10)
+conj_and(Defense-7, Company-10)
+appos(Defense-7, EADS-12)</deps>
+      <events>
+        <event id="e24" eiid="ei24" offset="3" string="owned" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="14" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Airbus manufacturers a number of passenger and military aircraft and has gained market share in passenger aircraft over Boeing in recent years .</sentence>
+      <tokens>
+        <t>"
+" "Airbus" " "</t>
+        <t>" " "manufacturers" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "number" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "passenger" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "military" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "gained" " "</t>
+        <t>" " "market" " "</t>
+        <t>" " "share" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "passenger" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "recent" " "</t>
+        <t>" " "years" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Airbus)) (VP (VP (VBZ manufacturers) (NP (NP (DT a) (NN number)) (PP (IN of) (NP (NN passenger) (CC and) (JJ military) (NN aircraft))))) (CC and) (VP (VBZ has) (VP (VBN gained) (NP (NP (NN market) (NN share)) (PP (IN in) (NP (NN passenger) (NN aircraft)))) (PP (IN over) (NP (NNP Boeing))) (PP (IN in) (NP (JJ recent) (NNS years)))))) (. .)))</parse>
+      <deps>nsubj(manufacturers-2, Airbus-1)
+nsubj(gained-12, Airbus-1)
+root(ROOT-0, manufacturers-2)
+det(number-4, a-3)
+dobj(manufacturers-2, number-4)
+nn(aircraft-9, passenger-6)
+conj_and(passenger-6, military-8)
+nn(aircraft-9, military-8)
+prep_of(number-4, aircraft-9)
+aux(gained-12, has-11)
+conj_and(manufacturers-2, gained-12)
+nn(share-14, market-13)
+dobj(gained-12, share-14)
+nn(aircraft-17, passenger-16)
+prep_in(share-14, aircraft-17)
+prep_over(gained-12, Boeing-19)
+amod(years-22, recent-21)
+prep_in(gained-12, years-22)</deps>
+      <events>
+        <event id="e25" eiid="ei25" offset="12" string="gained" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t8" text="recent years" offset="21" length="2" type="DURATION" value="PXY" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="15" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>The following is a sequential email exchange regarding Airbus as recorded in the Congressional Record : : Special Asst .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "following" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "sequential" " "</t>
+        <t>" " "email" " "</t>
+        <t>" " "exchange" " "</t>
+        <t>" " "regarding" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "recorded" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Congressional" " "</t>
+        <t>" " "Record" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "Special" " "</t>
+        <t>" " "Asst" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (SINV (S (NP (DT The) (NN following)) (VP (VBZ is) (NP (DT a) (JJ sequential) (NN email) (NN exchange)) (PP (VBG regarding) (NP (NP (NNP Airbus)) (SBAR (IN as) (S (VP (VBN recorded) (PP (IN in) (NP (DT the) (NNP Congressional) (NNP Record)))))))) (: :))) (: :) (NP (NNP Special) (NNP Asst)) (. .)))</parse>
+      <deps>det(following-2, The-1)
+nsubj(exchange-7, following-2)
+cop(exchange-7, is-3)
+det(exchange-7, a-4)
+amod(exchange-7, sequential-5)
+nn(exchange-7, email-6)
+root(ROOT-0, exchange-7)
+prep_regarding(exchange-7, Airbus-9)
+mark(recorded-11, as-10)
+dep(Airbus-9, recorded-11)
+det(Record-15, the-13)
+nn(Record-15, Congressional-14)
+prep_in(recorded-11, Record-15)
+nn(Asst-19, Special-18)
+dep(exchange-7, Asst-19)</deps>
+      <events>
+        <event id="e26" eiid="ei26" offset="11" string="recorded" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="16" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>to the Secretary and Director of Air Force Communications Bill Bodie : `` We do n't have to turn the other cheek , you know .</sentence>
+      <tokens>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Director" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "Communications" " "</t>
+        <t>" " "Bill" " "</t>
+        <t>" " "Bodie" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "We" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "n't" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "turn" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "other" " "</t>
+        <t>" " "cheek" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "know" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (PP (TO to) (NP (NP (NP (DT the) (NNP Secretary) (CC and) (NNP Director)) (PP (IN of) (NP (NNP Air) (NNP Force) (NNP Communications) (NNP Bill) (NNP Bodie)))) (: :) (`` ``) (S (NP (PRP We)) (VP (VBP do) (RB n't) (VP (VB have) (S (VP (TO to) (VP (VB turn) (NP (DT the) (JJ other) (NN cheek)))))))))) (, ,) (NP (PRP you)) (VP (VBP know)) (. .)))</parse>
+      <deps>det(Secretary-3, the-2)
+prep_to(know-25, Secretary-3)
+conj_and(Secretary-3, Director-5)
+prep_to(know-25, Director-5)
+nn(Bodie-11, Air-7)
+nn(Bodie-11, Force-8)
+nn(Bodie-11, Communications-9)
+nn(Bodie-11, Bill-10)
+prep_of(Secretary-3, Bodie-11)
+nsubj(have-17, We-14)
+xsubj(turn-19, We-14)
+aux(have-17, do-15)
+neg(have-17, n't-16)
+dep(Secretary-3, have-17)
+aux(turn-19, to-18)
+xcomp(have-17, turn-19)
+det(cheek-22, the-20)
+amod(cheek-22, other-21)
+dobj(turn-19, cheek-22)
+nsubj(know-25, you-24)
+root(ROOT-0, know-25)</deps>
+      <events>
+        <event id="e27" eiid="ei27" offset="19" string="turn" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="17" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>I ' m ready to tell the truth about Airbus 's boom , footprint , and financial shortcoming .</sentence>
+      <tokens>
+        <t>"
+" "I" ""</t>
+        <t>"" "'" " "</t>
+        <t>" " "m" " "</t>
+        <t>" " "ready" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "tell" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "truth" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "boom" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "footprint" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "financial" " "</t>
+        <t>" " "shortcoming" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP I) (POS ')) (VP (VBP m) (ADJP (JJ ready) (S (VP (TO to) (VP (VB tell) (NP (NP (NP (DT the) (NN truth)) (PP (IN about) (NP (NP (NNP Airbus) (POS 's)) (NN boom)))) (, ,) (NP (NN footprint)) (, ,) (CC and) (NP (JJ financial) (VBG shortcoming)))))))) (. .)))</parse>
+      <deps>nsubj(m-3, I-1)
+root(ROOT-0, m-3)
+acomp(m-3, ready-4)
+aux(tell-6, to-5)
+xcomp(ready-4, tell-6)
+det(truth-8, the-7)
+dobj(tell-6, truth-8)
+poss(boom-12, Airbus-10)
+prep_about(truth-8, boom-12)
+dobj(tell-6, footprint-14)
+conj_and(truth-8, footprint-14)
+dobj(tell-6, financial-17)
+conj_and(truth-8, financial-17)
+amod(financial-17, shortcoming-18)</deps>
+      <events>
+        <event id="e28" eiid="ei28" offset="6" string="tell" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="18" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>But maybe we should sleep on it . ''</sentence>
+      <tokens>
+        <t>"
+" "But" " "</t>
+        <t>" " "maybe" " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "sleep" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (CC But) (ADVP (RB maybe)) (NP (PRP we)) (VP (MD should) (VP (VB sleep) (PP (IN on) (NP (PRP it))))) (. .) ('' '')))</parse>
+      <deps>cc(sleep-5, But-1)
+advmod(sleep-5, maybe-2)
+nsubj(sleep-5, we-3)
+aux(sleep-5, should-4)
+root(ROOT-0, sleep-5)
+prep_on(sleep-5, it-7)</deps>
+      <events>
+        <event id="e29" eiid="ei29" offset="5" string="sleep" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="19" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>: Secretary of the Air Force James Roche : `` No , Sir , save it and blow him away .</sentence>
+      <tokens>
+        <t>"
+" ":" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "James" " "</t>
+        <t>" " "Roche" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "No" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Sir" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "save" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "blow" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "away" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (: :) (NP (NP (NNP Secretary)) (PP (IN of) (NP (DT the) (NNP Air) (NNP Force) (NNP James)))) (VP (VBD Roche) (: :) (`` ``) (S (INTJ (UH No) (, ,) (UH Sir)) (, ,) (VP (VP (VB save) (NP (PRP it))) (CC and) (VP (VB blow) (NP (PRP him)) (ADVP (RB away)))))) (. .)))</parse>
+      <deps>nsubj(Roche-8, Secretary-2)
+det(James-7, the-4)
+nn(James-7, Air-5)
+nn(James-7, Force-6)
+prep_of(Secretary-2, James-7)
+root(ROOT-0, Roche-8)
+discourse(save-15, No-11)
+dep(No-11, Sir-13)
+ccomp(Roche-8, save-15)
+dobj(save-15, it-16)
+ccomp(Roche-8, blow-18)
+conj_and(save-15, blow-18)
+dobj(blow-18, him-19)
+advmod(blow-18, away-20)</deps>
+      <events>
+        <event id="e30" eiid="ei30" offset="8" string="Roche" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e31" eiid="ei31" offset="15" string="save" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e32" eiid="ei32" offset="18" string="blow" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="20" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>He admits that they were not technically qualified !</sentence>
+      <tokens>
+        <t>"
+" "He" " "</t>
+        <t>" " "admits" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "technically" " "</t>
+        <t>" " "qualified" " "</t>
+        <t>" " "!" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VBZ admits) (SBAR (IN that) (S (NP (PRP they)) (VP (VBD were) (RB not) (ADJP (RB technically) (VBN qualified)))))) (. !)))</parse>
+      <deps>nsubj(admits-2, He-1)
+root(ROOT-0, admits-2)
+mark(qualified-8, that-3)
+nsubjpass(qualified-8, they-4)
+auxpass(qualified-8, were-5)
+neg(qualified-8, not-6)
+advmod(qualified-8, technically-7)
+ccomp(admits-2, qualified-8)</deps>
+      <events>
+        <event id="e33" eiid="ei33" offset="2" string="admits" tense="PRESENT" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e34" eiid="ei34" offset="8" string="qualified" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="21" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>And , we keep their record of bribes as our trump card !</sentence>
+      <tokens>
+        <t>"
+" "And" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "keep" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "record" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "bribes" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "our" " "</t>
+        <t>" " "trump" " "</t>
+        <t>" " "card" " "</t>
+        <t>" " "!" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (CC And) (, ,) (NP (PRP we)) (VP (VB keep) (NP (NP (PRP$ their) (NN record)) (PP (IN of) (NP (NP (NNS bribes)) (PP (IN as) (NP (PRP$ our) (NN trump) (NN card))))))) (. !)))</parse>
+      <deps>cc(keep-4, And-1)
+nsubj(keep-4, we-3)
+root(ROOT-0, keep-4)
+poss(record-6, their-5)
+dobj(keep-4, record-6)
+prep_of(record-6, bribes-8)
+poss(card-12, our-10)
+nn(card-12, trump-11)
+prep_as(bribes-8, card-12)</deps>
+      <events>
+        <event id="e35" eiid="ei35" offset="4" string="keep" tense="PRESENT" aspect="NONE" class="ASPECTUAL" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="22" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Jim . ''</sentence>
+      <tokens>
+        <t>"
+" "Jim" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (VP (VB Jim)) (. .) ('' '')))</parse>
+      <deps>root(ROOT-0, Jim-1)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="23" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>: Civilian Deputy Undersecretary of the Air Force for Acquisition Darleen Druyun : `` I read with disgust the article on Airbus tankers from the new EADS CEO of North America .</sentence>
+      <tokens>
+        <t>"
+" ":" " "</t>
+        <t>" " "Civilian" " "</t>
+        <t>" " "Deputy" " "</t>
+        <t>" " "Undersecretary" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Acquisition" " "</t>
+        <t>" " "Darleen" " "</t>
+        <t>" " "Druyun" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "read" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "disgust" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "article" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "tankers" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " "CEO" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "North" " "</t>
+        <t>" " "America" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (NP (: :) (NP (NNP Civilian) (NNP Deputy) (NNP Undersecretary)) (PP (IN of) (NP (NP (DT the) (NNP Air) (NNP Force)) (PP (IN for) (NP (NP (NNP Acquisition) (NNP Darleen) (NNP Druyun)) (: :) (`` ``) (S (NP (PRP I)) (VP (VBP read) (PP (IN with) (NP (NN disgust))) (NP (NP (DT the) (NN article)) (PP (IN on) (NP (NNP Airbus) (NNS tankers)))) (PP (IN from) (NP (NP (DT the) (JJ new) (NNP EADS) (NNP CEO)) (PP (IN of) (NP (NNP North) (NNP America))))))))))) (. .)))</parse>
+      <deps>nn(Undersecretary-4, Civilian-2)
+nn(Undersecretary-4, Deputy-3)
+root(ROOT-0, Undersecretary-4)
+det(Force-8, the-6)
+nn(Force-8, Air-7)
+prep_of(Undersecretary-4, Force-8)
+nn(Druyun-12, Acquisition-10)
+nn(Druyun-12, Darleen-11)
+prep_for(Force-8, Druyun-12)
+nsubj(read-16, I-15)
+dep(Druyun-12, read-16)
+prep_with(read-16, disgust-18)
+det(article-20, the-19)
+dobj(read-16, article-20)
+nn(tankers-23, Airbus-22)
+prep_on(article-20, tankers-23)
+det(CEO-28, the-25)
+amod(CEO-28, new-26)
+nn(CEO-28, EADS-27)
+prep_from(read-16, CEO-28)
+nn(America-31, North-30)
+prep_of(CEO-28, America-31)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="24" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>What BS ... should not have been surprised at the slime ... his day of reckoning will come hopefully . ''</sentence>
+      <tokens>
+        <t>"
+" "What" " "</t>
+        <t>" " "BS" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "surprised" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "slime" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "day" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "reckoning" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "come" " "</t>
+        <t>" " "hopefully" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (WHNP (WP What)) (S (NP (NNP BS)) (: ...) (VP (MD should) (RB not) (VP (VB have) (VP (VBN been) (VP (VBN surprised) (PP (IN at) (NP (NP (DT the) (NN slime)) (: ...) (NP (NP (PRP$ his) (NN day)) (PP (IN of) (NP (NN reckoning)))))))))))) (VP (MD will) (VP (VB come) (ADVP (RB hopefully)))) (. .) ('' '')))</parse>
+      <deps>dobj(surprised-8, What-1)
+nsubjpass(surprised-8, BS-2)
+aux(surprised-8, should-4)
+neg(surprised-8, not-5)
+aux(surprised-8, have-6)
+auxpass(surprised-8, been-7)
+csubj(come-18, surprised-8)
+det(slime-11, the-10)
+prep_at(surprised-8, slime-11)
+poss(day-14, his-13)
+dep(slime-11, day-14)
+prep_of(day-14, reckoning-16)
+aux(come-18, will-17)
+root(ROOT-0, come-18)
+advmod(come-18, hopefully-19)</deps>
+      <events>
+        <event id="e36" eiid="ei36" offset="8" string="surprised" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e37" eiid="ei37" offset="18" string="come" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t9" text="day" offset="14" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="25" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>: Secretary of the Air Force James Roche : `` Oy .</sentence>
+      <tokens>
+        <t>"
+" ":" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "James" " "</t>
+        <t>" " "Roche" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "Oy" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (NP (: :) (NP (NNP Secretary)) (PP (IN of) (NP (NP (DT the) (NNP Air) (NNP Force) (NNP James) (NNP Roche)) (: :) (`` ``) (NP (NNP Oy)))) (. .)))</parse>
+      <deps>root(ROOT-0, Secretary-2)
+det(Roche-8, the-4)
+nn(Roche-8, Air-5)
+nn(Roche-8, Force-6)
+nn(Roche-8, James-7)
+prep_of(Secretary-2, Roche-8)
+dep(Roche-8, Oy-11)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="26" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>I agree .</sentence>
+      <tokens>
+        <t>"
+" "I" " "</t>
+        <t>" " "agree" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP I)) (VP (VBP agree)) (. .)))</parse>
+      <deps>nsubj(agree-2, I-1)
+root(ROOT-0, agree-2)</deps>
+      <events>
+        <event id="e38" eiid="ei38" offset="2" string="agree" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="27" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>I had hoped you would have stayed and tortured him slowly over the next few years until EADS got rid of him !</sentence>
+      <tokens>
+        <t>"
+" "I" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "hoped" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "stayed" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "tortured" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "slowly" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "few" " "</t>
+        <t>" " "years" " "</t>
+        <t>" " "until" " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " "got" " "</t>
+        <t>" " "rid" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "!" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP I)) (VP (VBD had) (VP (VBN hoped) (SBAR (S (NP (PRP you)) (VP (MD would) (VP (VP (VB have) (VP (VBN stayed))) (CC and) (VP (VB tortured) (NP (PRP him)) (ADVP (RB slowly) (PP (IN over) (NP (DT the) (JJ next) (JJ few) (NNS years)))) (SBAR (IN until) (S (NP (NNS EADS)) (VP (VBD got) (ADJP (JJ rid)) (PP (IN of) (NP (PRP him))))))))))))) (. !)))</parse>
+      <deps>nsubj(hoped-3, I-1)
+aux(hoped-3, had-2)
+root(ROOT-0, hoped-3)
+nsubj(stayed-7, you-4)
+nsubj(tortured-9, you-4)
+aux(stayed-7, would-5)
+aux(stayed-7, have-6)
+ccomp(hoped-3, stayed-7)
+ccomp(hoped-3, tortured-9)
+conj_and(stayed-7, tortured-9)
+dobj(tortured-9, him-10)
+advmod(tortured-9, slowly-11)
+det(years-16, the-13)
+amod(years-16, next-14)
+amod(years-16, few-15)
+prep_over(slowly-11, years-16)
+mark(rid-20, until-17)
+nsubj(rid-20, EADS-18)
+dep(rid-20, got-19)
+advcl(tortured-9, rid-20)
+prep_of(rid-20, him-22)</deps>
+      <events>
+        <event id="e39" eiid="ei39" offset="3" string="hoped" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e40" eiid="ei40" offset="7" string="stayed" tense="NONE" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e41" eiid="ei41" offset="9" string="tortured" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e42" eiid="ei42" offset="19" string="got" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t10" text="the next few years" offset="13" length="4" type="DURATION" value="PXY" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="28" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Jim . ''</sentence>
+      <tokens>
+        <t>"
+" "Jim" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (VP (VB Jim)) (. .) ('' '')))</parse>
+      <deps>root(ROOT-0, Jim-1)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="29" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>An email from Burkhardt &amp; Associates to James Roche advises the Secretary to release fiscal numbers favorable to Boeing , apparently regardless of the facts : '' I ' d distribute a one page memo saying the per plane cost of the lease will not be greater than x and have x be less than the last lease Boeing did for some commercial entity -- or that x is y dollars less than the cost of a new tanker , '' it said .</sentence>
+      <tokens>
+        <t>"
+" "An" " "</t>
+        <t>" " "email" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Burkhardt" " "</t>
+        <t>" " "&amp;amp;" " "</t>
+        <t>" " "Associates" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "James" " "</t>
+        <t>" " "Roche" " "</t>
+        <t>" " "advises" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "release" " "</t>
+        <t>" " "fiscal" " "</t>
+        <t>" " "numbers" " "</t>
+        <t>" " "favorable" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "apparently" " "</t>
+        <t>" " "regardless" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "facts" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "''" ""</t>
+        <t>"" "I" ""</t>
+        <t>"" "'" " "</t>
+        <t>" " "d" " "</t>
+        <t>" " "distribute" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "one" " "</t>
+        <t>" " "page" " "</t>
+        <t>" " "memo" " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "per" " "</t>
+        <t>" " "plane" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "lease" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "greater" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "x" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "x" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "less" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "lease" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "some" " "</t>
+        <t>" " "commercial" " "</t>
+        <t>" " "entity" " "</t>
+        <t>" " "--" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "x" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "y" " "</t>
+        <t>" " "dollars" " "</t>
+        <t>" " "less" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "tanker" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NP (DT An) (NN email)) (PP (IN from) (NP (NP (NNP Burkhardt) (CC &amp;) (NNPS Associates)) (PP (TO to) (NP (NNP James) (NNP Roche)))))) (VP (VBZ advises) (S (NP (DT the) (NNP Secretary)) (VP (TO to) (VP (VB release) (NP (NP (JJ fiscal) (NNS numbers)) (ADJP (JJ favorable) (PP (TO to) (NP (NNP Boeing))))) (, ,) (ADVP (RB apparently)) (ADVP (RB regardless) (PP (IN of) (NP (DT the) (NNS facts))))))))) (: :) ('' '') (S (S (NP (PRP I)) ('' ') (VP (VP (LST (LS d)) (VB distribute) (NP (DT a) (CD one) (NN page) (NN memo)) (S (VP (VBG saying) (SBAR (S (NP (NP (DT the) (FW per) (NN plane) (NN cost)) (PP (IN of) (NP (DT the) (NN lease)))) (VP (MD will) (RB not) (VP (VB be) (NP (QP (JJR greater) (IN than) (NP (SYM x))))))))))) (CC and) (VP (VB have) (S (NP (SYM x)) (VP (VB be) (ADJP (JJR less)))) (SBAR (SBAR (IN than) (S (NP (DT the) (JJ last) (NN lease) (NNP Boeing)) (VP (VBD did) (PP (IN for) (NP (DT some) (JJ commercial) (NN entity)))))) (: --) (CC or) (SBAR (IN that) (S (NP (SYM x)) (VP (VBZ is) (ADJP (NP (CD y) (NNS dollars)) (RBR less) (PP (IN than) (NP (NP (DT the) (NN cost)) (PP (IN of) (NP (DT a) (JJ new) (NN tanker))))))))))))) (, ,) ('' '') (NP (PRP it)) (VP (VBD said))) (. .)))</parse>
+      <deps>det(email-2, An-1)
+nsubj(advises-10, email-2)
+prep_from(email-2, Burkhardt-4)
+prep_from(email-2, Associates-6)
+conj_and(Burkhardt-4, Associates-6)
+nn(Roche-9, James-8)
+prep_to(Burkhardt-4, Roche-9)
+root(ROOT-0, advises-10)
+det(Secretary-12, the-11)
+nsubj(release-14, Secretary-12)
+aux(release-14, to-13)
+xcomp(advises-10, release-14)
+amod(numbers-16, fiscal-15)
+dobj(release-14, numbers-16)
+amod(numbers-16, favorable-17)
+prep_to(favorable-17, Boeing-19)
+advmod(release-14, apparently-21)
+det(facts-25, the-24)
+prep_regardless_of(release-14, facts-25)
+nsubj(distribute-31, I-28)
+nsubj(have-51, I-28)
+dep(distribute-31, d-30)
+ccomp(said-83, distribute-31)
+det(memo-35, a-32)
+num(memo-35, one-33)
+nn(memo-35, page-34)
+dobj(distribute-31, memo-35)
+xcomp(distribute-31, saying-36)
+det(cost-40, the-37)
+nn(cost-40, per-38)
+nn(cost-40, plane-39)
+nsubj(than-48, cost-40)
+det(lease-43, the-42)
+prep_of(cost-40, lease-43)
+aux(than-48, will-44)
+neg(than-48, not-45)
+cop(than-48, be-46)
+quantmod(than-48, greater-47)
+ccomp(saying-36, than-48)
+dep(than-48, x-49)
+conj_and(distribute-31, have-51)
+ccomp(said-83, have-51)
+nsubj(less-54, x-52)
+cop(less-54, be-53)
+ccomp(have-51, less-54)
+mark(did-60, than-55)
+det(Boeing-59, the-56)
+amod(Boeing-59, last-57)
+nn(Boeing-59, lease-58)
+nsubj(did-60, Boeing-59)
+ccomp(have-51, did-60)
+det(entity-64, some-62)
+amod(entity-64, commercial-63)
+prep_for(did-60, entity-64)
+mark(less-72, that-67)
+nsubj(less-72, x-68)
+cop(less-72, is-69)
+num(dollars-71, y-70)
+npadvmod(less-72, dollars-71)
+ccomp(have-51, less-72)
+conj_or(did-60, less-72)
+det(cost-75, the-74)
+prep_than(less-72, cost-75)
+det(tanker-79, a-77)
+amod(tanker-79, new-78)
+prep_of(cost-75, tanker-79)
+nsubj(said-83, it-82)
+ccomp(advises-10, said-83)
+parataxis(advises-10, said-83)</deps>
+      <events>
+        <event id="e43" eiid="ei43" offset="10" string="advises" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e44" eiid="ei44" offset="14" string="release" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e45" eiid="ei45" offset="31" string="distribute" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e46" eiid="ei46" offset="36" string="saying" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e47" eiid="ei47" offset="60" string="did" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e48" eiid="ei48" offset="83" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="30" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>An additional email by Roche provides a stark contrast to his criticism of Airbus , as he talks to Assistant Secretary of the Air Force for Acquisition Marvin Sambur about Boeing , saying , `` I love Ya , Big Guy .</sentence>
+      <tokens>
+        <t>"
+" "An" " "</t>
+        <t>" " "additional" " "</t>
+        <t>" " "email" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "Roche" " "</t>
+        <t>" " "provides" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "stark" " "</t>
+        <t>" " "contrast" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "criticism" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "talks" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Assistant" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Acquisition" " "</t>
+        <t>" " "Marvin" " "</t>
+        <t>" " "Sambur" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "love" " "</t>
+        <t>" " "Ya" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Big" " "</t>
+        <t>" " "Guy" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT An) (JJ additional) (NN email)) (PP (IN by) (NP (NNP Roche)))) (VP (VBZ provides) (NP (DT a) (JJ stark) (NN contrast)) (PP (TO to) (NP (NP (PRP$ his) (NN criticism)) (PP (IN of) (NP (NNP Airbus))))) (, ,) (SBAR (IN as) (S (NP (PRP he)) (VP (VBZ talks) (PP (TO to) (NP (NP (NNP Assistant) (NNP Secretary)) (PP (IN of) (NP (DT the) (NNP Air) (NNP Force))))) (PP (IN for) (NP (NP (NNP Acquisition) (NNP Marvin) (NNP Sambur)) (PP (IN about) (NP (NNP Boeing))))) (, ,) (S (VP (VBG saying) (, ,) (`` ``) (S (NP (PRP I)) (VP (VB love) (NP (NP (NNP Ya)) (, ,) (NP (NNP Big) (NNP Guy))))))))))) (. .)))</parse>
+      <deps>det(email-3, An-1)
+amod(email-3, additional-2)
+nsubj(provides-6, email-3)
+prep_by(email-3, Roche-5)
+root(ROOT-0, provides-6)
+det(contrast-9, a-7)
+amod(contrast-9, stark-8)
+dobj(provides-6, contrast-9)
+poss(criticism-12, his-11)
+prep_to(provides-6, criticism-12)
+prep_of(criticism-12, Airbus-14)
+mark(talks-18, as-16)
+nsubj(talks-18, he-17)
+advcl(provides-6, talks-18)
+nn(Secretary-21, Assistant-20)
+prep_to(talks-18, Secretary-21)
+det(Force-25, the-23)
+nn(Force-25, Air-24)
+prep_of(Secretary-21, Force-25)
+nn(Sambur-29, Acquisition-27)
+nn(Sambur-29, Marvin-28)
+prep_for(talks-18, Sambur-29)
+prep_about(Sambur-29, Boeing-31)
+xcomp(talks-18, saying-33)
+nsubj(love-37, I-36)
+ccomp(saying-33, love-37)
+dobj(love-37, Ya-38)
+nn(Guy-41, Big-40)
+appos(Ya-38, Guy-41)</deps>
+      <events>
+        <event id="e49" eiid="ei49" offset="6" string="provides" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e50" eiid="ei50" offset="12" string="criticism" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e51" eiid="ei51" offset="18" string="talks" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e52" eiid="ei52" offset="33" string="saying" tense="PRESPART" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e53" eiid="ei53" offset="37" string="love" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="31" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Give it to the Blue Eyed Arabs of the North -LRB- the expression we used for Boeing -RRB- . ''</sentence>
+      <tokens>
+        <t>"
+" "Give" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Blue" " "</t>
+        <t>" " "Eyed" " "</t>
+        <t>" " "Arabs" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "North" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "expression" " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "used" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (VP (VB Give) (NP (PRP it)) (PP (TO to) (NP (NP (DT the) (NNP Blue) (NNP Eyed) (NNPS Arabs)) (PP (IN of) (NP (DT the) (NNP North))) (PRN (-LRB- -LRB-) (NP (NP (DT the) (NN expression)) (SBAR (S (NP (PRP we)) (VP (VBD used) (PP (IN for) (NP (NNP Boeing))))))) (-RRB- -RRB-))))) (. .) ('' '')))</parse>
+      <deps>root(ROOT-0, Give-1)
+dobj(Give-1, it-2)
+det(Arabs-7, the-4)
+nn(Arabs-7, Blue-5)
+nn(Arabs-7, Eyed-6)
+prep_to(Give-1, Arabs-7)
+det(North-10, the-9)
+prep_of(Arabs-7, North-10)
+det(expression-13, the-12)
+dep(Arabs-7, expression-13)
+dobj(used-15, expression-13)
+nsubj(used-15, we-14)
+rcmod(expression-13, used-15)
+prep_for(used-15, Boeing-17)</deps>
+      <events>
+        <event id="e54" eiid="ei54" offset="15" string="used" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="32" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>GovExec.com quotes a `` Senate aide '' as saying : `` The House language of the spending bill -RRB- ignores an analysis of alternatives called for in last year 's authorizing language and by Pentagon Acquisition Director Michael Wynne and the DSB .</sentence>
+      <tokens>
+        <t>"
+" "GovExec.com" " "</t>
+        <t>" " "quotes" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "Senate" " "</t>
+        <t>" " "aide" " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "The" " "</t>
+        <t>" " "House" " "</t>
+        <t>" " "language" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "spending" " "</t>
+        <t>" " "bill" " "</t>
+        <t>" " "]" " "</t>
+        <t>" " "ignores" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "analysis" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "alternatives" " "</t>
+        <t>" " "called" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "year" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "authorizing" " "</t>
+        <t>" " "language" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "Pentagon" " "</t>
+        <t>" " "Acquisition" " "</t>
+        <t>" " "Director" " "</t>
+        <t>" " "Michael" " "</t>
+        <t>" " "Wynne" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "DSB" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP GovExec.com)) (VP (VBZ quotes) (NP (DT a) (`` ``) (NNP Senate) (NN aide) ('' '')) (PP (PP (IN as) (S (VP (VBG saying) (: :) (`` ``) (S (NP (NP (DT The) (NNP House) (NN language)) (PP (IN of) (NP (DT the) (JJ spending) (NN bill) (-RRB- -RRB-)))) (VP (VBZ ignores) (NP (NP (DT an) (NN analysis)) (PP (IN of) (NP (NP (NNS alternatives)) (VP (VBN called) (PP (IN for) (IN in) (NP (NP (JJ last) (NN year) (POS 's)) (VBG authorizing) (NN language)))))))))))) (CC and) (PP (IN by) (NP (NP (NNP Pentagon) (NNP Acquisition) (NNP Director) (NNP Michael) (NNP Wynne)) (CC and) (NP (DT the) (NNP DSB)))))) (. .)))</parse>
+      <deps>nsubj(quotes-2, GovExec.com-1)
+nsubj(quotes-2', GovExec.com-1)
+root(ROOT-0, quotes-2)
+conj_and(quotes-2, quotes-2')
+det(aide-6, a-3)
+nn(aide-6, Senate-5)
+dobj(quotes-2, aide-6)
+prepc_as(quotes-2, saying-9)
+det(language-14, The-12)
+nn(language-14, House-13)
+nsubj(ignores-20, language-14)
+det(bill-18, the-16)
+amod(bill-18, spending-17)
+prep_of(language-14, bill-18)
+ccomp(saying-9, ignores-20)
+det(analysis-22, an-21)
+dobj(ignores-20, analysis-22)
+prep_of(analysis-22, alternatives-24)
+partmod(alternatives-24, called-25)
+dep(called-25, for-26)
+amod(year-29, last-28)
+poss(language-32, year-29)
+amod(language-32, authorizing-31)
+prep_in(called-25, language-32)
+nn(Wynne-39, Pentagon-35)
+nn(Wynne-39, Acquisition-36)
+nn(Wynne-39, Director-37)
+nn(Wynne-39, Michael-38)
+prep_by(quotes-2', Wynne-39)
+det(DSB-42, the-41)
+prep_by(quotes-2', DSB-42)
+conj_and(Wynne-39, DSB-42)</deps>
+      <events>
+        <event id="e55" eiid="ei55" offset="9" string="saying" tense="PRESPART" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e56" eiid="ei56" offset="20" string="ignores" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t11" text="year" offset="29" length="1" type="DURATION" value="P1Y" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="33" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>It precludes such an analysis and predetermines the outcome in favor of the Boeing 767 before the study is even initiated . ''</sentence>
+      <tokens>
+        <t>"
+" "It" " "</t>
+        <t>" " "precludes" " "</t>
+        <t>" " "such" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "analysis" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "predetermines" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "outcome" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "favor" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "767" " "</t>
+        <t>" " "before" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "study" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "even" " "</t>
+        <t>" " "initiated" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP It)) (VP (VP (VBZ precludes) (NP (PDT such) (DT an) (NN analysis))) (CC and) (VP (VBZ predetermines) (NP (DT the) (NN outcome)) (PP (IN in) (NP (NP (NN favor)) (PP (IN of) (NP (DT the) (NNP Boeing) (CD 767)))))) (SBAR (IN before) (S (NP (DT the) (NN study)) (VP (VBZ is) (ADVP (RB even)) (VP (VBN initiated)))))) (. .) ('' '')))</parse>
+      <deps>nsubj(precludes-2, It-1)
+nsubj(predetermines-7, It-1)
+root(ROOT-0, precludes-2)
+predet(analysis-5, such-3)
+det(analysis-5, an-4)
+dobj(precludes-2, analysis-5)
+conj_and(precludes-2, predetermines-7)
+det(outcome-9, the-8)
+dobj(predetermines-7, outcome-9)
+prep_in(predetermines-7, favor-11)
+det(Boeing-14, the-13)
+prep_of(favor-11, Boeing-14)
+num(Boeing-14, 767-15)
+mark(initiated-21, before-16)
+det(study-18, the-17)
+nsubjpass(initiated-21, study-18)
+auxpass(initiated-21, is-19)
+advmod(initiated-21, even-20)
+advcl(precludes-2, initiated-21)</deps>
+      <events>
+        <event id="e57" eiid="ei57" offset="21" string="initiated" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="34" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>The activist organization the Project on Government Oversight has called it `` a textbook case of favoritism to a single defense contractor . ''</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "activist" " "</t>
+        <t>" " "organization" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Project" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "Government" " "</t>
+        <t>" " "Oversight" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "called" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "textbook" " "</t>
+        <t>" " "case" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "favoritism" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "single" " "</t>
+        <t>" " "defense" " "</t>
+        <t>" " "contractor" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NP (DT The) (JJ activist) (NN organization)) (NP (DT the) (NN Project))) (PP (IN on) (NP (NNP Government) (NNP Oversight)))) (VP (VBZ has) (VP (VBN called) (S (NP (PRP it)) (`` ``) (NP (NP (DT a) (NN textbook) (NN case)) (PP (IN of) (NP (NP (NN favoritism)) (PP (TO to) (NP (DT a) (JJ single) (NN defense) (NN contractor))))))))) (. .) ('' '')))</parse>
+      <deps>det(organization-3, The-1)
+amod(organization-3, activist-2)
+nsubj(called-10, organization-3)
+det(Project-5, the-4)
+dep(organization-3, Project-5)
+nn(Oversight-8, Government-7)
+prep_on(organization-3, Oversight-8)
+aux(called-10, has-9)
+root(ROOT-0, called-10)
+dep(case-15, it-11)
+det(case-15, a-13)
+nn(case-15, textbook-14)
+dep(called-10, case-15)
+prep_of(case-15, favoritism-17)
+det(contractor-22, a-19)
+amod(contractor-22, single-20)
+nn(contractor-22, defense-21)
+prep_to(favoritism-17, contractor-22)</deps>
+      <events>
+        <event id="e58" eiid="ei58" offset="10" string="called" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="35" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Assistant Secretary of the Air Force for Acquisition Marvin Sambur defended the Air Force 's exclusive consideration of Boeing , saying , `` This was not a competitive bid process .</sentence>
+      <tokens>
+        <t>"
+" "Assistant" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Acquisition" " "</t>
+        <t>" " "Marvin" " "</t>
+        <t>" " "Sambur" " "</t>
+        <t>" " "defended" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "exclusive" " "</t>
+        <t>" " "consideration" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "This" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "competitive" " "</t>
+        <t>" " "bid" " "</t>
+        <t>" " "process" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NAC (NNP Assistant) (NNP Secretary) (PP (IN of) (NP (NP (DT the) (NNP Air) (NNP Force)) (PP (IN for) (NP (NNP Acquisition)))))) (NNP Marvin) (NNP Sambur)) (VP (VBD defended) (NP (NP (NP (DT the) (NNP Air) (NNP Force) (POS 's)) (JJ exclusive) (NN consideration)) (PP (IN of) (NP (NNP Boeing)))) (, ,) (S (VP (VBG saying) (, ,) (`` ``) (S (NP (DT This)) (VP (VBD was) (RB not) (NP (DT a) (JJ competitive) (NN bid) (NN process))))))) (. .)))</parse>
+      <deps>dep(Sambur-10, Assistant-1)
+dep(Assistant-1, Secretary-2)
+det(Force-6, the-4)
+nn(Force-6, Air-5)
+prep_of(Assistant-1, Force-6)
+prep_for(Force-6, Acquisition-8)
+nn(Sambur-10, Marvin-9)
+nsubj(defended-11, Sambur-10)
+root(ROOT-0, defended-11)
+det(Force-14, the-12)
+nn(Force-14, Air-13)
+poss(consideration-17, Force-14)
+amod(consideration-17, exclusive-16)
+dobj(defended-11, consideration-17)
+prep_of(consideration-17, Boeing-19)
+partmod(defended-11, saying-21)
+nsubj(process-30, This-24)
+cop(process-30, was-25)
+neg(process-30, not-26)
+det(process-30, a-27)
+amod(process-30, competitive-28)
+nn(process-30, bid-29)
+ccomp(saying-21, process-30)</deps>
+      <events>
+        <event id="e59" eiid="ei59" offset="11" string="defended" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e60" eiid="ei60" offset="21" string="saying" tense="PRESPART" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="36" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>The Air Force was ordered by Congress to work with Boeing on the new tanker program . ''</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "ordered" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "Congress" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "work" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "tanker" " "</t>
+        <t>" " "program" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NNP Air) (NNP Force)) (VP (VBD was) (VP (VBN ordered) (PP (IN by) (NP (NNP Congress))) (S (VP (TO to) (VP (VB work) (PP (IN with) (NP (NNP Boeing))) (PP (IN on) (NP (DT the) (JJ new) (NN tanker) (NN program)))))))) (. .) ('' '')))</parse>
+      <deps>det(Force-3, The-1)
+nn(Force-3, Air-2)
+nsubjpass(ordered-5, Force-3)
+xsubj(work-9, Force-3)
+auxpass(ordered-5, was-4)
+root(ROOT-0, ordered-5)
+agent(ordered-5, Congress-7)
+aux(work-9, to-8)
+xcomp(ordered-5, work-9)
+prep_with(work-9, Boeing-11)
+det(program-16, the-13)
+amod(program-16, new-14)
+nn(program-16, tanker-15)
+prep_on(work-9, program-16)</deps>
+      <events>
+        <event id="e61" eiid="ei61" offset="5" string="ordered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e62" eiid="ei62" offset="9" string="work" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="37" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Boeing had previously hired Civilian Deputy Undersecretary of the Air Force for Acquisition Darleen Druyun .</sentence>
+      <tokens>
+        <t>"
+" "Boeing" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "previously" " "</t>
+        <t>" " "hired" " "</t>
+        <t>" " "Civilian" " "</t>
+        <t>" " "Deputy" " "</t>
+        <t>" " "Undersecretary" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Acquisition" " "</t>
+        <t>" " "Darleen" " "</t>
+        <t>" " "Druyun" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Boeing)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN hired) (NP (NP (NNP Civilian) (NNP Deputy) (NNP Undersecretary)) (PP (IN of) (NP (DT the) (NNP Air) (NNP Force)))) (PP (IN for) (NP (NNP Acquisition) (NNP Darleen) (NNP Druyun))))) (. .)))</parse>
+      <deps>nsubj(hired-4, Boeing-1)
+aux(hired-4, had-2)
+advmod(hired-4, previously-3)
+root(ROOT-0, hired-4)
+nn(Undersecretary-7, Civilian-5)
+nn(Undersecretary-7, Deputy-6)
+dobj(hired-4, Undersecretary-7)
+det(Force-11, the-9)
+nn(Force-11, Air-10)
+prep_of(Undersecretary-7, Force-11)
+nn(Druyun-15, Acquisition-13)
+nn(Druyun-15, Darleen-14)
+prep_for(hired-4, Druyun-15)</deps>
+      <events>
+        <event id="e63" eiid="ei63" offset="4" string="hired" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t12" text="previously" offset="3" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="38" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>This caused a controversy over conflict of interest and led to felony charges against Boeing Chief Financial Officer Michael Sears for illegally hiring her .</sentence>
+      <tokens>
+        <t>"
+" "This" " "</t>
+        <t>" " "caused" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "controversy" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "conflict" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "interest" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "led" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "felony" " "</t>
+        <t>" " "charges" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "Chief" " "</t>
+        <t>" " "Financial" " "</t>
+        <t>" " "Officer" " "</t>
+        <t>" " "Michael" " "</t>
+        <t>" " "Sears" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "illegally" " "</t>
+        <t>" " "hiring" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT This)) (VP (VP (VBD caused) (NP (DT a) (NN controversy)) (PP (IN over) (NP (NP (NN conflict)) (PP (IN of) (NP (NN interest)))))) (CC and) (VP (VBD led) (PP (TO to) (NP (NP (NN felony) (NNS charges)) (PP (IN against) (NP (NNP Boeing) (NNP Chief) (NNP Financial) (NNP Officer) (NNP Michael) (NNP Sears))))) (PP (IN for) (S (ADVP (RB illegally)) (VP (VBG hiring) (NP (PRP her))))))) (. .)))</parse>
+      <deps>nsubj(caused-2, This-1)
+nsubj(led-10, This-1)
+root(ROOT-0, caused-2)
+det(controversy-4, a-3)
+dobj(caused-2, controversy-4)
+prep_over(caused-2, conflict-6)
+prep_of(conflict-6, interest-8)
+conj_and(caused-2, led-10)
+nn(charges-13, felony-12)
+prep_to(led-10, charges-13)
+nn(Sears-20, Boeing-15)
+nn(Sears-20, Chief-16)
+nn(Sears-20, Financial-17)
+nn(Sears-20, Officer-18)
+nn(Sears-20, Michael-19)
+prep_against(charges-13, Sears-20)
+advmod(hiring-23, illegally-22)
+prepc_for(led-10, hiring-23)
+dobj(hiring-23, her-24)</deps>
+      <events>
+        <event id="e64" eiid="ei64" offset="2" string="caused" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e65" eiid="ei65" offset="10" string="led" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e66" eiid="ei66" offset="13" string="charges" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e67" eiid="ei67" offset="23" string="hiring" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="39" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Former military personnel are often hired by defense contractors to lobby for contracts .</sentence>
+      <tokens>
+        <t>"
+" "Former" " "</t>
+        <t>" " "military" " "</t>
+        <t>" " "personnel" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "often" " "</t>
+        <t>" " "hired" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "defense" " "</t>
+        <t>" " "contractors" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "lobby" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "contracts" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Former) (JJ military) (NNS personnel)) (VP (VBP are) (ADVP (RB often)) (VP (VBN hired) (PP (IN by) (NP (NN defense) (NNS contractors))) (S (VP (TO to) (VP (VB lobby) (PP (IN for) (NP (NNS contracts)))))))) (. .)))</parse>
+      <deps>amod(personnel-3, Former-1)
+amod(personnel-3, military-2)
+nsubjpass(hired-6, personnel-3)
+xsubj(lobby-11, personnel-3)
+auxpass(hired-6, are-4)
+advmod(hired-6, often-5)
+root(ROOT-0, hired-6)
+nn(contractors-9, defense-8)
+agent(hired-6, contractors-9)
+aux(lobby-11, to-10)
+xcomp(hired-6, lobby-11)
+prep_for(lobby-11, contracts-13)</deps>
+      <events>
+        <event id="e68" eiid="ei68" offset="6" string="hired" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e69" eiid="ei69" offset="11" string="lobby" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="40" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Days after Sen. McCain 's remarks , the Air Force said the tanker replacement contract would be revived as an open bid .</sentence>
+      <tokens>
+        <t>"
+" "Days" " "</t>
+        <t>" " "after" " "</t>
+        <t>" " "Sen." " "</t>
+        <t>" " "McCain" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "remarks" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "tanker" " "</t>
+        <t>" " "replacement" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "revived" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "open" " "</t>
+        <t>" " "bid" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (PP (NP (NNS Days)) (IN after) (NP (NP (NNP Sen.) (NNP McCain) (POS 's)) (NNS remarks))) (, ,) (NP (DT the) (NNP Air) (NNP Force)) (VP (VBD said) (SBAR (S (NP (DT the) (NN tanker) (NN replacement) (NN contract)) (VP (MD would) (VP (VB be) (VP (VBN revived) (PP (IN as) (NP (DT an) (JJ open) (NN bid))))))))) (. .)))</parse>
+      <deps>npadvmod(said-11, Days-1)
+nn(McCain-4, Sen.-3)
+poss(remarks-6, McCain-4)
+prep_after(said-11, remarks-6)
+det(Force-10, the-8)
+nn(Force-10, Air-9)
+nsubj(said-11, Force-10)
+root(ROOT-0, said-11)
+det(contract-15, the-12)
+nn(contract-15, tanker-13)
+nn(contract-15, replacement-14)
+nsubjpass(revived-18, contract-15)
+aux(revived-18, would-16)
+auxpass(revived-18, be-17)
+ccomp(said-11, revived-18)
+det(bid-22, an-20)
+amod(bid-22, open-21)
+prep_as(revived-18, bid-22)</deps>
+      <events>
+        <event id="e70" eiid="ei70" offset="11" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e71" eiid="ei71" offset="18" string="revived" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e72" eiid="ei72" offset="22" string="bid" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t13" text="Days" offset="1" length="1" type="DURATION" value="PXD" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="41" file="1173_Internal_emails_expose_Boeing-Air_Force_contract_discussions.txt">
+      <sentence>Deputy Defense Secretary Wolfowitz published an open-article in the Congressional Record , saying : `` After we have selected an appropriate alternative , we intend to require competition . ''</sentence>
+      <tokens>
+        <t>"
+" "Deputy" " "</t>
+        <t>" " "Defense" " "</t>
+        <t>" " "Secretary" " "</t>
+        <t>" " "Wolfowitz" " "</t>
+        <t>" " "published" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "open-article" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Congressional" " "</t>
+        <t>" " "Record" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "saying" " "</t>
+        <t>" " ":" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "After" " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "selected" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "appropriate" " "</t>
+        <t>" " "alternative" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "we" " "</t>
+        <t>" " "intend" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "require" " "</t>
+        <t>" " "competition" " "</t>
+        <t>" " "." " "</t>
+        <t>" " "''" "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Deputy) (NNP Defense) (NNP Secretary) (NNP Wolfowitz)) (VP (VBD published) (NP (NP (DT an) (NN open-article)) (PP (IN in) (NP (DT the) (NNP Congressional) (NNP Record)))) (, ,) (S (VP (VBG saying) (: :) (`` ``) (S (SBAR (IN After) (S (NP (PRP we)) (VP (VBP have) (VP (VBN selected) (NP (DT an) (JJ appropriate) (NN alternative)))))) (, ,) (NP (PRP we)) (VP (VBP intend) (S (VP (TO to) (VP (VB require) (NP (NN competition)))))))))) (. .) ('' '')))</parse>
+      <deps>nn(Wolfowitz-4, Deputy-1)
+nn(Wolfowitz-4, Defense-2)
+nn(Wolfowitz-4, Secretary-3)
+nsubj(published-5, Wolfowitz-4)
+root(ROOT-0, published-5)
+det(open-article-7, an-6)
+dobj(published-5, open-article-7)
+det(Record-11, the-9)
+nn(Record-11, Congressional-10)
+prep_in(open-article-7, Record-11)
+partmod(published-5, saying-13)
+mark(selected-19, After-16)
+nsubj(selected-19, we-17)
+aux(selected-19, have-18)
+advcl(intend-25, selected-19)
+det(alternative-22, an-20)
+amod(alternative-22, appropriate-21)
+dobj(selected-19, alternative-22)
+nsubj(intend-25, we-24)
+xsubj(require-27, we-24)
+ccomp(saying-13, intend-25)
+aux(require-27, to-26)
+xcomp(intend-25, require-27)
+dobj(require-27, competition-28)</deps>
+      <events>
+        <event id="e73" eiid="ei73" offset="5" string="published" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e74" eiid="ei74" offset="13" string="saying" tense="PRESPART" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e75" eiid="ei75" offset="19" string="selected" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e76" eiid="ei76" offset="25" string="intend" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e77" eiid="ei77" offset="27" string="require" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei4" event2="t3" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei6" event2="t4" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei18" event2="t6" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei19" event2="t7" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei63" event2="t12" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei70" event2="t13" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei8" event2="ei10" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei8" event2="ei12" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei33" event2="ei34" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei4" event2="ei10" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei4" event2="ei12" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei6" event2="ei10" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei6" event2="ei12" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei18" event2="ei19" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei18" event2="ei22" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei18" event2="ei23" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei29" event2="ei30" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei29" event2="ei31" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei38" event2="ei39" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei39" event2="ei40" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei39" event2="ei42" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei40" event2="ei42" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei68" event2="ei71" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei70" event2="ei71" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei71" event2="ei73" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei71" event2="ei75" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei71" event2="ei76" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="SIMULTANEOUS" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="SIMULTANEOUS" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei20" event2="ei21" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei30" event2="ei31" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei31" event2="ei32" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei39" event2="ei41" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei40" event2="ei41" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei43" event2="ei44" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei45" event2="ei46" relation="SIMULTANEOUS" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei49" event2="ei51" relation="SIMULTANEOUS" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei51" event2="ei52" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei52" event2="ei53" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei55" event2="ei56" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei61" event2="ei62" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei64" event2="ei65" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei68" event2="ei69" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei74" event2="ei76" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei76" event2="ei75" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei76" event2="ei77" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei8" event2="ei11" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei11" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei11" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei71" event2="ei74" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei10" event2="ei12" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei49" event2="ei52" relation="IS_INCLUDED" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei51" event2="ei53" relation="IS_INCLUDED" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei74" event2="ei75" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei74" event2="ei77" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei75" event2="ei77" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei49" event2="ei53" relation="IS_INCLUDED" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei46" event2="ei48" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei46" event2="ei52" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei48" event2="ei52" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei60" event2="ei61" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei63" event2="ei67" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei67" event2="ei68" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei70" event2="ei74" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei5" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="t4" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei8" event2="t4" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei10" event2="t4" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei11" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei12" event2="t4" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei14" event2="t5" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei15" event2="t5" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei16" event2="t5" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei19" event2="t6" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei20" event2="t6" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei21" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei18" event2="t7" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei20" event2="t7" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei21" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei25" event2="t8" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei36" event2="t9" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei37" event2="t9" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei39" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei40" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei41" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei42" event2="t10" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei55" event2="t11" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei56" event2="t11" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei71" event2="t13" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei72" event2="t13" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="ei7" relation="BEFORE" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei18" event2="ei20" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei10" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei12" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei22" event2="ei20" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei23" event2="ei20" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei11" event2="ei7" relation="BEFORE" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei6" event2="ei9" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei14" event2="ei16" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei19" event2="ei21" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei22" event2="ei23" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei30" event2="ei32" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei41" event2="ei42" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei49" event2="ei50" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei59" event2="ei60" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei65" event2="ei66" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei65" event2="ei67" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei70" event2="ei72" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei71" event2="ei72" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei73" event2="ei74" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei73" event2="ei75" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei73" event2="ei76" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei73" event2="ei77" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei10" event2="ei9" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei9" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei10" event2="ei5" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei5" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei18" event2="ei21" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei9" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei11" event2="ei5" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei36" event2="ei37" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei43" event2="ei45" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei43" event2="ei46" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei43" event2="ei47" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei43" event2="ei48" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei44" event2="ei45" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei44" event2="ei46" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei44" event2="ei47" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei44" event2="ei48" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei45" event2="ei47" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei45" event2="ei48" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei46" event2="ei47" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei47" event2="ei48" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei50" event2="ei51" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei50" event2="ei52" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei50" event2="ei53" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei64" event2="ei66" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei64" event2="ei67" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei66" event2="ei67" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t1" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei13" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei14" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t5" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei19" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t6" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t6" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t7" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t7" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei22" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei25" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t8" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei26" event2="ei27" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei27" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei28" event2="ei29" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei29" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei30" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei30" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei31" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei34" event2="ei35" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="ei40" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="t10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei43" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei44" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei44" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei44" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei44" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei44" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei49" event2="ei54" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei50" event2="ei54" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei51" event2="ei54" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei52" event2="ei54" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei53" event2="ei54" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei55" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei56" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei55" event2="ei57" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei56" event2="ei57" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t11" event2="ei57" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei57" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei58" event2="ei59" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei58" event2="ei60" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei59" event2="ei61" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei59" event2="ei62" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei60" event2="ei62" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei61" event2="ei63" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei61" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei62" event2="ei63" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei62" event2="t12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei63" event2="ei64" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei63" event2="ei65" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei63" event2="ei66" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t12" event2="ei64" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei65" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei66" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei67" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei64" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei64" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei65" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei65" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei66" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei66" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei67" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei68" event2="ei70" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei68" event2="ei72" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei68" event2="t13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei69" event2="ei70" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei69" event2="ei71" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei69" event2="ei72" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei69" event2="t13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei70" event2="ei73" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="ei77" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei71" event2="ei77" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei72" event2="ei73" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei72" event2="ei74" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei72" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei72" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei72" event2="ei77" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t13" event2="ei73" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t13" event2="ei74" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t13" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t13" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t13" event2="ei77" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

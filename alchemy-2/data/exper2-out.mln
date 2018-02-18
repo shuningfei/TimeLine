@@ -1,0 +1,17 @@
+//predicate declarations
+BEFORE_ET(event,time)
+EventDCT(time,event)
+PAST(event)
+
+// 0.879088  PAST(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0.879088  !EventDCT(a1,a2) v !PAST(a2) v BEFORE_ET(a2,a1)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       PAST(a1)
+0       PAST(a1)
+
+// -6.57664  BEFORE_ET(a1,a2)
+-6.57664  BEFORE_ET(a1,a2)
+

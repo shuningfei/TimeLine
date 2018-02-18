@@ -1,0 +1,5 @@
+average accuracy: 0.647104683385
+overall accuracy: 0.6343156218
+total pairs annotated by anyone: 8451
+total annotated pairs by two or more people: 8789
+total annotated pair tokens annotated outright: 17578

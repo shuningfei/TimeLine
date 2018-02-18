@@ -1,0 +1,145 @@
+//predicate declarations
+Tense(event,tense)
+EventDCT(time,event)
+E2E(event,event,rel)
+E2T(event,time,rel)
+Cross_doc_ev_coref(event,event)
+
+// 0       Tense(e,INFINITIVE) ^ EventDCT(t,e) => E2T(e,t,SIMULTANEOUS)
+0       !Tense(a1,INFINITIVE) v !EventDCT(a2,a1) v E2T(a1,a2,SIMULTANEOUS)
+
+// 0       Tense(e,INFINITIVE) ^ EventDCT(t,e) => E2T(e,t,BEFORE)
+0       !Tense(a1,INFINITIVE) v !EventDCT(a2,a1) v E2T(a1,a2,BEFORE)
+
+// 0       Tense(e,INFINITIVE) ^ EventDCT(t,e) => E2T(e,t,AFTER)
+0       !Tense(a1,INFINITIVE) v !EventDCT(a2,a1) v E2T(a1,a2,AFTER)
+
+// 0       Tense(e,PAST) ^ EventDCT(t,e) => E2T(e,t,SIMULTANEOUS)
+0       !Tense(a1,PAST) v !EventDCT(a2,a1) v E2T(a1,a2,SIMULTANEOUS)
+
+// 0       Tense(e,PAST) ^ EventDCT(t,e) => E2T(e,t,BEFORE)
+0       !Tense(a1,PAST) v !EventDCT(a2,a1) v E2T(a1,a2,BEFORE)
+
+// 0       Tense(e,PAST) ^ EventDCT(t,e) => E2T(e,t,AFTER)
+0       !Tense(a1,PAST) v !EventDCT(a2,a1) v E2T(a1,a2,AFTER)
+
+// 0       Tense(e,PRESENT) ^ EventDCT(t,e) => E2T(e,t,SIMULTANEOUS)
+0       !Tense(a1,PRESENT) v !EventDCT(a2,a1) v E2T(a1,a2,SIMULTANEOUS)
+
+// 0       Tense(e,PRESENT) ^ EventDCT(t,e) => E2T(e,t,BEFORE)
+0       !Tense(a1,PRESENT) v !EventDCT(a2,a1) v E2T(a1,a2,BEFORE)
+
+// 0       Tense(e,PRESENT) ^ EventDCT(t,e) => E2T(e,t,AFTER)
+0       !Tense(a1,PRESENT) v !EventDCT(a2,a1) v E2T(a1,a2,AFTER)
+
+// 0       Tense(e,FUTURE) ^ EventDCT(t,e) => E2T(e,t,SIMULTANEOUS)
+0       !Tense(a1,FUTURE) v !EventDCT(a2,a1) v E2T(a1,a2,SIMULTANEOUS)
+
+// 0       Tense(e,FUTURE) ^ EventDCT(t,e) => E2T(e,t,BEFORE)
+0       !Tense(a1,FUTURE) v !EventDCT(a2,a1) v E2T(a1,a2,BEFORE)
+
+// 0       Tense(e,FUTURE) ^ EventDCT(t,e) => E2T(e,t,AFTER)
+0       !Tense(a1,FUTURE) v !EventDCT(a2,a1) v E2T(a1,a2,AFTER)
+
+// 0       Tense(e,PRESPART) ^ EventDCT(t,e) => E2T(e,t,SIMULTANEOUS)
+0       !Tense(a1,PRESPART) v !EventDCT(a2,a1) v E2T(a1,a2,SIMULTANEOUS)
+
+// 0       Tense(e,PRESPART) ^ EventDCT(t,e) => E2T(e,t,BEFORE)
+0       !Tense(a1,PRESPART) v !EventDCT(a2,a1) v E2T(a1,a2,BEFORE)
+
+// 0       Tense(e,PRESPART) ^ EventDCT(t,e) => E2T(e,t,AFTER)
+0       !Tense(a1,PRESPART) v !EventDCT(a2,a1) v E2T(a1,a2,AFTER)
+
+// 0       Tense(e,PASTPART) ^ EventDCT(t,e) => E2T(e,t,SIMULTANEOUS)
+0       !Tense(a1,PASTPART) v !EventDCT(a2,a1) v E2T(a1,a2,SIMULTANEOUS)
+
+// 0       Tense(e,PASTPART) ^ EventDCT(t,e) => E2T(e,t,BEFORE)
+0       !Tense(a1,PASTPART) v !EventDCT(a2,a1) v E2T(a1,a2,BEFORE)
+
+// 0       Tense(e,PASTPART) ^ EventDCT(t,e) => E2T(e,t,AFTER)
+0       !Tense(a1,PASTPART) v !EventDCT(a2,a1) v E2T(a1,a2,AFTER)
+
+// -0.369809  E2T(e1,t1,SIMULTANEOUS) ^ E2E(e1,e2,SIMULTANEOUS) => E2T(e2,t1,SIMULTANEOUS)
+-0.369809  E2T(a1,a2,SIMULTANEOUS) v !E2T(a3,a2,SIMULTANEOUS) v !E2E(a3,a1,SIMULTANEOUS)
+
+// 0.707466  E2T(e1,t1,BEFORE) ^ E2E(e1,e2,SIMULTANEOUS) => E2T(e2,t1,BEFORE)
+0.707466  E2T(a1,a2,BEFORE) v !E2T(a3,a2,BEFORE) v !E2E(a3,a1,SIMULTANEOUS)
+
+// -0.0175744  E2T(e1,t1,AFTER) ^ E2E(e1,e2,SIMULTANEOUS) => E2T(e2,t1,AFTER)
+-0.0175744  E2T(a1,a2,AFTER) v !E2T(a3,a2,AFTER) v !E2E(a3,a1,SIMULTANEOUS)
+
+// 2.06454  E2T(e1,t1,SIMULTANEOUS) ^ E2E(e1,e2,BEFORE) => E2T(e2,t1,AFTER)
+2.06454  E2T(a1,a2,AFTER) v !E2T(a3,a2,SIMULTANEOUS) v !E2E(a3,a1,BEFORE)
+
+// 1.0796  E2T(e1,t1,AFTER) ^ E2E(e1,e2,BEFORE) => E2T(e2,t1,AFTER)
+1.0796  E2T(a1,a2,AFTER) v !E2T(a3,a2,AFTER) v !E2E(a3,a1,BEFORE)
+
+// 0.0665401  E2T(e1,t1,SIMULTANEOUS) ^ E2E(e2,e1,BEFORE) => E2T(e2,t1,BEFORE)
+0.0665401  E2T(a1,a2,BEFORE) v !E2T(a3,a2,SIMULTANEOUS) v !E2E(a1,a3,BEFORE)
+
+// 0.905018  E2T(e1,t1,BEFORE) ^ E2E(e2,e1,BEFORE) => E2T(e2,t1,BEFORE)
+0.905018  E2T(a1,a2,BEFORE) v !E2T(a3,a2,BEFORE) v !E2E(a1,a3,BEFORE)
+
+// 0       E2T(e,t,SIMULTANEOUS) => !E2T(e,t,BEFORE)
+0       !E2T(a1,a2,SIMULTANEOUS) v !E2T(a1,a2,BEFORE)
+
+// 0       E2T(e,t,SIMULTANEOUS) => !E2T(e,t,AFTER)
+0       !E2T(a1,a2,SIMULTANEOUS) v !E2T(a1,a2,AFTER)
+
+// 0       E2T(e,t,BEFORE) => !E2T(e,t,AFTER)
+0       !E2T(a1,a2,BEFORE) v !E2T(a1,a2,AFTER)
+
+// 5.40707  E2T(e1,t1,SIMULTANEOUS) ^ E2T(e2,t1,SIMULTANEOUS) => E2E(e1,e2,SIMULTANEOUS)
+5.40707  !E2T(a1,a2,SIMULTANEOUS) v !E2T(a3,a2,SIMULTANEOUS) v E2E(a1,a3,SIMULTANEOUS)
+
+// 6.77081  E2T(e1,t1,SIMULTANEOUS) ^ E2T(e2,t1,AFTER) => E2E(e1,e2,BEFORE)
+6.77081  !E2T(a1,a2,SIMULTANEOUS) v !E2T(a3,a2,AFTER) v E2E(a1,a3,BEFORE)
+
+// 6.64635  E2T(e1,t1,SIMULTANEOUS) ^ E2T(e2,t1,BEFORE) => E2E(e2,e1,BEFORE)
+6.64635  !E2T(a1,a2,BEFORE) v !E2T(a3,a2,SIMULTANEOUS) v E2E(a1,a3,BEFORE)
+
+// 2.30705  E2T(e1,t1,BEFORE) ^ E2T(e2,t1,AFTER) => E2E(e1,e2,BEFORE)
+2.30705  !E2T(a1,a2,BEFORE) v !E2T(a3,a2,AFTER) v E2E(a1,a3,BEFORE)
+
+// 2.74846  E2E(e1,e2,BEFORE) ^ E2E(e2,e3,BEFORE) => E2E(e1,e3,BEFORE)
+2.74846  E2E(a1,a2,BEFORE) v !E2E(a1,a3,BEFORE) v !E2E(a3,a2,BEFORE)
+
+// 2.74554  E2E(e1,e2,SIMULTANEOUS) ^ E2E(e2,e3,SIMULTANEOUS) => E2E(e1,e3,SIMULTANEOUS)
+2.74554  E2E(a1,a2,SIMULTANEOUS) v !E2E(a1,a3,SIMULTANEOUS) v !E2E(a3,a2,SIMULTANEOUS)
+
+// 2.0181  E2E(e1,e2,BEFORE) ^ E2E(e2,e3,SIMULTANEOUS) => E2E(e1,e3,BEFORE)
+2.0181  E2E(a1,a2,BEFORE) v !E2E(a1,a3,BEFORE) v !E2E(a3,a2,SIMULTANEOUS)
+
+// 0.401226  E2E(e1,e2,SIMULTANEOUS) => !E2E(e1,e2,BEFORE)
+0.401226  !E2E(a1,a2,SIMULTANEOUS) v !E2E(a1,a2,BEFORE)
+
+// 1.59927  E2E(e1,e2,BEFORE) ^ Cross_doc_ev_coref(e2,e3) => E2E(e1,e3,BEFORE)
+1.59927  E2E(a1,a2,BEFORE) v !E2E(a1,a3,BEFORE) v !Cross_doc_ev_coref(a3,a2)
+
+// 2.19366  E2E(e1,e2,SIMULTANEOUS) ^ Cross_doc_ev_coref(e2,e3) => E2E(e1,e3,SIMULTANEOUS)
+2.19366  E2E(a1,a2,SIMULTANEOUS) v !E2E(a1,a3,SIMULTANEOUS) v !Cross_doc_ev_coref(a3,a2)
+
+// 0       E2T(e1,t1,BEFORE) ^ Cross_doc_ev_coref(e1,e2) => E2T(e2,t1,BEFORE)
+0       E2T(a1,a2,BEFORE) v !E2T(a3,a2,BEFORE) v !Cross_doc_ev_coref(a3,a1)
+
+// 0       E2T(e1,t1,AFTER) ^ Cross_doc_ev_coref(e1,e2) => E2T(e2,t1,AFTER)
+0       E2T(a1,a2,AFTER) v !E2T(a3,a2,AFTER) v !Cross_doc_ev_coref(a3,a1)
+
+// 0       E2T(e1,t1,SIMULTANEOUS) ^ Cross_doc_ev_coref(e1,e2) => E2T(e2,t1,SIMULTANEOUS)
+0       E2T(a1,a2,SIMULTANEOUS) v !E2T(a3,a2,SIMULTANEOUS) v !Cross_doc_ev_coref(a3,a1)
+
+// 0       Tense(a1,a2)
+0       Tense(a1,a2)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       E2T(a1,a2,a3)
+0       E2T(a1,a2,a3)
+
+// -5.69812  E2E(a1,a2,a3)
+-5.69812  E2E(a1,a2,a3)
+
+// 0       Cross_doc_ev_coref(a1,a2)
+0       Cross_doc_ev_coref(a1,a2)
+

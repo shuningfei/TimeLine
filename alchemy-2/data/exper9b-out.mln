@@ -1,0 +1,134 @@
+//predicate declarations
+PRESENT(event)
+INCLUDES_TT(time,time)
+INFINITIVE(event)
+BEFORE_EE(event,event)
+BEFORE_ET(event,time)
+SIMULTANEOUS_EE(event,event)
+SIMULTANEOUS_ET(event,time)
+PASTPART(event)
+EventDCT(time,event)
+FUTURE(event)
+INCLUDES_EE(event,event)
+BEFORE_TT(time,time)
+INCLUDES_ET(event,time)
+AFTER_ET(event,time)
+PAST(event)
+PRESPART(event)
+SIMULTANEOUS_TT(time,time)
+IS_INCLUDED_ET(event,time)
+
+// 0       FUTURE(e) ^ EventDCT(t,e) => AFTER_ET(e,t)
+0       !EventDCT(a1,a2) v !FUTURE(a2) v AFTER_ET(a2,a1)
+
+// 0       PAST(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0       !EventDCT(a1,a2) v !PAST(a2) v BEFORE_ET(a2,a1)
+
+// 0       PRESENT(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+0       !EventDCT(a1,a2) v !PRESENT(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// 0       PASTPART(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0       !EventDCT(a1,a2) v !PASTPART(a2) v BEFORE_ET(a2,a1)
+
+// 0       PRESPART(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+0       !EventDCT(a1,a2) v !PRESPART(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// 5.06879  SIMULTANEOUS_ET(e1,t1) ^ SIMULTANEOUS_ET(e2,t1) => SIMULTANEOUS_EE(e1,e2)
+5.06879  !SIMULTANEOUS_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v SIMULTANEOUS_EE(a1,a3)
+
+// 4.38198  SIMULTANEOUS_ET(e1,t1) ^ AFTER_ET(e2,t1) => BEFORE_EE(e1,e2)
+4.38198  !AFTER_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v BEFORE_EE(a3,a1)
+
+// 5.72792  BEFORE_ET(e1,t1) ^ SIMULTANEOUS_ET(e2,t1) => BEFORE_EE(e1,e2)
+5.72792  !BEFORE_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v BEFORE_EE(a1,a3)
+
+// 2.02193  BEFORE_ET(e1,t1) ^ AFTER_ET(e2,t1) => BEFORE_EE(e1,e2)
+2.02193  !AFTER_ET(a1,a2) v !BEFORE_ET(a3,a2) v BEFORE_EE(a3,a1)
+
+// -0.77981  PRESENT(e1) ^ EventDCT(t1,e1) ^ PRESENT(e2) ^ EventDCT(t1,e2) => SIMULTANEOUS_EE(e1,e2)
+-0.77981  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !PRESENT(a2) v !PRESENT(a3) v SIMULTANEOUS_EE(a2,a3)
+
+// -1.11915  PRESPART(e1) ^ EventDCT(t1,e1) ^ PRESPART(e2) ^ EventDCT(t1,e2) => SIMULTANEOUS_EE(e1,e2)
+-1.11915  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !PRESPART(a2) v !PRESPART(a3) v SIMULTANEOUS_EE(a2,a3)
+
+// -0.0261663  PRESENT(e1) ^ EventDCT(t1,e1) ^ PRESPART(e2) ^ EventDCT(t1,e2) => SIMULTANEOUS_EE(e1,e2)
+-0.0261663  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !PRESENT(a2) v !PRESPART(a3) v SIMULTANEOUS_EE(a2,a3)
+
+// -1.57409  PRESENT(e1) ^ EventDCT(t1,e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1,e2)
+-1.57409  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !PRESENT(a2) v !FUTURE(a3) v BEFORE_EE(a2,a3)
+
+// 0.627158  PRESPART(e1) ^ EventDCT(t1,e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1,e2)
+0.627158  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !FUTURE(a3) v !PRESPART(a2) v BEFORE_EE(a2,a3)
+
+// -1.1893  PAST(e1) ^ EventDCT(t1,e1) ^ PRESENT(e2) ^ EventDCT(t2,e2) => BEFORE_EE(e1,e2)
+-1.1893  !EventDCT(a1,a2) v !EventDCT(a3,a4) v !PRESENT(a4) v !PAST(a2) v BEFORE_EE(a2,a4)
+
+// -0.0413167  PAST(e1) ^ EventDCT(t1,e1) ^ PRESPART(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1,e2)
+-0.0413167  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !PAST(a2) v !PRESPART(a3) v BEFORE_EE(a2,a3)
+
+// -0.815277  PASTPART(e1) ^ EventDCT(t1,e1) ^ PRESENT(e2) ^ EventDCT(t2,e2) => BEFORE_EE(e1,e2)
+-0.815277  !EventDCT(a1,a2) v !EventDCT(a3,a4) v !PRESENT(a4) v !PASTPART(a2) v BEFORE_EE(a2,a4)
+
+// 0       PASTPART(e1) ^ EventDCT(t1,e1) ^ PRESPART(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1,e2)
+0       !EventDCT(a1,a2) v !EventDCT(a1,a3) v !PASTPART(a2) v !PRESPART(a3) v BEFORE_EE(a2,a3)
+
+// 0.753894  PAST(e1) ^ EventDCT(t1,e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1,e2)
+0.753894  !EventDCT(a1,a2) v !EventDCT(a1,a3) v !FUTURE(a3) v !PAST(a2) v BEFORE_EE(a2,a3)
+
+// 0       PASTPART(e1) ^ EventDCT(t1,e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1,e2)
+0       !EventDCT(a1,a2) v !EventDCT(a1,a3) v !FUTURE(a3) v !PASTPART(a2) v BEFORE_EE(a2,a3)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       INFINITIVE(a1)
+0       INFINITIVE(a1)
+
+// 0       PRESENT(a1)
+0       PRESENT(a1)
+
+// 0       FUTURE(a1)
+0       FUTURE(a1)
+
+// 0       PAST(a1)
+0       PAST(a1)
+
+// 0       PASTPART(a1)
+0       PASTPART(a1)
+
+// 0       PRESPART(a1)
+0       PRESPART(a1)
+
+// 0       AFTER_ET(a1,a2)
+0       AFTER_ET(a1,a2)
+
+// 0       BEFORE_ET(a1,a2)
+0       BEFORE_ET(a1,a2)
+
+// 0       SIMULTANEOUS_ET(a1,a2)
+0       SIMULTANEOUS_ET(a1,a2)
+
+// 0       IS_INCLUDED_ET(a1,a2)
+0       IS_INCLUDED_ET(a1,a2)
+
+// 0       INCLUDES_ET(a1,a2)
+0       INCLUDES_ET(a1,a2)
+
+// -6.04536  BEFORE_EE(a1,a2)
+-6.04536  BEFORE_EE(a1,a2)
+
+// -5.78107  SIMULTANEOUS_EE(a1,a2)
+-5.78107  SIMULTANEOUS_EE(a1,a2)
+
+// 0       INCLUDES_EE(a1,a2)
+0       INCLUDES_EE(a1,a2)
+
+// 0       BEFORE_TT(a1,a2)
+0       BEFORE_TT(a1,a2)
+
+// 0       SIMULTANEOUS_TT(a1,a2)
+0       SIMULTANEOUS_TT(a1,a2)
+
+// 0       INCLUDES_TT(a1,a2)
+0       INCLUDES_TT(a1,a2)
+

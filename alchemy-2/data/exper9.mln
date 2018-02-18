@@ -1,0 +1,49 @@
+EventDCT(time, event)
+
+INFINITIVE(event)
+PRESENT(event)
+FUTURE(event)
+PAST(event)
+PASTPART(event)
+PRESPART(event)
+
+AFTER_ET(event, time)
+BEFORE_ET(event, time)
+SIMULTANEOUS_ET(event, time)
+IS_INCLUDED_ET(event, time)
+INCLUDES_ET(event, time)
+
+BEFORE_EE(event, event)
+SIMULTANEOUS_EE(event, event)
+INCLUDES_EE(event, event)
+
+BEFORE_TT(time, time)
+SIMULTANEOUS_TT(time, time)
+INCLUDES_TT(time, time)
+
+FUTURE(e) ^ EventDCT(t, e) => AFTER_ET(e, t)
+PAST(e) ^ EventDCT(t, e) => BEFORE_ET(e, t)
+PRESENT(e) ^ EventDCT(t, e) => SIMULTANEOUS_ET(e, t)
+PASTPART(e) ^ EventDCT(t, e) => BEFORE_ET(e, t)
+PRESPART(e) ^ EventDCT(t, e) => SIMULTANEOUS_ET(e, t)
+
+SIMULTANEOUS_ET(e1, t1) ^ SIMULTANEOUS_ET(e2, t1) => SIMULTANEOUS_EE(e1, e2)
+SIMULTANEOUS_ET(e1, t1) ^ AFTER_ET(e2, t1) => BEFORE_EE(e1, e2)
+BEFORE_ET(e1, t1) ^ SIMULTANEOUS_ET(e2, t1) => BEFORE_EE(e1, e2)
+BEFORE_ET(e1, t1) ^ AFTER_ET(e2, t1) => BEFORE_EE(e1, e2)
+
+
+PRESENT(e1) ^ EventDCT(t1, e1) ^ PRESENT(e2) ^ EventDCT(t1, e2) => SIMULTANEOUS_EE(e1, e2)
+PRESPART(e1) ^ EventDCT(t1, e1) ^ PRESPART(e2) ^ EventDCT(t1, e2) => SIMULTANEOUS_EE(e1, e2)
+PRESENT(e1) ^ EventDCT(t1, e1) ^ PRESPART(e2) ^ EventDCT(t1, e2) => SIMULTANEOUS_EE(e1, e2)
+
+PRESENT(e1) ^ EventDCT(t1, e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1, e2)
+PRESPART(e1) ^ EventDCT(t1, e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1, e2)
+
+PAST(e1) ^ EventDCT(t1,e1) ^ PRESENT(e2) ^ EventDCT(t2, e2) => BEFORE_EE(e1, e2)
+PAST(e1) ^ EventDCT(t1,e1) ^ PRESPART(e2) ^ EventDCT(t1, e2) => BEFORE_EE(e1, e2)
+PASTPART(e1) ^ EventDCT(t1, e1) ^ PRESENT(e2) ^ EventDCT(t2, e2) => BEFORE_EE(e1, e2)
+PASTPART(e1) ^ EventDCT(t1, e1) ^ PRESPART(e2) ^ EventDCT(t1, e2) => BEFORE_EE(e1, e2)
+
+PAST(e1) ^ EventDCT(t1,e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1, e2)
+PASTPART(e1) ^ EventDCT(t1, e1) ^ FUTURE(e2) ^ EventDCT(t1,e2) => BEFORE_EE(e1, e2)

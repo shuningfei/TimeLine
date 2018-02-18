@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+    <entry sid="0" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>2008-03-27 .</sentence>
+      <tokens>
+        <t>"
+" "2008-03-27" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2008-03-27)) (. .)))</parse>
+      <deps>root(ROOT-0, 2008-03-27-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2008-03-27" offset="1" length="1" type="DATE" value="2008-03-27" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>Airbus parent EADS wins # 13 billion UK RAF airtanker contract .</sentence>
+      <tokens>
+        <t>"
+" "Airbus" " "</t>
+        <t>" " "parent" " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " "wins" " "</t>
+        <t>" " "£" " "</t>
+        <t>" " "13" " "</t>
+        <t>" " "billion" " "</t>
+        <t>" " "UK" " "</t>
+        <t>" " "RAF" " "</t>
+        <t>" " "airtanker" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Airbus) (NN parent) (NNS EADS)) (VP (VBZ wins) (NP (NP (QP (# #) (CD 13) (CD billion))) (NP (NNP UK) (NNP RAF) (NN airtanker) (NN contract)))) (. .)))</parse>
+      <deps>nn(EADS-3, Airbus-1)
+nn(EADS-3, parent-2)
+nsubj(wins-4, EADS-3)
+root(ROOT-0, wins-4)
+number(billion-7, #-5)
+number(billion-7, 13-6)
+dobj(wins-4, billion-7)
+iobj(wins-4, billion-7)
+nn(contract-11, UK-8)
+nn(contract-11, RAF-9)
+nn(contract-11, airtanker-10)
+dobj(wins-4, contract-11)
+dep(billion-7, contract-11)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>March 27 , 2008 .</sentence>
+      <tokens>
+        <t>"
+" "March" " "</t>
+        <t>" " "27" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2008" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP March) (CD 27)) (, ,) (NP (CD 2008)) (. .)))</parse>
+      <deps>root(ROOT-0, March-1)
+num(March-1, 27-2)
+dep(March-1, 2008-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="March 27 , 2008" offset="1" length="4" type="DATE" value="2008-03-27" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>European Aeronautic Defense &amp; Space NV -LRB- EADS -RRB- , the parent company of European airframer Airbus , has won a # 13 billion contract to supply the United Kingdom 's Royal Air Force -LRB- RAF -RRB- with aerial refueling tankers to replace the nation 's current ageing fleet .</sentence>
+      <tokens>
+        <t>"
+" "European" " "</t>
+        <t>" " "Aeronautic" " "</t>
+        <t>" " "Defence" " "</t>
+        <t>" " "&amp;amp;" " "</t>
+        <t>" " "Space" " "</t>
+        <t>" " "NV" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "parent" " "</t>
+        <t>" " "company" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "European" " "</t>
+        <t>" " "airframer" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "won" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "£" " "</t>
+        <t>" " "13" " "</t>
+        <t>" " "billion" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "supply" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "United" " "</t>
+        <t>" " "Kingdom" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Royal" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "RAF" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "aerial" " "</t>
+        <t>" " "refueling" " "</t>
+        <t>" " "tankers" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "replace" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "nation" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "current" " "</t>
+        <t>" " "ageing" " "</t>
+        <t>" " "fleet" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP European) (NNP Aeronautic) (NNP Defense) (CC &amp;) (NNP Space) (NNP NV)) (PRN (-LRB- -LRB-) (NP (NNP EADS)) (-RRB- -RRB-)) (, ,) (NP (NP (DT the) (NN parent) (NN company)) (PP (IN of) (NP (JJ European) (NN airframer) (NNS Airbus)))) (, ,)) (VP (VBZ has) (VP (VBN won) (NP (DT a) (ADJP (QP (# #) (CD 13) (CD billion))) (NN contract) (S (VP (TO to) (VP (VB supply) (NP (NP (NP (DT the) (NNP United) (NNP Kingdom) (POS 's)) (NNP Royal) (NNP Air) (NNP Force)) (PRN (-LRB- -LRB-) (NP (NNP RAF)) (-RRB- -RRB-))) (PP (IN with) (NP (JJ aerial) (JJ refueling) (NNS tankers))) (S (VP (TO to) (VP (VB replace) (NP (NP (DT the) (NN nation) (POS 's)) (JJ current) (NN ageing) (NN fleet))))))))))) (. .)))</parse>
+      <deps>nn(Defense-3, European-1)
+nn(Defense-3, Aeronautic-2)
+nsubj(won-20, Defense-3)
+nn(NV-6, Space-5)
+conj_and(Defense-3, NV-6)
+nsubj(won-20, NV-6)
+appos(Defense-3, EADS-8)
+det(company-13, the-11)
+nn(company-13, parent-12)
+appos(Defense-3, company-13)
+amod(Airbus-17, European-15)
+nn(Airbus-17, airframer-16)
+prep_of(company-13, Airbus-17)
+aux(won-20, has-19)
+root(ROOT-0, won-20)
+det(contract-25, a-21)
+number(billion-24, #-22)
+number(billion-24, 13-23)
+num(contract-25, billion-24)
+dobj(won-20, contract-25)
+aux(supply-27, to-26)
+infmod(contract-25, supply-27)
+det(Kingdom-30, the-28)
+nn(Kingdom-30, United-29)
+poss(Force-34, Kingdom-30)
+nn(Force-34, Royal-32)
+nn(Force-34, Air-33)
+dobj(supply-27, Force-34)
+appos(Force-34, RAF-36)
+amod(tankers-41, aerial-39)
+amod(tankers-41, refueling-40)
+prep_with(supply-27, tankers-41)
+aux(replace-43, to-42)
+xcomp(supply-27, replace-43)
+det(nation-45, the-44)
+poss(fleet-49, nation-45)
+amod(fleet-49, current-47)
+nn(fleet-49, ageing-48)
+dobj(replace-43, fleet-49)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="20" string="won" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="27" string="supply" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="43" string="replace" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="current" offset="47" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>AirTanker Ltd. , an EADS-led consortium , have signed a 27-year contract with the Defense Ministry to supply 14 new Airbus A330-200 passenger airliner converted for the task .</sentence>
+      <tokens>
+        <t>"
+" "AirTanker" " "</t>
+        <t>" " "Ltd." " "</t>
+        <t>" " "," " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "EADS-led" " "</t>
+        <t>" " "consortium" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "signed" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "27-year" " "</t>
+        <t>" " "contract" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Defense" " "</t>
+        <t>" " "Ministry" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "supply" " "</t>
+        <t>" " "14" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "A330-200" " "</t>
+        <t>" " "passenger" " "</t>
+        <t>" " "airliner" " "</t>
+        <t>" " "converted" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "task" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP AirTanker) (NNP Ltd.)) (, ,) (NP (DT an) (JJ EADS-led) (NN consortium)) (, ,)) (VP (VBP have) (VP (VBN signed) (NP (DT a) (JJ 27-year) (NN contract)) (PP (IN with) (NP (DT the) (NNP Defense) (NNP Ministry))) (S (VP (TO to) (VP (VB supply) (S (NP (CD 14) (JJ new) (NNP Airbus) (NNP A330-200) (NN passenger) (NN airliner)) (VP (VBN converted) (PP (IN for) (NP (DT the) (NN task)))))))))) (. .)))</parse>
+      <deps>nn(Ltd.-2, AirTanker-1)
+nsubj(signed-9, Ltd.-2)
+xsubj(supply-18, Ltd.-2)
+det(consortium-6, an-4)
+amod(consortium-6, EADS-led-5)
+appos(Ltd.-2, consortium-6)
+aux(signed-9, have-8)
+root(ROOT-0, signed-9)
+det(contract-12, a-10)
+amod(contract-12, 27-year-11)
+dobj(signed-9, contract-12)
+det(Ministry-16, the-14)
+nn(Ministry-16, Defense-15)
+prep_with(signed-9, Ministry-16)
+aux(supply-18, to-17)
+xcomp(signed-9, supply-18)
+num(airliner-24, 14-19)
+amod(airliner-24, new-20)
+nn(airliner-24, Airbus-21)
+nn(airliner-24, A330-200-22)
+nn(airliner-24, passenger-23)
+nsubj(converted-25, airliner-24)
+dep(supply-18, converted-25)
+det(task-28, the-27)
+prep_for(converted-25, task-28)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="9" string="signed" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="18" string="supply" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e6" eiid="ei6" offset="25" string="converted" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="27-year" offset="11" length="1" type="DURATION" value="P27Y" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="5" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .</sentence>
+      <tokens>
+        <t>"
+" "They" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "owned" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "AirTanker" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "who" " "</t>
+        <t>" " "retains" " "</t>
+        <t>" " "commercial" " "</t>
+        <t>" " "leasing" " "</t>
+        <t>" " "rights" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "five" " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "can" " "</t>
+        <t>" " "carry" " "</t>
+        <t>" " "290" " "</t>
+        <t>" " "passengers" " "</t>
+        <t>" " "plus" " "</t>
+        <t>" " "cargo" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "but" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "fly" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "RAF" " "</t>
+        <t>" " "livery" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP They)) (VP (MD will) (VP (VB be) (VP (VBN owned) (PP (IN by) (NP (NP (NNP AirTanker)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VP (VBZ retains) (NP (JJ commercial) (NN leasing) (NNS rights)) (PP (TO to) (NP (NP (CD five)) (SBAR (WHNP (WDT which)) (S (VP (MD can) (VP (VB carry) (NP (NP (CD 290) (NNS passengers)) (PP (CC plus) (NP (NN cargo))))))))))) (, ,) (CC but) (VP (MD will) (VP (VB fly) (PP (IN in) (NP (NNP RAF))) (ADVP (RB livery)))))))))))) (. .)))</parse>
+      <deps>nsubjpass(owned-4, They-1)
+aux(owned-4, will-2)
+auxpass(owned-4, be-3)
+root(ROOT-0, owned-4)
+agent(owned-4, AirTanker-6)
+nsubj(retains-9, AirTanker-6)
+nsubj(fly-25, AirTanker-6)
+rcmod(AirTanker-6, retains-9)
+amod(rights-12, commercial-10)
+nn(rights-12, leasing-11)
+dobj(retains-9, rights-12)
+prep_to(retains-9, five-14)
+nsubj(carry-17, five-14)
+aux(carry-17, can-16)
+rcmod(five-14, carry-17)
+num(passengers-19, 290-18)
+dobj(carry-17, passengers-19)
+prep(passengers-19, plus-20)
+dep(plus-20, cargo-21)
+aux(fly-25, will-24)
+rcmod(AirTanker-6, fly-25)
+conj_but(retains-9, fly-25)
+prep_in(fly-25, RAF-27)
+advmod(fly-25, livery-28)</deps>
+      <events>
+        <event id="e7" eiid="ei7" offset="4" string="owned" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="17" string="carry" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="25" string="fly" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>They replace existing Lockheed Tristar and Vickers VC-10 aircraft .</sentence>
+      <tokens>
+        <t>"
+" "They" " "</t>
+        <t>" " "replace" " "</t>
+        <t>" " "existing" " "</t>
+        <t>" " "Lockheed" " "</t>
+        <t>" " "Tristar" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Vickers" " "</t>
+        <t>" " "VC-10" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP They)) (VP (VBP replace) (NP (JJ existing) (NNP Lockheed) (NNP Tristar) (CC and) (NNP Vickers) (NN VC-10) (NNS aircraft))) (. .)))</parse>
+      <deps>nsubj(replace-2, They-1)
+root(ROOT-0, replace-2)
+amod(Tristar-5, existing-3)
+nn(Tristar-5, Lockheed-4)
+dobj(replace-2, Tristar-5)
+nn(aircraft-9, Vickers-7)
+nn(aircraft-9, VC-10-8)
+dobj(replace-2, aircraft-9)
+conj_and(Tristar-5, aircraft-9)</deps>
+      <events>
+        <event id="e10" eiid="ei10" offset="2" string="replace" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="7" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>The first aircraft will be in service by 2011 and all by 2016 .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "aircraft" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "service" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "2011" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "2016" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ first) (NN aircraft)) (VP (MD will) (VP (VB be) (PP (IN in) (NP (NP (NN service)) (PP (IN by) (NP (NP (CD 2011)) (CC and) (NP (DT all)))))) (PP (IN by) (NP (CD 2016))))) (. .)))</parse>
+      <deps>det(aircraft-3, The-1)
+amod(aircraft-3, first-2)
+nsubj(be-5, aircraft-3)
+aux(be-5, will-4)
+root(ROOT-0, be-5)
+prep_in(be-5, service-7)
+prep_by(service-7, 2011-9)
+prep_by(service-7, all-11)
+conj_and(2011-9, all-11)
+prep_by(be-5, 2016-13)</deps>
+      <events />
+      <timexes>
+        <timex tid="t5" text="2011" offset="9" length="1" type="DATE" value="2011" temporalFunction="false" />
+        <timex tid="t6" text="2016" offset="13" length="1" type="DATE" value="2016" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="8" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>Rolls-Royce , part of the consortium , will supply engines .</sentence>
+      <tokens>
+        <t>"
+" "Rolls-Royce" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "part" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "consortium" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "supply" " "</t>
+        <t>" " "engines" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Rolls-Royce)) (, ,) (NP (NP (NN part)) (PP (IN of) (NP (DT the) (NN consortium)))) (, ,)) (VP (MD will) (VP (VB supply) (NP (NNS engines)))) (. .)))</parse>
+      <deps>nsubj(supply-9, Rolls-Royce-1)
+appos(Rolls-Royce-1, part-3)
+det(consortium-6, the-5)
+prep_of(part-3, consortium-6)
+aux(supply-9, will-8)
+root(ROOT-0, supply-9)
+dobj(supply-9, engines-10)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="9" string="supply" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="9" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>France 's Thales will supply electronics , Wimborne , UK 's Cobham will manufacture refueling equipment and Southampton , UK 's VT Group will provide service management .</sentence>
+      <tokens>
+        <t>"
+" "France" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Thales" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "supply" " "</t>
+        <t>" " "electronics" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Wimborne" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "UK" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "Cobham" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "manufacture" " "</t>
+        <t>" " "refueling" " "</t>
+        <t>" " "equipment" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Southampton" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "UK" " "</t>
+        <t>" " "'s" " "</t>
+        <t>" " "VT" " "</t>
+        <t>" " "Group" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "provide" " "</t>
+        <t>" " "service" " "</t>
+        <t>" " "management" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NP (NNP France) (POS 's)) (NNS Thales)) (VP (MD will) (VP (VB supply) (NP (NNS electronics))))) (, ,) (S (NP (NP (NNP Wimborne)) (, ,) (NP (NP (NNP UK) (POS 's)) (NNP Cobham))) (VP (MD will) (VP (VB manufacture) (S (VP (VBG refueling) (NP (NN equipment))))))) (CC and) (S (NP (NP (NNP Southampton)) (, ,) (NP (NP (NNP UK) (POS 's)) (NNP VT) (NNP Group))) (VP (MD will) (VP (VB provide) (NP (NN service) (NN management))))) (. .)))</parse>
+      <deps>poss(Thales-3, France-1)
+nsubj(supply-5, Thales-3)
+aux(supply-5, will-4)
+root(ROOT-0, supply-5)
+dobj(supply-5, electronics-6)
+nsubj(manufacture-14, Wimborne-8)
+poss(Cobham-12, UK-10)
+appos(Wimborne-8, Cobham-12)
+aux(manufacture-14, will-13)
+conj_and(supply-5, manufacture-14)
+xcomp(manufacture-14, refueling-15)
+dobj(refueling-15, equipment-16)
+nsubj(provide-25, Southampton-18)
+poss(Group-23, UK-20)
+nn(Group-23, VT-22)
+appos(Southampton-18, Group-23)
+aux(provide-25, will-24)
+conj_and(supply-5, provide-25)
+nn(management-27, service-26)
+dobj(provide-25, management-27)</deps>
+      <events>
+        <event id="e12" eiid="ei12" offset="5" string="supply" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="14" string="manufacture" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="25" string="provide" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="10" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>Last month , Northrop Grumman and EADS defeated Boeing to win a massive order for 179 tankers from the United States Air Force .</sentence>
+      <tokens>
+        <t>"
+" "Last" " "</t>
+        <t>" " "month" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Northrop" " "</t>
+        <t>" " "Grumman" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "EADS" " "</t>
+        <t>" " "defeated" " "</t>
+        <t>" " "Boeing" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "win" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "massive" " "</t>
+        <t>" " "order" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "179" " "</t>
+        <t>" " "tankers" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "United" " "</t>
+        <t>" " "States" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Last) (NN month)) (, ,) (NP (NNP Northrop) (NNP Grumman) (CC and) (NNP EADS)) (VP (VBD defeated) (S (NP (NNP Boeing)) (VP (TO to) (VP (VB win) (NP (NP (DT a) (JJ massive) (NN order)) (PP (IN for) (NP (QP (CD 179) (CD tankers))))) (PP (IN from) (NP (DT the) (NNP United) (NNPS States) (NNP Air) (NNP Force))))))) (. .)))</parse>
+      <deps>amod(month-2, Last-1)
+tmod(defeated-8, month-2)
+nn(Grumman-5, Northrop-4)
+nsubj(defeated-8, Grumman-5)
+conj_and(Grumman-5, EADS-7)
+nsubj(defeated-8, EADS-7)
+root(ROOT-0, defeated-8)
+nsubj(win-11, Boeing-9)
+aux(win-11, to-10)
+xcomp(defeated-8, win-11)
+det(order-14, a-12)
+amod(order-14, massive-13)
+dobj(win-11, order-14)
+number(tankers-17, 179-16)
+prep_for(order-14, tankers-17)
+det(Force-23, the-19)
+nn(Force-23, United-20)
+nn(Force-23, States-21)
+nn(Force-23, Air-22)
+prep_from(win-11, Force-23)</deps>
+      <events>
+        <event id="e15" eiid="ei15" offset="8" string="defeated" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="11" string="win" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t7" text="month" offset="2" length="1" type="DURATION" value="P1M" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="11" file="102977_Airbus_parent_EADS_wins_13_billion_UK_RAF_airtanker_contract.txt">
+      <sentence>Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .</sentence>
+      <tokens>
+        <t>"
+" "Airbus" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "inked" " "</t>
+        <t>" " "recent" " "</t>
+        <t>" " "deals" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Royal" " "</t>
+        <t>" " "Australian" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Royal" " "</t>
+        <t>" " "Saudi" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "UAE" " "</t>
+        <t>" " "Air" " "</t>
+        <t>" " "Force" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Airbus)) (VP (VBZ has) (ADVP (RB also)) (VP (VBN inked) (NP (JJ recent) (NNS deals)) (PP (IN with) (NP (NP (DT the) (NNP Royal) (NNP Australian) (NNP Air) (NNP Force)) (, ,) (NP (DT the) (NNP Royal) (NNP Saudi) (NNP Air) (NNP Force)) (CC and) (NP (DT the) (NNP UAE) (NNP Air) (NNP Force)))))) (. .)))</parse>
+      <deps>nsubj(inked-4, Airbus-1)
+aux(inked-4, has-2)
+advmod(inked-4, also-3)
+root(ROOT-0, inked-4)
+amod(deals-6, recent-5)
+dobj(inked-4, deals-6)
+det(Force-12, the-8)
+nn(Force-12, Royal-9)
+nn(Force-12, Australian-10)
+nn(Force-12, Air-11)
+prep_with(inked-4, Force-12)
+det(Force-18, the-14)
+nn(Force-18, Royal-15)
+nn(Force-18, Saudi-16)
+nn(Force-18, Air-17)
+prep_with(inked-4, Force-18)
+conj_and(Force-12, Force-18)
+det(Force-23, the-20)
+nn(Force-23, UAE-21)
+nn(Force-23, Air-22)
+prep_with(inked-4, Force-23)
+conj_and(Force-12, Force-23)</deps>
+      <events>
+        <event id="e17" eiid="ei17" offset="4" string="inked" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei4" event2="t4" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei15" event2="t7" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="t5" event2="t6" relation="BEFORE" closed="false" origin="TimeTimeSieve" type="tt" />
+    <tlink event1="ei4" event2="ei7" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei4" event2="ei9" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei7" event2="ei10" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei12" event2="ei15" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei2" event2="ei5" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei1" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="t3" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei3" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei5" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t4" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei16" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei7" event2="ei6" relation="AFTER" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei9" event2="ei6" relation="AFTER" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t4" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei8" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei13" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei14" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t7" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

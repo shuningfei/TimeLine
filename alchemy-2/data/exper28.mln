@@ -1,0 +1,6 @@
+EventDCT(time, event)
+Tense(event, tense)
+E2T(event, time, rel)
+
+Tense(e, +te) ^ EventDCT(t, e) => E2T(e, t, +r)
+

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="82548_First_Airbus_A380_delivered.txt">
+    <entry sid="0" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>2007-10-15 .</sentence>
+      <tokens>
+        <t>"
+" "2007-10-15" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (CD 2007-10-15)) (. .)))</parse>
+      <deps>root(ROOT-0, 2007-10-15-1)</deps>
+      <events />
+      <timexes>
+        <timex tid="t1" text="2007-10-15" offset="1" length="1" type="DATE" value="2007-10-15" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>First Airbus A380 delivered .</sentence>
+      <tokens>
+        <t>"
+" "First" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "delivered" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP First) (NNP Airbus) (NNP A380)) (VP (VBD delivered)) (. .)))</parse>
+      <deps>nn(A380-3, First-1)
+nn(A380-3, Airbus-2)
+nsubj(delivered-4, A380-3)
+root(ROOT-0, delivered-4)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="4" string="delivered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>October 15 , 2007 .</sentence>
+      <tokens>
+        <t>"
+" "October" " "</t>
+        <t>" " "15" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "2007" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NNP October) (CD 15)) (, ,) (NP (CD 2007)) (. .)))</parse>
+      <deps>root(ROOT-0, October-1)
+num(October-1, 15-2)
+dep(October-1, 2007-4)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="October 15 , 2007" offset="1" length="4" type="DATE" value="2007-10-15" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="3" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>The first A380 superjumbo , made by Airbus , was delivered today to Singapore Airlines -LRB- SIA -RRB- 18 months behind schedule .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "superjumbo" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "delivered" " "</t>
+        <t>" " "today" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "Airlines" " "</t>
+        <t>" " "(" " "</t>
+        <t>" " "SIA" " "</t>
+        <t>" " ")" " "</t>
+        <t>" " "18" " "</t>
+        <t>" " "months" " "</t>
+        <t>" " "behind" " "</t>
+        <t>" " "schedule" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (JJ first) (NN A380) (NN superjumbo)) (, ,) (VP (VBN made) (PP (IN by) (NP (NNP Airbus)))) (, ,)) (VP (VBD was) (VP (VBN delivered) (NP (NN today)) (PP (TO to) (NP (NP (NP (NNP Singapore) (NNPS Airlines)) (PRN (-LRB- -LRB-) (NP (NNP SIA)) (-RRB- -RRB-))) (NP (CD 18) (NNS months)) (PP (IN behind) (NP (NN schedule))))))) (. .)))</parse>
+      <deps>det(superjumbo-4, The-1)
+amod(superjumbo-4, first-2)
+nn(superjumbo-4, A380-3)
+nsubjpass(delivered-11, superjumbo-4)
+partmod(superjumbo-4, made-6)
+agent(made-6, Airbus-8)
+auxpass(delivered-11, was-10)
+root(ROOT-0, delivered-11)
+tmod(delivered-11, today-12)
+nn(Airlines-15, Singapore-14)
+prep_to(delivered-11, Airlines-15)
+appos(Airlines-15, SIA-17)
+num(months-20, 18-19)
+dep(Airlines-15, months-20)
+prep_behind(Airlines-15, schedule-22)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="11" string="delivered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="18 months" offset="19" length="2" type="DURATION" value="P18M" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>After the plane was delivered in Singapore , it was flown to Toulouse , France for the ceremony of about 500 guests .</sentence>
+      <tokens>
+        <t>"
+" "After" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "plane" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "delivered" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "flown" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Toulouse" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "France" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "ceremony" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "500" " "</t>
+        <t>" " "guests" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN After) (S (NP (DT the) (NN plane)) (VP (VBD was) (VP (VBN delivered) (PP (IN in) (NP (NNP Singapore))))))) (, ,) (NP (PRP it)) (VP (VBD was) (VP (VBN flown) (PP (TO to) (NP (NNP Toulouse) (, ,) (NNP France))) (PP (IN for) (NP (NP (DT the) (NN ceremony)) (PP (IN of) (NP (QP (RB about) (CD 500)) (NNS guests))))))) (. .)))</parse>
+      <deps>mark(delivered-5, After-1)
+det(plane-3, the-2)
+nsubjpass(delivered-5, plane-3)
+auxpass(delivered-5, was-4)
+advcl(flown-11, delivered-5)
+prep_in(delivered-5, Singapore-7)
+nsubjpass(flown-11, it-9)
+auxpass(flown-11, was-10)
+root(ROOT-0, flown-11)
+nn(France-15, Toulouse-13)
+prep_to(flown-11, France-15)
+det(ceremony-18, the-17)
+prep_for(flown-11, ceremony-18)
+quantmod(500-21, about-20)
+num(guests-22, 500-21)
+prep_of(ceremony-18, guests-22)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="5" string="delivered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="11" string="flown" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="5" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>The plane is built with four Rolls-Royce Trent 900 engines .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "plane" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "built" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "four" " "</t>
+        <t>" " "Rolls-Royce" " "</t>
+        <t>" " "Trent" " "</t>
+        <t>" " "900" " "</t>
+        <t>" " "engines" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN plane)) (VP (VBZ is) (VP (VBN built) (PP (IN with) (NP (CD four) (NNP Rolls-Royce) (NNP Trent) (CD 900) (NNS engines))))) (. .)))</parse>
+      <deps>det(plane-2, The-1)
+nsubjpass(built-4, plane-2)
+auxpass(built-4, is-3)
+root(ROOT-0, built-4)
+num(engines-10, four-6)
+nn(engines-10, Rolls-Royce-7)
+nn(engines-10, Trent-8)
+num(engines-10, 900-9)
+prep_with(built-4, engines-10)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="4" string="built" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .</sentence>
+      <tokens>
+        <t>"
+" "The" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "flight" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "take" " "</t>
+        <t>" " "off" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "``" " "</t>
+        <t>" " "special" " "</t>
+        <t>" " "charity-flight" " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Singapore" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "land" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Sydney" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "October" " "</t>
+        <t>" " "25" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ first) (NN flight)) (VP (MD will) (VP (VP (VB take) (PRT (RP off)) (PP (IN for) (NP (NP (DT a) (`` ``) (JJ special) (NN charity-flight) ('' '')) (PP (IN from) (NP (NNP Singapore)))))) (CC and) (VP (VB land) (PP (IN in) (NP (NNP Sydney))) (PP (IN on) (NP (NNP October) (CD 25)))))) (. .)))</parse>
+      <deps>det(flight-3, The-1)
+amod(flight-3, first-2)
+nsubj(take-5, flight-3)
+nsubj(land-16, flight-3)
+aux(take-5, will-4)
+root(ROOT-0, take-5)
+prt(take-5, off-6)
+det(charity-flight-11, a-8)
+amod(charity-flight-11, special-10)
+prep_for(take-5, charity-flight-11)
+prep_from(charity-flight-11, Singapore-14)
+conj_and(take-5, land-16)
+prep_in(land-16, Sydney-18)
+prep_on(land-16, October-20)
+num(October-20, 25-21)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="5" string="take" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="16" string="land" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t4" text="October 25" offset="20" length="2" type="DATE" value="XXXX-10-25" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="7" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>Special services will continue from October 28 .</sentence>
+      <tokens>
+        <t>"
+" "Special" " "</t>
+        <t>" " "services" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "continue" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "October" " "</t>
+        <t>" " "28" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Special) (NNS services)) (VP (MD will) (VP (VB continue) (PP (IN from) (NP (NNP October) (CD 28))))) (. .)))</parse>
+      <deps>amod(services-2, Special-1)
+nsubj(continue-4, services-2)
+aux(continue-4, will-3)
+root(ROOT-0, continue-4)
+prep_from(continue-4, October-6)
+num(October-6, 28-7)</deps>
+      <events>
+        <event id="e8" eiid="ei8" offset="4" string="continue" tense="FUTURE" aspect="NONE" class="ASPECTUAL" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="October 28" offset="6" length="2" type="DATE" value="XXXX-10-28" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="8" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>`` This is a major milestone for the A380 program , and I would like to express my deepest appreciation to all parties concerned .</sentence>
+      <tokens>
+        <t>"
+" "``" " "</t>
+        <t>" " "This" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "major" " "</t>
+        <t>" " "milestone" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "A380" " "</t>
+        <t>" " "programme" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "like" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "express" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "deepest" " "</t>
+        <t>" " "appreciation" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "parties" " "</t>
+        <t>" " "concerned" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (DT This)) (VP (VBZ is) (NP (NP (DT a) (JJ major) (NN milestone)) (PP (IN for) (NP (DT the) (NNP A380) (NN program)))))) (, ,) (CC and) (S (NP (PRP I)) (VP (MD would) (VP (VB like) (S (VP (TO to) (VP (VB express) (NP (PRP$ my) (JJS deepest) (NN appreciation)) (PP (TO to) (NP (NP (DT all) (NNS parties)) (VP (VBN concerned)))))))))) (. .)))</parse>
+      <deps>nsubj(milestone-6, This-2)
+cop(milestone-6, is-3)
+det(milestone-6, a-4)
+amod(milestone-6, major-5)
+root(ROOT-0, milestone-6)
+det(program-10, the-8)
+nn(program-10, A380-9)
+prep_for(milestone-6, program-10)
+nsubj(like-15, I-13)
+xsubj(express-17, I-13)
+aux(like-15, would-14)
+conj_and(milestone-6, like-15)
+aux(express-17, to-16)
+xcomp(like-15, express-17)
+poss(appreciation-20, my-18)
+amod(appreciation-20, deepest-19)
+dobj(express-17, appreciation-20)
+det(parties-23, all-22)
+prep_to(express-17, parties-23)
+partmod(parties-23, concerned-24)</deps>
+      <events>
+        <event id="e9" eiid="ei9" offset="15" string="like" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="17" string="express" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e11" eiid="ei11" offset="24" string="concerned" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="9" file="82548_First_Airbus_A380_delivered.txt">
+      <sentence>I want to thank our teams and all those who worked hard , days , nights , and week-ends , for their dedication and commitment , '' said Airbus President and Chief Executive Officer , Tom Enders .</sentence>
+      <tokens>
+        <t>"
+" "I" " "</t>
+        <t>" " "want" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "thank" " "</t>
+        <t>" " "our" " "</t>
+        <t>" " "teams" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "those" " "</t>
+        <t>" " "who" " "</t>
+        <t>" " "worked" " "</t>
+        <t>" " "hard" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "days" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "nights" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "week-ends" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "dedication" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "commitment" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "''" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "Airbus" " "</t>
+        <t>" " "President" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Chief" " "</t>
+        <t>" " "Executive" " "</t>
+        <t>" " "Officer" " "</t>
+        <t>" " "," " "</t>
+        <t>" " "Tom" " "</t>
+        <t>" " "Enders" " "</t>
+        <t>" " "." "
+"</t>
+      </tokens>
+      <parse>(ROOT (SINV (S (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB thank) (NP (PRP$ our) (NNS teams))))))) (CC and) (S (NP (PDT all) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (VBD worked) (ADJP (JJ hard)))))) (, ,) (NP (NP (NNS days)) (, ,) (NP (NNS nights)) (, ,) (CC and) (NP (NNS week-ends))) (, ,)) (PP (IN for) (NP (PRP$ their) (NN dedication) (CC and) (NN commitment))))) (, ,) ('' '') (VP (VBD said) (NP (NNP Airbus) (NNP President) (CC and) (NNP Chief))) (NP (NP (NNP Executive) (NNP Officer)) (, ,) (NP (NNP Tom) (NNP Enders))) (. .)))</parse>
+      <deps>nsubj(want-2, I-1)
+xsubj(thank-4, I-1)
+ccomp(said-28, want-2)
+aux(thank-4, to-3)
+xcomp(want-2, thank-4)
+poss(teams-6, our-5)
+dobj(thank-4, teams-6)
+dep(those-9, all-8)
+conj_and(want-2, those-9)
+nsubj(worked-11, those-9)
+ccomp(said-28, those-9)
+rcmod(those-9, worked-11)
+acomp(worked-11, hard-12)
+appos(those-9, days-14)
+appos(those-9, nights-16)
+conj_and(days-14, nights-16)
+appos(those-9, week-ends-19)
+conj_and(days-14, week-ends-19)
+dep(those-9, for-21)
+poss(dedication-23, their-22)
+pobj(for-21, dedication-23)
+pobj(for-21, commitment-25)
+conj_and(dedication-23, commitment-25)
+root(ROOT-0, said-28)
+nn(President-30, Airbus-29)
+dobj(said-28, President-30)
+dobj(said-28, Chief-32)
+conj_and(President-30, Chief-32)
+nn(Officer-34, Executive-33)
+nsubj(said-28, Officer-34)
+nn(Enders-37, Tom-36)
+appos(Officer-34, Enders-37)</deps>
+      <events>
+        <event id="e12" eiid="ei12" offset="2" string="want" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="4" string="thank" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="11" string="worked" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e15" eiid="ei15" offset="28" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t6" text="days" offset="14" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+        <timex tid="t7" text="nights" offset="16" length="1" type="TIME" value="TNI" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei7" event2="t4" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei8" event2="t5" relation="AFTER" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei14" event2="t6" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei5" event2="ei6" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei9" event2="ei12" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei9" event2="ei14" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei9" event2="ei15" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei4" event2="ei3" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei12" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei10" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei10" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei15" event2="ei10" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="t4" event2="t5" relation="SIMULTANEOUS" closed="false" origin="WordNet209" type="tt" />
+    <tlink event1="ei7" event2="t5" relation="IS_INCLUDED" closed="true" origin="WordNet209" type="et" />
+    <tlink event1="ei8" event2="t4" relation="AFTER" closed="true" origin="WordNet209" type="et" />
+    <tlink event1="ei7" event2="ei8" relation="BEFORE" closed="true" origin="WordNet209" type="ee" />
+    <tlink event1="ei2" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t4" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei12" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei13" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei15" event2="t6" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei12" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei13" event2="t7" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei14" event2="t7" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei15" event2="t7" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei14" event2="ei15" relation="AFTER" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="t5" event2="ei6" relation="BEFORE" closed="true" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="ei11" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei10" event2="ei11" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="t1" event2="ei1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t3" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t5" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei9" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei9" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei11" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t6" event2="t7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+  </file>
+</root>
+

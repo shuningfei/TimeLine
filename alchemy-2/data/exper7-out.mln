@@ -1,0 +1,101 @@
+//predicate declarations
+PRESENT(event)
+INCLUDES_TT(time,time)
+INFINITIVE(event)
+BEFORE_EE(event,event)
+BEFORE_ET(event,time)
+SIMULTANEOUS_EE(event,event)
+SIMULTANEOUS_ET(event,time)
+PASTPART(event)
+EventDCT(time,event)
+FUTURE(event)
+INCLUDES_EE(event,event)
+BEFORE_TT(time,time)
+INCLUDES_ET(event,time)
+AFTER_ET(event,time)
+PAST(event)
+PRESPART(event)
+SIMULTANEOUS_TT(time,time)
+IS_INCLUDED_ET(event,time)
+
+// 0       FUTURE(e) ^ EventDCT(t,e) => AFTER_ET(e,t)
+0       !EventDCT(a1,a2) v !FUTURE(a2) v AFTER_ET(a2,a1)
+
+// 0       PAST(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0       !EventDCT(a1,a2) v !PAST(a2) v BEFORE_ET(a2,a1)
+
+// 0       PRESENT(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+0       !EventDCT(a1,a2) v !PRESENT(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// 0       PASTPART(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+0       !EventDCT(a1,a2) v !PASTPART(a2) v BEFORE_ET(a2,a1)
+
+// 0       PRESPART(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+0       !EventDCT(a1,a2) v !PRESPART(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// -0.331011  SIMULTANEOUS_ET(e1,t1) ^ SIMULTANEOUS_ET(e2,t1) => SIMULTANEOUS_EE(e1,e2)
+-0.331011  !SIMULTANEOUS_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v SIMULTANEOUS_EE(a1,a3)
+
+// 1.33476  SIMULTANEOUS_ET(e1,t1) ^ AFTER_ET(e2,t1) => BEFORE_EE(e1,e2)
+1.33476  !AFTER_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v BEFORE_EE(a3,a1)
+
+// 0.515729  BEFORE_ET(e1,t1) ^ SIMULTANEOUS_ET(e2,t1) => BEFORE_EE(e1,e2)
+0.515729  !BEFORE_ET(a1,a2) v !SIMULTANEOUS_ET(a3,a2) v BEFORE_EE(a1,a3)
+
+// 0.0612949  BEFORE_ET(e1,t1) ^ AFTER_ET(e2,t1) => BEFORE_EE(e1,e2)
+0.0612949  !AFTER_ET(a1,a2) v !BEFORE_ET(a3,a2) v BEFORE_EE(a3,a1)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       INFINITIVE(a1)
+0       INFINITIVE(a1)
+
+// 0       PRESENT(a1)
+0       PRESENT(a1)
+
+// 0       FUTURE(a1)
+0       FUTURE(a1)
+
+// 0       PAST(a1)
+0       PAST(a1)
+
+// 0       PASTPART(a1)
+0       PASTPART(a1)
+
+// 0       PRESPART(a1)
+0       PRESPART(a1)
+
+// 0       AFTER_ET(a1,a2)
+0       AFTER_ET(a1,a2)
+
+// 0       BEFORE_ET(a1,a2)
+0       BEFORE_ET(a1,a2)
+
+// 0       SIMULTANEOUS_ET(a1,a2)
+0       SIMULTANEOUS_ET(a1,a2)
+
+// 0       IS_INCLUDED_ET(a1,a2)
+0       IS_INCLUDED_ET(a1,a2)
+
+// 0       INCLUDES_ET(a1,a2)
+0       INCLUDES_ET(a1,a2)
+
+// -6.78192  BEFORE_EE(a1,a2)
+-6.78192  BEFORE_EE(a1,a2)
+
+// -7.81345  SIMULTANEOUS_EE(a1,a2)
+-7.81345  SIMULTANEOUS_EE(a1,a2)
+
+// 0       INCLUDES_EE(a1,a2)
+0       INCLUDES_EE(a1,a2)
+
+// 0       BEFORE_TT(a1,a2)
+0       BEFORE_TT(a1,a2)
+
+// 0       SIMULTANEOUS_TT(a1,a2)
+0       SIMULTANEOUS_TT(a1,a2)
+
+// 0       INCLUDES_TT(a1,a2)
+0       INCLUDES_TT(a1,a2)
+

@@ -1,0 +1,89 @@
+//predicate declarations
+PRESENT(event)
+INCLUDES_TT(time,time)
+INFINITIVE(event)
+BEFORE_EE(event,event)
+BEFORE_ET(event,time)
+SIMULTANEOUS_EE(event,event)
+SIMULTANEOUS_ET(event,time)
+PASTPART(event)
+EventDCT(time,event)
+FUTURE(event)
+INCLUDES_EE(event,event)
+BEFORE_TT(time,time)
+INCLUDES_ET(event,time)
+AFTER_ET(event,time)
+PAST(event)
+PRESPART(event)
+SIMULTANEOUS_TT(time,time)
+IS_INCLUDED_ET(event,time)
+
+// 1.71851  FUTURE(e) ^ EventDCT(t,e) => AFTER_ET(e,t)
+1.71851  !EventDCT(a1,a2) v !FUTURE(a2) v AFTER_ET(a2,a1)
+
+// 1.98708  PAST(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+1.98708  !EventDCT(a1,a2) v !PAST(a2) v BEFORE_ET(a2,a1)
+
+// 4.75982  PRESENT(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+4.75982  !EventDCT(a1,a2) v !PRESENT(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// 1.63785  PASTPART(e) ^ EventDCT(t,e) => BEFORE_ET(e,t)
+1.63785  !EventDCT(a1,a2) v !PASTPART(a2) v BEFORE_ET(a2,a1)
+
+// 2.63448  PRESPART(e) ^ EventDCT(t,e) => SIMULTANEOUS_ET(e,t)
+2.63448  !EventDCT(a1,a2) v !PRESPART(a2) v SIMULTANEOUS_ET(a2,a1)
+
+// 0       EventDCT(a1,a2)
+0       EventDCT(a1,a2)
+
+// 0       INFINITIVE(a1)
+0       INFINITIVE(a1)
+
+// 0       PRESENT(a1)
+0       PRESENT(a1)
+
+// 0       FUTURE(a1)
+0       FUTURE(a1)
+
+// 0       PAST(a1)
+0       PAST(a1)
+
+// 0       PASTPART(a1)
+0       PASTPART(a1)
+
+// 0       PRESPART(a1)
+0       PRESPART(a1)
+
+// -3.15648  AFTER_ET(a1,a2)
+-3.15648  AFTER_ET(a1,a2)
+
+// -2.54971  BEFORE_ET(a1,a2)
+-2.54971  BEFORE_ET(a1,a2)
+
+// -4.2465  SIMULTANEOUS_ET(a1,a2)
+-4.2465  SIMULTANEOUS_ET(a1,a2)
+
+// 0       IS_INCLUDED_ET(a1,a2)
+0       IS_INCLUDED_ET(a1,a2)
+
+// 0       INCLUDES_ET(a1,a2)
+0       INCLUDES_ET(a1,a2)
+
+// 0       BEFORE_EE(a1,a2)
+0       BEFORE_EE(a1,a2)
+
+// 0       SIMULTANEOUS_EE(a1,a2)
+0       SIMULTANEOUS_EE(a1,a2)
+
+// 0       INCLUDES_EE(a1,a2)
+0       INCLUDES_EE(a1,a2)
+
+// 0       BEFORE_TT(a1,a2)
+0       BEFORE_TT(a1,a2)
+
+// 0       SIMULTANEOUS_TT(a1,a2)
+0       SIMULTANEOUS_TT(a1,a2)
+
+// 0       INCLUDES_TT(a1,a2)
+0       INCLUDES_TT(a1,a2)
+
